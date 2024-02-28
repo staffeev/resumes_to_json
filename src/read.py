@@ -28,4 +28,5 @@ def process_docx_file(filename):
 
 
 if __name__ == "__main__":
-    print(read())
+    df = read()
+    df.to_csv("csv/text.csv", escapechar="\\")
