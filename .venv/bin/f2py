@@ -1,4 +1,4 @@
-#!/home/tumbochka/projects/resumes_to_json/.venv/bin/python
+#!/home/staffeev/ProgrammingProjects/resumes_to_json/.venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
