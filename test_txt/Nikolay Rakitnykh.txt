@@ -1,0 +1,42 @@
+Nikolay Rakitnykh
+Software Engineer
+LinkedIn
+111rakitnykh@gmail.com
++7 960 718 360 00
+Moscow, Russia Visa sponsorship required
+
+
+A highly-skilled software engineer with 9+ years of experience in SDLC/ Programming, Software Architecture and Team Management. A result-oriented person with effective clean coding practices, including design, unit testing, and peer code-reviews. Strong ability to quickly learn and utilize new technologies.
+EXPERIENCE
+
+Project: Blockchain core. Smart contract programming language.
+Developed a new parser and compiler of the smart contract language.
+Created specification of the smart contract web IDE improvements, implemented a backend module that provides syntax and compiler data and led its integration.
+Profiled and optimized the code. The improvement increased the speed of the blockchain importing process by 46% (from 72 to 39 hours).
+Analyzed users' comments, made a requirement list and optimized the language code according to it. The improvement decreased the smart contract system usage cost and its maintenance by 30%.
+Leading a process of release planning which includes creation and gathering ideas, analytics, specification development and task creation.
+Initiated optimization of the release planning process and created a set of measures to avoid deadline problems.
+Leading a team of 4 software engineers.
+
+
+Project: Online travel agency (tour and lodging search and reservations).
+Designed a distributed system for search and aggregation of tours, which replaced the previous monolithic application. Implemented main modules of the system. It allowed the team to manage the app instance amount in a more flexible manner, according to load, and saved around 15% of the server rent budget.
+Developed a subsystem for aggregation of peculiar errors and statistics of backend performance and their visualization.
+Developed automated hotel names-mapping and photo-tagging modules using machine learning tools: CatBoost, TensorFlow. Reduced handwork for content managers.
+Led a team of 3 software engineers.
+
+Involved in all full stack development processes on 4 different projects.
+Developed an error prediction system (Healthcare - insurance reports) which included: data preparation, cycles of prototyping and result analysis.
+Taught myself Scala and rewrote two core modules of an outdated Java project. This revealed the advantages of the new language to the team and led to rewriting the whole project.
+
+
+TECHNICAL SKILLS
+Java, Scala, Python, JavaScript, R
+Spring, Hibernate, Kafka, Jenkins, AWS, Nginx, ElasticSearch, Docker, Kubernetes
+
+
+EDUCATION
+Tver State University (Tver, Russia)
+
+Master's degree: Fundamental Informatics and Information Technologies in July 2013
+Bachelor's degree: Information Technology in July 2011

@@ -1,0 +1,73 @@
+Кириленков Матвей Владимирович Москва
+
+
+Цель
+
+
+
++7 916 70 000 70
+ahfhfjei.kirilenkov@gmail.com
+Руководитель направления, архитектор решений, пресейл, руководитель проектов - в области больших данных, озер и хранилищ данных, анализа данных
+Профиль
+летний опыт работы в ИТ на разных позициях: pre-sales, архитектор решений, руководитель проектов, консультант по внедрению, аналитик, администратор БД, разработчик. Последние 15 лет – специализация в области хранилищ и озер данных, анализа больших данных, корпоративных аналитических систем. Опыт работы в предметных областях: телекомы, банки, ритейл. Сертифицированный профессионал по Vertica, Teradata, Oracle Hyperion.
+Места работы и роли за последние 25 лет
+2022 — по настоящее время. Twingo (https://twingo.co.il56/) - архитектор решений в области больших данных
+2014 -2022. Vertica (https://www.vertica.com/): архитектор решений (системный инженер, pre-sales).
+2011 – 2014. Teradata, архитектор решений
+2008 – 2011. Sitronics IT, архитектор решений, руководитель проектов, руководитель направления.
+2005 – 2008. Oracle, Старший консультант (BI и Хранилища данных).
+2003 - 2005. Equant Telco, Аналитик.
+2000 – 2003. Golden Telecom, Аналитик.
+1997- 2000. Rostelekom, FORS, Аналитик, разработчик системы биллинга для телекомов, администратор БД Оракл.
+Содержание работы и достижения
+Twingo
+Участие, в т.ч. на ключевой роли, в пилотных проектах для внедрения ХД на базе Verticv, SingleStore, Работаю с разными инфраструктурами — AWS, GCP, K8S, виртуальные и физические среды.
+Vertica
+Presales, архитектор решений, официальное название должности – ведущий менеджер по техническому консультированию по программным продуктам.
+Поддержка с технической стороны продаж Vertica в России и ЕМЕА. Ответы на RFх, проведение тестов (proof of concept) разной сложности, презентации продукта для клиентов и партнеров, семинары, демонстрации, сопровождение клиентов после заключения сделки.
+С моим участием, иногда решающим (успешное завершение тестов), закрыты несколько сделок в ЕМЕА и России, в т.ч. одна из самых крупных сделок по Вертике в ЕМЕА. Был доверенным советчиком (trusted advisor) для некоторых, в т.ч.ключевых для бизнеса, клиентов.
+Последние 4 года одной из моих ролей была поддержка с технической стороны развития партнерской сети в ЕМЕА. Проводил семинары для партнеров, поддерживал партнерские продажи и внедрения.
+Teradata
+Архитектор решений в области хранилищ данных. 3 года в роли архитектора на внедрении ХД в одном из крупнейших российских банков.
+Sitronics IT
+Ведущий архитектор и руководитель проектов разной сложности для одного из крупнейших российских телекомов. Главные проекты:
+Система планирования и бюджетирования (Hyperion Planning and Budgeting).
+Разработка ТЗ на внедрение биллинга от Oracle (BRM).
+Oracle
+Аналитик и консультант по внедрению на проекте в гос-секторе: Cash planning на основе Оракл Hyperion Planning. Сбор и анализ требований, составление ТЗ и прочей проектной документации, разработка решения, успешное завершение приемочного тестирования.
+Внедрение Oracle Daily Business Intelligence (DBI) для модулей Financials, Supply Chain, Planning, Inventory, Maintenance (Oracle ERP) в рамках проекта внедрения OeBS в одном из крупнейших российских предприятий.
+Equant
+Аналитик в отделе маркетинга и продуктов. Проводил тендер на создание корпоративного портала и витрины данных биллинга. Разработал ТЗ на несколько систем: Price Book, Voice tariffs management, Least cost routing.
+Golden Telecom / Вымпелком
+Разработка ТЗ и самого решения для системы поддержки предоплатных телефонных карт (Oracle DB, SQL, PL\\SQL).
+FORS, RosTelekom
+Сбор и анализ требований, разработка ТЗ и самого решения для одного из модулей биллинга для операторов фиксированной связи и предоплатного интернета (Oracle DB, Oracle Forms & Designer, SQL, PL\\SQL).
+Образование:
+Высшее. МИФИ, факультет теоретической и экспериментальной физики.
+Курсы
+2013, Teradata University: Teradata workload optimization
+2012, Teradata University: Customer interaction skills
+2011, Teradata University: Teradata Factory
+2008, Oracle University: Hyperion Essbase Analytics 9.3 Bootcamp Ed 1
+2008, Oracle University: Hyperion Financial Reporting 9.3 for Essbase and Planning Ed 1
+2007, Oracle University: Hyperion Planning 9.3: Create and Manage Applications Ed 1
+2006-2007, Hock International, Moscow: CMA, Part 2 – Management Accounting and Reporting.
+2007, Oracle University: 11i Payables Management Fundamentals
+2006, Oracle University: 11i General Ledger Management Fundamentals
+2006, Oracle University: Oracle Financial Consolidation Hub.
+2006, Oracle University: Enterprise Performance Foundation.
+2005, Oracle University: Oracle Enterprise Planning and Budgeting.
+2005, Oracle University: 11i Implement Daily Business Intelligence.
+Сертификаты
+Vertica 9,10 certified professional
+Teradata certified professional
+Oracle Hyperion Planning 9.3 Administrator Certified Expert.
+Oracle Hyperion Essbase 9.3 Developer Certified Expert.
+Hyperion Certified Administrator (4H0-048 HCA - Hyperion Planning 9.3: Create/Manage Apps).
+Навыки
+Презентации, семинары, рабочие встречи для разных аудиторий (клиенты и партнеры).
+Руководство проектами по внедрению информационных систем
+Экспертный уровень в SQL, администрировании и архитектуре аналитических БД (Vertica, Teradata, SingleStore), процедурные языки СУБД.
+Знаком с машинным обучением, инфраструктурами физических серверов, виртуализации и Kubernetes,
+Прочее
+Семейное положение: женат, двое взрослых детей.

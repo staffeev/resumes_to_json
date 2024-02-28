@@ -1,0 +1,46 @@
+
+
+
+
+Summary
+Andrey Korovkin
+416-000-8543 | nd.sergey@outlook.com | linkedin.com/in/srti-korovkin | Kelowna, BC, Canada
+
+
+I am a seasoned Front-end Developer with a track record of enhancing user experiences and automating processes to increase efficiency. My expertise stretches across a comprehensive suite of programming languages and frameworks. I have been instrumental in developing applications and tools that have streamlined refined sales operations, and significantly boosted engagement and productivity within the teams I’ve worked with. My hands-on experience has consistently resulted in positive outcomes in both user engagement and sales performance.
+
+Experience
+
+Front-end  Developer	Dec. 2021 – Present
+Leroy Merlin
+Spearheaded the development of a marketplace app using React.js and Node.js, leading to a 35% increase in user engagement and a 25% rise in transactions
+Designed and implemented a user-friendly interface for returns initiation using HTML5 and CSS, improving process efficiency by 40%
+Contributed to the automation of the claims processing system, reducing technical support inquiries by half, using TypeScript and Redux
+Conducted interviews and mentored new developers, enhancing team performance and expediting project onboarding
+Front-end  Developer	Jul. 2021 to Dec. 2021
+Decart
+Developed a competency map application in React, enhancing employee skill assessment transparency and efficiency.
+Instrumental in improving skill audit accuracy by 25% post-launch, aiding in talent management and career development
+Optimized skill tracking processes, reducing time for managerial and HR assessments by 50%
+Front-end Developer	Apr. 2020 to Jun. 2021
+Kata Academy
+Enhanced a training platform using JavaScript and AJAX, improving user experience and resource accessibility.
+Implemented features to create an optimal learning environment, utilizing React Query and Material-UI
+Mentored 50+ students, fostering a supportive learning atmosphere and improving skill mastery
+Developed an automated service generation library with Swagger, increasing development efficiency by 20%
+Front-end  Developer	Dec. 2018 to Apr. 2020
+IEK Group of Companies
+Developed configurators for electrical equipment using JavaScript, boosting the sales process efficiency by 50%
+Collaborated with product managers to understand specifications, reflected in accurate and effective configurators
+Implemented a feature to generate specifications of recommended products, which could be downloaded in Excel or PDF formats, enhancing customer convenience and increasing downloads by 25%
+Utilized analytics to enhance user experience, improving sales performance by 20%
+Education
+
+Sevastopol State Technical University	Sevastopol, Ukraine
+Master’s degree, Electronic systems and complexes	Sep.  2016 – Jan.  2022
+Technical Skills
+
+Languages: JavaScript, TypeScript, HTML5, CSS, SQL, PHP, JSON
+Frameworks: React.js, Node.js, Express.js, Next.js, Tailwind CSS
+Developer Tools: GitHub, Git, Jenkins, Webpack, ESLint, Prettier, Jest, Cypress
+Libraries: AJAX, Redux, React Query, Material-UI, TypeORM, RestAPI, Formik, Swagger

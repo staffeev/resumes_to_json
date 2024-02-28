@@ -1,0 +1,97 @@
+Albert SERIAKOV
+Moscow, Russia • +7(968) 000-5611 • saaakov@gmail.com
+Position of Interest:
+Consultant, Information Technology (IT)
+Offer the following qualifications:
+●
+Establish procedures and implement policies; Consult and advise clients; Confer with clients to identify and
+document requirements; Provide advice on information systems strategy, policy, management and service
+delivery; Develop and implement policies and procedures throughout the software development life cycle;
+●
+Analyze test results and instrument readings; Analyze clients' financial records; Analyze data and prepare
+reports.
+●
+Manage distributed teams, project management, coaching; maintain excellent interpersonal
+communications, time management, and problem resolution skills.
+Languages: ABAP, SQL
+Software: Windows 7/10, Microsoft Office, Project, Visio, Power Point, ARIS, Jira, Confluence and SAP
+HCM/SD/MM
+Relevant Experience
+Head of HCM Department,
+10.2016 - Present
+HCM Department, SAP ERP Division, AT Consulting, Moscow
+●
+Pre-sale and sale, both within the framework of its direction, and in other areas of SAP practice;
+●
+Organization and coordination of the work of SAP HCM;
+●
+Organization of work of project teams on projects;
+●
+Coordination of work with the Customer, negotiation and coordination of deadlines and tasks;
+●
+Preparation and conduct of tenders, project evaluation, preparation of commercial proposals;
+●
+IOT projects design.
+Achievements:
+• SAP HCM practice created;
+• Developing the direction of customer experience;
+• All projects were finished with positive profitability.
+Leading Consultant,
+12.2015 – 10.2016
+HCM practice, Implementation Division, MOLGA Consulting, Moscow
+●
+Pre-sale, project appraisal and planning, preparation of indicative and commercial proposals;
+●
+Projects for the implementation of SAP HCM;
+●
+Meetings with the customer on the development of design solutions. The solution of methodological issues.
+Development of design solutions.
+Team Leader,
+02.2015 – 12.2015
+HCM practice, ERP Division, Science IT University, Moscow
+●
+Management of consultants of the PY-center;
+●
+Negotiation with the customers;
+●
+Development of design solutions, graphic models for describing business processes;
+●
+Supervising the work of consultants from a subcontractor
+Senior Consultant,
+08.2012 – 02.2015
+SAP HCM Department, HR Division, METRO Cash&Carry, Moscow
+●
+Development and support of the SAP HCM (PA, OM, PT, PY);
+●
+ABAP development.
+
+Consultant,
+03.2011 – 08.2012
+SAP HCM Department, ERP Division, BDO Consulting, Moscow
+●
+Development and implementation of the PW module - piecework pay (Z);
+●
+Settings of PY changes.
+Achievements:
+• Developed the concept of the Z-module "Calculation of piecework wages.";
+• Successfully integrated the module into the SAP HCM.
+Consultant,
+04.2010 – 03.2011
+IT Develop Department, IT Division, Adidas, Moscow
+●
+Development and support of the SAP HCM (PA, OM, PT, PY).
+Consultant,
+04.2009 – 03.2011
+IT Support Department, IT Division, Kopeyka, Moscow
+●
+Support for business processes based on SAP ERP, SD / MM modules.
+Achievements:
+•
+Successful implementation of a parallelization project for inventory accounting and sales
+analysis on servers.
+Education
+Bachelor of Engineering – Electronic Systems Engineering, 2012
+BMSTU Bauman Moscow State Technical University
+Bachelor of Economy – Electronic Systems Engineering, 2016
+Financial University under the Government of the Russian Federation (Diploma with Honor)
+SAP CIS, SAP Certified Application Associate - SAP HCM ERP 6.0 EHP7, 2018

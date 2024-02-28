@@ -1,0 +1,2538 @@
+,Filename,Text
+0,source/Renat Ivanov.pdf,"Renat IVANOV
+Senior Software Engineer
+Moscow
++7-999-000-4786
+renat@gmail.com
+linkedin.com/in/renat
+Experience
+Sberbank PJSC
+June 2018 – present
+Senior Software Engineer
+Moscow, Russia
+• Addressed a number of legal issues by developing from scratch and launching a service to control actions with various types of
+user consents. Designed the service to be usable from other company’s microservices and front-end widgets.
+• Increased the speed of the sensitive mortgage cases by 50% by implementing, shipping and supporting the services that
+automate the process. Utilised message-driven architecture to provide high availability and reliability.
+• Prototyped, organized, and led the development of an ETL-based advisory system to track skills of engineers in the company,
+bus factor of their teams, and other metrics. The system improved involvement of engineers, dev leads and CTO in the
+development process.
+• Created a performance testing process from scratch. It is used to simulate the expected load and thus to keep our services 99.99%
+available during peak load. Successfully combined jMeter, APM, cloud and monitoring tools to reach the goal.
+• Curated development of the corporate portal Java team, applied microservices approach to deliver new features faster and
+safer. Mentored 2 back-end developers.
+• Collaborated with back-end & front-end developers of other teams to design REST API contracts. Communicated directly with
+CTO and Team Leaders, worked with feedback. Applied clean code/architecture best practices on work.
+Sberbank-Technologies JSC
+October 2015 – June 2018
+Leading Software Engineer
+Moscow, Russia
+• Eliminated possibilities of fraud and saved company millions of rubles by introducing blockage of working from two
+windows. Fixed security issues by updating the encryption library.
+• Implemented individual currency conversion and interest rates features, that attracted hundreds of new customers and
+increased loyalty of existing ones. Gained experience with Enterprise Serial Bus architecture for integration with other systems.
+• Boosted overall development productivity by extracting a service from the monolithic application with support of a
+dedicated DB and distributed transactions support.
+• Successfully migrated functionality of the Deposit subsystem of the Bank Offices and Online Banking systems to
+microservices achieving 30% faster feature delivery. Analyzed, and fixed bugs and incidents on both front-end and
+back-end.
+• Sped up the development lifecycle by at least 20% and decreased the number of bugs by introducing git-flow with
+mandatory code review and Kotlin into the project. Co-authored, supported, and advocated the team agreement of
+architecture, API designing, and code style.
+• Interviewed over 30 candidates for Java developer position. Onboarded, and mentored 3 new hires.
+AVP-Technology LLC
+October 2014 – June 2015
+Software Engineer
+Moscow, Russia
+• Added new features, found and fixed bugs, refactored more than 200000 lines of unstructured and difficult-to-maintain legacy
+code. Updated and structured the project documentation.
+Open-Retail LLC
+June 2013 – March 2014
+Web Developer
+Moscow, Russia
+• Developed and launched 3 Internet shopping websites.
+• Created a package solution for a CMS e-commerce websites consisted of cross-platform mobile app and its back-end.
+Education
+Peoples’ Friendship University Of Russia
+September 2011 – July 2013
+Master’s Degree in Control in Technical Systems
+Moscow, Russia
+• A 3rd-degree diploma was received for winning the contest with a paper called ”Cloud computing for solving control
+problems with the help of network operator method”
+Peoples’ Friendship University Of Russia
+September 2007 – July 2011
+Bachelor’s Degree in Automation and Control
+Moscow, Russia
+Technical Skills
+
+Languages, frameworks: Java, Kotlin, Spring, Micronaut, MERN
+Monitoring:
+Grafana,
+InfluxDB,
+Prometheus
+Persistence: PostgreSQL, MySQL, MongoDB, JOOQ, JPA, JDBC
+Build,
+tools:
+Maven,
+Gradle;
+Git,
+IntelliJ
+IDEA
+Integration: Feign, RestTemplate, RabbitMQ, IBM MQ
+CI/CD, Testing: Jenkins, Docker, K8S; JUnit, Mockito
+"
+1,source/Eshi Juraev.pdf,"SUMMARY
+Eshi Juraev
+Email: baaahayotoff@gmail.com
+LinkedIn: aaakhayot
+GitHub: aaakhayot
+Software engineer with 3+ years of experience in back-end development with designing and implementing scalable, cloud appli-
+cations and microservice-based distributed systems using various technologies.
+EXPERIENCE
+Neulpum Maru — e-commerce platform in South Korea
+Remote, Seoul - South Korea
+•
+Software Developer at Development Team
+Mar 2023 — Present
+◦ Developed data scraping mechanisms using Python and web scraping tools for data collecting and analysing
+◦ Built a secure back-end API integration for custom order service, enabling real-time data fetching and processing
+◦ Implemented CRM system by distributing multiple services and integrating background workers using Celery and Redis
+Digital Entertainment
+Remote, Daegu - South Korea
+•
+Backend Developer at Development Team
+Mar 2023 — Jul 2023
+◦ Developed an AI chat bot application using the OpenAI Chat GPT API
+◦ Customized the GPT model to respond as various famous characters, providing engaging and immersive interactions
+◦ Integrated the application as part of a metaverse app, enhancing user experience within the virtual world
+Dirilis Group INC — Innovative IT Solutions Provider
+Remote, Chicago - USA
+•
+Backend Developer at Development Team
+Jan 2023 — Mar 2023
+◦ Implemented API integration using Python AWS Lambda functions (Serverless) by storing Data to DynamoDB on AWS
+◦ Serviced Cron based jobs by scheduling tasks form AWS lambda functions
+◦ Worked with Frontend Team to connect API callbacks from AWS API-Gateways from integrated data
+Papamarket — e-commerce platform in South Korea
+Seoul, South Korea
+•
+Software Engineer at IT Development Team
+Jun 2022 — Mar 2023
+◦ Implemented a scalable Demand Forecasting system using forecasting models and order datasets by enhancing accuracy
+◦ Developed Warehouse System with real-time product quantity tracking service that reduced Fresh Team workload by 30%
+◦ Built internal services for automation, data fetching, web scraping and data parsing using Python and JavaScript
+◦ Implemented CI/CD pipeline for auto deployment using Jenkins and Github actions
+Keimyung University, Daegu — Outsourcing for Tech Companies
+Daegu, South Korea
+•
+Backend Developer at Development Team
+Mar 2021 — May 2022
+◦ Developed (HelpMeUp) Social Platform by bringing several services to solve problems of students during their semesters
+◦ Implemented and maintained 10+ web applications by using Python and Go programming languages
+◦ Created CRUD based RESTful APIs with JWT authentication methods by using Gin Framework of Golang
+SKILLS
+Languages:
+Python, JavaScript, Go, C#, SQL
+Frameworks: Django, FastAPI, Flask, NodeJS, EspressJS, ES6, JQuery, SpringBoot, Gin, PostgreSQL, MySQL, SQLite3
+Others:
+Docker, Kafka, Celery, Redis, Jenkins, Linux, AWS, Unity Game Engine
+EDUCATION
+◦ Bachelor of Engineering in Game Mobile Engineering, Keimyung University
+Mar 2020 — Jul 2023
+Relevant courses: Operating Systems, AI in Game Development, Distributed Systems, Databases, Web Development,
+Algorithms, Data Structures, Data Communication, Object Oriented Programming, Networks
+ADDITIONAL
+◦ Languages: English, Russian, Korean, Uzbek
+◦ Volunteering: Mentored and reviewed homework assignments at Coding School (KMU) programming for beginners
+◦ Awards: Best English Translator and Guide of IT Development Team (Papamarket)
+"
+2,source/Кириленков Матвей.docx,"Кириленков Матвей Владимирович Москва
+
+
+Цель
+
+
+
++7 916 70 000 70
+ahfhfjei.kirilenkov@gmail.com
+Руководитель направления, архитектор решений, пресейл, руководитель проектов - в области больших данных, озер и хранилищ данных, анализа данных
+Профиль
+летний опыт работы в ИТ на разных позициях: pre-sales, архитектор решений, руководитель проектов, консультант по внедрению, аналитик, администратор БД, разработчик. Последние 15 лет – специализация в области хранилищ и озер данных, анализа больших данных, корпоративных аналитических систем. Опыт работы в предметных областях: телекомы, банки, ритейл. Сертифицированный профессионал по Vertica, Teradata, Oracle Hyperion.
+Места работы и роли за последние 25 лет
+2022 — по настоящее время. Twingo (https://twingo.co.il56/) - архитектор решений в области больших данных
+2014 -2022. Vertica (https://www.vertica.com/): архитектор решений (системный инженер, pre-sales).
+2011 – 2014. Teradata, архитектор решений
+2008 – 2011. Sitronics IT, архитектор решений, руководитель проектов, руководитель направления.
+2005 – 2008. Oracle, Старший консультант (BI и Хранилища данных).
+2003 - 2005. Equant Telco, Аналитик.
+2000 – 2003. Golden Telecom, Аналитик.
+1997- 2000. Rostelekom, FORS, Аналитик, разработчик системы биллинга для телекомов, администратор БД Оракл.
+Содержание работы и достижения
+Twingo
+Участие, в т.ч. на ключевой роли, в пилотных проектах для внедрения ХД на базе Verticv, SingleStore, Работаю с разными инфраструктурами — AWS, GCP, K8S, виртуальные и физические среды.
+Vertica
+Presales, архитектор решений, официальное название должности – ведущий менеджер по техническому консультированию по программным продуктам.
+Поддержка с технической стороны продаж Vertica в России и ЕМЕА. Ответы на RFх, проведение тестов (proof of concept) разной сложности, презентации продукта для клиентов и партнеров, семинары, демонстрации, сопровождение клиентов после заключения сделки.
+С моим участием, иногда решающим (успешное завершение тестов), закрыты несколько сделок в ЕМЕА и России, в т.ч. одна из самых крупных сделок по Вертике в ЕМЕА. Был доверенным советчиком (trusted advisor) для некоторых, в т.ч.ключевых для бизнеса, клиентов.
+Последние 4 года одной из моих ролей была поддержка с технической стороны развития партнерской сети в ЕМЕА. Проводил семинары для партнеров, поддерживал партнерские продажи и внедрения.
+Teradata
+Архитектор решений в области хранилищ данных. 3 года в роли архитектора на внедрении ХД в одном из крупнейших российских банков.
+Sitronics IT
+Ведущий архитектор и руководитель проектов разной сложности для одного из крупнейших российских телекомов. Главные проекты:
+Система планирования и бюджетирования (Hyperion Planning and Budgeting).
+Разработка ТЗ на внедрение биллинга от Oracle (BRM).
+Oracle
+Аналитик и консультант по внедрению на проекте в гос-секторе: Cash planning на основе Оракл Hyperion Planning. Сбор и анализ требований, составление ТЗ и прочей проектной документации, разработка решения, успешное завершение приемочного тестирования.
+Внедрение Oracle Daily Business Intelligence (DBI) для модулей Financials, Supply Chain, Planning, Inventory, Maintenance (Oracle ERP) в рамках проекта внедрения OeBS в одном из крупнейших российских предприятий.
+Equant
+Аналитик в отделе маркетинга и продуктов. Проводил тендер на создание корпоративного портала и витрины данных биллинга. Разработал ТЗ на несколько систем: Price Book, Voice tariffs management, Least cost routing.
+Golden Telecom / Вымпелком
+Разработка ТЗ и самого решения для системы поддержки предоплатных телефонных карт (Oracle DB, SQL, PL\SQL).
+FORS, RosTelekom
+Сбор и анализ требований, разработка ТЗ и самого решения для одного из модулей биллинга для операторов фиксированной связи и предоплатного интернета (Oracle DB, Oracle Forms & Designer, SQL, PL\SQL).
+Образование:
+Высшее. МИФИ, факультет теоретической и экспериментальной физики.
+Курсы
+2013, Teradata University: Teradata workload optimization
+2012, Teradata University: Customer interaction skills
+2011, Teradata University: Teradata Factory
+2008, Oracle University: Hyperion Essbase Analytics 9.3 Bootcamp Ed 1
+2008, Oracle University: Hyperion Financial Reporting 9.3 for Essbase and Planning Ed 1
+2007, Oracle University: Hyperion Planning 9.3: Create and Manage Applications Ed 1
+2006-2007, Hock International, Moscow: CMA, Part 2 – Management Accounting and Reporting.
+2007, Oracle University: 11i Payables Management Fundamentals
+2006, Oracle University: 11i General Ledger Management Fundamentals
+2006, Oracle University: Oracle Financial Consolidation Hub.
+2006, Oracle University: Enterprise Performance Foundation.
+2005, Oracle University: Oracle Enterprise Planning and Budgeting.
+2005, Oracle University: 11i Implement Daily Business Intelligence.
+Сертификаты
+Vertica 9,10 certified professional
+Teradata certified professional
+Oracle Hyperion Planning 9.3 Administrator Certified Expert.
+Oracle Hyperion Essbase 9.3 Developer Certified Expert.
+Hyperion Certified Administrator (4H0-048 HCA - Hyperion Planning 9.3: Create/Manage Apps).
+Навыки
+Презентации, семинары, рабочие встречи для разных аудиторий (клиенты и партнеры).
+Руководство проектами по внедрению информационных систем
+Экспертный уровень в SQL, администрировании и архитектуре аналитических БД (Vertica, Teradata, SingleStore), процедурные языки СУБД.
+Знаком с машинным обучением, инфраструктурами физических серверов, виртуализации и Kubernetes,
+Прочее
+Семейное положение: женат, двое взрослых детей."
+3,source/Egor Kormulev.docx,"Egor Kormulev
+Skype: eee.kormulev LinkedIn: eee.kormulev
+LeetCode: eeeKormulev Github: eee.kormulev
+EXPERIENCE & PROJECTS
+Polymatica Russia
+Server Side Software Developer
+
+
+
+
+Moscow Feb 2019 - Present
+
+
+
+Implemented Geospatial search module (C++11, boost,PostgreSQL(Postgis),Redis, ODBC,JSON,Docker).
+Geospatial search module (C++11,ODBC,JSON,Redis(hiredis)).
+Geo-coord server (PostgreSQL(Postgis),PL/pgSQl, Docker).
+Postal address to RESP translation script (python 3).
+Infrastructure deployment-script. (Modular architecture design. python 3).
+unit-tests (gtests).
+Page Scroller (Python/OpenCV).
+Application testing and maintaining (Integration and Unit tests).
+
+JSC FinTech
+System Software Developer
+Moscow April 2017 – Feb 2019
+
+
+
+Designed and implemented operation system self-test script (Modular architecture design. Python 3, SELinux, PAM).
+Designed and implemented SELinux policy provider (Python, SELinux, PAM).
+Designed and implemented Linux daemon SELinux policy applier (C/SELinux API/POSIX API).
+Designed and implemented cross-platform BXML parser (Qt).
+Worked on patching AIDE (C).
+Worked on patching SPICE (C).
+
+
+Ltd. Medicom
+Software Developer
+Testing and maintaining Linux applications.
+Developing software applications using C++ (Qt library).
+EDUCATION
+Bauman Moscow State Technical University
+Engineer’s degree (Specialist): “Aerospace, Aeronautical and Astronautical/Space Engineering”
+Certification:
+IELTS Academic (C1).
+ACTIVITIES KUDO SKILLS
+Moscow  November 2015 – April 2017
+
+
+
+
+Moscow
+2009
+
+Moscow
+2016
+
+Programming: C/C++ stl 11/14/17, boost, Multithreading Python 3, PostgreSQL(pl/pgsql), Redis(hiredis), SQLite, Docker, Git, SELinux, Cmake, rpm, spec
+Languages: Russian, English(C1)
+"
+4,source/Alexandr Burakov.pdf,"Alexandr Burakov
+(+38) 097-000-81-95 | buaaaov.r@gmail.com | linkedin.com/in/alex-burakov/ | github.com/Anvaaandre
+EDUCATION
+MFTI
+Sep 2019 – June 2023
+Bachelor of Computer Science
+Moscow
+• Relevant coursework: algorithms and data structures, OOP, calculus, linear algebra, advanced graph theory
+• GPA – 4.20 out of 5
+EXPERIENCE
+Data Scientist
+Mar 2021 – Present
+Fozzy Group
+Moscow
+• Conducted research and implemented embedding models that helped with cold-start forecasting
+• Reviewed and refactored project codebase, which led to much faster iteration and onboarding process
+• Performed multiple feature engineering & selection cycles, leading to higher and much cleaner scores
+• Participated in early-stage project evaluation: from interpreting business task as ML problem to first MVPs
+• Contributed to establishing pipeline standards and documentation
+Machine Learning Engineer
+Jan 2021 – Mar 2021
+Computer Vision startup under NDA
+Moscow
+• Carried out error analysis and engineered several features which lead to 15% increase in model’s performance
+• Developed visualization and evaluation tools that lead to a better understanding of model’s error
+• Optimized post-processing pipeline for real-time visualizations
+Researcher
+Nov 2020 – May 2021
+Fido.ai, NaUKMA
+Moscow
+• Performed code and PR reviews
+• Established question answering baseline
+• Implemented LSTM model for ethnicity classification
+• Made Linear Regression tutorial for newbees
+Math and Computer Science tutor
+June 2020 – Aug 2020
+Self-employed
+Moscow
+• 6 students of different age (from 12 to 17)
+• 100% positive feedback rate
+PROJECTS
+OpenCV demos | Python, OpenCV
+Aug 2020
+• Substituting sheet of paper with a honey badger image in real-time
+• Detection of AruCo markers and figuring out their angles of rotation in real-time
+• Telegram bot that substitutes all faces in picture with a pre-made face mask
+Siamese neural network | Python, Keras
+Jan 2019
+• Performed data collection and augmentation
+• Implemented and trained a Siamese neural network with skip-gram technique
+• Achieved 95% accuracy on predicting whether two chords are used in same context
+• Published a research paper on this project
+ACHIEVEMENTS
+1% of 100.000 (estimated) participants in Junior Academy of Sciences of Ukraine contest
+Mar 2019
+Published a research paper on deep similarity learning of piano chords with a Siamese Neural Network
+Oct 2018
+SKILLS
+Programming Languages: Python, Java, SQL (Postgres, MS SQL), C++ and Haskell (beginner)
+Frameworks: PyTorch (preffered), Keras, LightGBM, Dask
+
+Tools: Anaconda, Git, Linux, Jupyter, Streamlit, MLFlow
+Libraries: scientific Python kit (numpy, pandas, matplotlib, etc.), Flask
+Languages: English (advanced), Russian (native)
+"
+5,source/Yan Doe.pdf,"Yan.doe@gmail.com
+Senior Backend Developer
+https://www.linkedin.com/in/Yan-doe
+Yan Doe
+Professional Experience
+123 Technology Services
+Some town1
+Senior Java Developer, online advertising platform
+Sep 2020 ‑ present
+• Within a team, designed and developed an online advertising platform for the Belgian media company.
+• Implemented integration with a payment provider and internal financial system.
+• Reduced production deployment cycle from 2 month to 2 weeks.
+• Was involved in interviewing, mentoring, and onboarding activities.
+Primary technologies: Java 11, AWS, Quarkus, Postgres, Terraform
+345 company
+Some town2
+Java Developer, risk management solution for car loans
+Mar 2019 ‑ Aug 2020
+• Designed and implemented online service for one of top 20 world bank that is using by car dealers in Germany. The product automates the
+process of getting credits for cars and has all necessary services within one platform for car dealers and bank managers.
+• Implemented push notifications system sending tens of types of notifications to internal and external users. The system increased user engagement.
+• Implemented integration with the archive system. The integration reduced the time of loan application processing by 10%
+Primary technologies: Java 11, Spring, ActiveMQ, Postgres, Kubernetes
+789 Systems
+Some town3
+Java Developer, financial risk analysis solution
+Sep 2017 ‑ Mar 2019
+• Developed a solution for getting information about the ultimate beneficial owners of the business. The product became a part of the financial risk
+analysis platform.
+• Production environment configuration and deployment.
+• Implemented integration with an external system for getting information about company owners.
+Primary technologies: Java 8, Guice, AWS, Jenkins
+Super company
+Some town4
+Java Developer, ERP implementation project
+Sep 2016 ‑ Dec 2017
+• Integrated ERP system with internal logistic services.
+• Developed an online dashboard for predicting the number of parcels that will come to the logistic hub in the time range.
+• General debugging, bug fixing, and refactoring.
+Education
+Sometown National Technical Univeristy
+Some town5, country
+Master’s degree, Economic cybernetics
+2008 ‑ 2013
+AWS Certified Solutions Architect – Associate
+Oracle Certified Associate, Java SE 8 Programmer
+"
+6,source/Andrey Korovkin.docx,"
+
+
+
+Summary
+Andrey Korovkin
+416-000-8543 | nd.sergey@outlook.com | linkedin.com/in/srti-korovkin | Kelowna, BC, Canada
+
+
+I am a seasoned Front-end Developer with a track record of enhancing user experiences and automating processes to increase efficiency. My expertise stretches across a comprehensive suite of programming languages and frameworks. I have been instrumental in developing applications and tools that have streamlined refined sales operations, and significantly boosted engagement and productivity within the teams I’ve worked with. My hands-on experience has consistently resulted in positive outcomes in both user engagement and sales performance.
+
+Experience
+
+Front-end  Developer	Dec. 2021 – Present
+Leroy Merlin
+Spearheaded the development of a marketplace app using React.js and Node.js, leading to a 35% increase in user engagement and a 25% rise in transactions
+Designed and implemented a user-friendly interface for returns initiation using HTML5 and CSS, improving process efficiency by 40%
+Contributed to the automation of the claims processing system, reducing technical support inquiries by half, using TypeScript and Redux
+Conducted interviews and mentored new developers, enhancing team performance and expediting project onboarding
+Front-end  Developer	Jul. 2021 to Dec. 2021
+Decart
+Developed a competency map application in React, enhancing employee skill assessment transparency and efficiency.
+Instrumental in improving skill audit accuracy by 25% post-launch, aiding in talent management and career development
+Optimized skill tracking processes, reducing time for managerial and HR assessments by 50%
+Front-end Developer	Apr. 2020 to Jun. 2021
+Kata Academy
+Enhanced a training platform using JavaScript and AJAX, improving user experience and resource accessibility.
+Implemented features to create an optimal learning environment, utilizing React Query and Material-UI
+Mentored 50+ students, fostering a supportive learning atmosphere and improving skill mastery
+Developed an automated service generation library with Swagger, increasing development efficiency by 20%
+Front-end  Developer	Dec. 2018 to Apr. 2020
+IEK Group of Companies
+Developed configurators for electrical equipment using JavaScript, boosting the sales process efficiency by 50%
+Collaborated with product managers to understand specifications, reflected in accurate and effective configurators
+Implemented a feature to generate specifications of recommended products, which could be downloaded in Excel or PDF formats, enhancing customer convenience and increasing downloads by 25%
+Utilized analytics to enhance user experience, improving sales performance by 20%
+Education
+
+Sevastopol State Technical University	Sevastopol, Ukraine
+Master’s degree, Electronic systems and complexes	Sep.  2016 – Jan.  2022
+Technical Skills
+
+Languages: JavaScript, TypeScript, HTML5, CSS, SQL, PHP, JSON
+Frameworks: React.js, Node.js, Express.js, Next.js, Tailwind CSS
+Developer Tools: GitHub, Git, Jenkins, Webpack, ESLint, Prettier, Jest, Cypress
+Libraries: AJAX, Redux, React Query, Material-UI, TypeORM, RestAPI, Formik, Swagger"
+7,source/Marat Dolya.pdf,"Marat Dolya
+aaaam.dolya@gmail.com
++14000075075
+linkedin.com/in/aaaaolya
+Summary
+• 19+ years of experience in building various software solutions (.NET/.NET Core as a main Stack)
+• In my previous company I went from team lead to .NET Software Architect managing team 16
+•
+Currently I’m a solutions architect helping teams to adopt services at AWS, and improving SaaS
+platform sales attractiveness and standardization
+Experience
+Software Architect
+Itera
+Jul 2023 - Aug 2023 (2 months)
+• Requirements gathering
+• Presales
+Cloud Solutions Architect
+Itera
+Nov 2021 - Jun 2023 (1 year 8 months)
+• Supported teams in migrating and adapting services from on-premise to the cloud.
+• Consulted teams for developing cloud-native applications.
+• Introduced an open-source API management tool after conducting market research.
+• Provided Requirements Analysis in communication with UX and Frontend team for proof of concept.
+•
+Presented other scenarios of API management tool used to improve the software
+development process.
+• Designed architecture solutions and contributed to overall strategic planning.
+• Actively participated in knowledge-sharing activities within the team.
+Software Architect
+Namecheap, Inc
+Apr 2018 - Oct 2021 (3 years 7 months)
+• Provided interviews and code reviews.
+• Led the integration of a child product with the main one.
+• Led migration of company products from on-premises to AWS cloud.
+Technical Lead
+Namecheap, Inc
+
+Mar 2016 - Mar 2018 (2 years 1 month)
+
+• Led the development of a multifunctional team of developers, QA, and product owners.
+• Managed team of 16
+Introduced Software Development Life Cycle for existing WCF application and introduced database
+migrations for Microsoft SQL Server to Windows servers.
+• Designed solution architecture for key systems.
+•
+Decoupled a monolithic product to a service-oriented, Linux-friendly, cloud-agnostic
+system, and migrated
+the database from on-premise to AWS Postgres.
+• Designed highly-available web services.
+• Improved customer support effectiveness by providing training and demos.
+• Implemented IdentityServer4 as the main security tool at the company-wide level.
+Technical Lead
+Dev.Pro
+Jul 2015 - Mar 2016 (9 months)
+• Improved communication and collaboration between the development team and QA.
+• Introduced best practices from Agile Methodologies to the team.
+• Conducted interviews and code reviews for efficient resource allocation.
+• Developed integrations with Microsoft Exchange to enhance functionality.
+• Automated deployment processes and initiated the migration from Bugzilla and SVN to TFS.
+• Provided support to other teams for backend integration.
+• Actively involved in software development and gathering requirements.
+Team Lead
+TEAM International
+Sep 2014 - Jun 2015 (10 months)
+• Gathered requirements and facilitated effective communication with stakeholders.
+• Conducted code reviews and interviews to ensure code quality and team productivity.
+• Developed software for CMS systems.
+• Designed services based on best practices from Agile methodologies.
+• Introduced and implemented Agile practices within the team
+Senior .NET Developer
+Antarasoft Ltd
+Jan 2009 - Oct 2009 (10 months)
+•
+Actively participated in the development of desktop and web applications, ensuring the
+delivery of high-quality solutions.
+• Conducted code reviews to maintain code quality and adherence to best practices.
+• Led the design and development of applications from scratch, meeting client requirements.
+• Gathered requirements and maintained effective communication with customers
+Developer
+Terrapoint Canada (Ambercore)
+
+Sep 2004 - Dec 2008 (4 years 4 months)
+• Developed software solutions for desktop applications, meeting client requirements.
+• Conducted code reviews to ensure adherence to coding standards and maintain code quality.
+• Gathered requirements and actively participated in communication with customers.
+Education
+National Technical University ""Kharkiv Polytechnic Institute""
+Engineer – System Analyst, Information Management Systems and Technologies
+Sep 1998 - Feb 2004
+"
+8,source/Albert SERIAKOV.pdf,"Albert SERIAKOV
+Moscow, Russia • +7(968) 000-5611 • saaakov@gmail.com
+Position of Interest:
+Consultant, Information Technology (IT)
+Offer the following qualifications:
+●
+Establish procedures and implement policies; Consult and advise clients; Confer with clients to identify and
+document requirements; Provide advice on information systems strategy, policy, management and service
+delivery; Develop and implement policies and procedures throughout the software development life cycle;
+●
+Analyze test results and instrument readings; Analyze clients' financial records; Analyze data and prepare
+reports.
+●
+Manage distributed teams, project management, coaching; maintain excellent interpersonal
+communications, time management, and problem resolution skills.
+Languages: ABAP, SQL
+Software: Windows 7/10, Microsoft Office, Project, Visio, Power Point, ARIS, Jira, Confluence and SAP
+HCM/SD/MM
+Relevant Experience
+Head of HCM Department,
+10.2016 - Present
+HCM Department, SAP ERP Division, AT Consulting, Moscow
+●
+Pre-sale and sale, both within the framework of its direction, and in other areas of SAP practice;
+●
+Organization and coordination of the work of SAP HCM;
+●
+Organization of work of project teams on projects;
+●
+Coordination of work with the Customer, negotiation and coordination of deadlines and tasks;
+●
+Preparation and conduct of tenders, project evaluation, preparation of commercial proposals;
+●
+IOT projects design.
+Achievements:
+• SAP HCM practice created;
+• Developing the direction of customer experience;
+• All projects were finished with positive profitability.
+Leading Consultant,
+12.2015 – 10.2016
+HCM practice, Implementation Division, MOLGA Consulting, Moscow
+●
+Pre-sale, project appraisal and planning, preparation of indicative and commercial proposals;
+●
+Projects for the implementation of SAP HCM;
+●
+Meetings with the customer on the development of design solutions. The solution of methodological issues.
+Development of design solutions.
+Team Leader,
+02.2015 – 12.2015
+HCM practice, ERP Division, Science IT University, Moscow
+●
+Management of consultants of the PY-center;
+●
+Negotiation with the customers;
+●
+Development of design solutions, graphic models for describing business processes;
+●
+Supervising the work of consultants from a subcontractor
+Senior Consultant,
+08.2012 – 02.2015
+SAP HCM Department, HR Division, METRO Cash&Carry, Moscow
+●
+Development and support of the SAP HCM (PA, OM, PT, PY);
+●
+ABAP development.
+
+Consultant,
+03.2011 – 08.2012
+SAP HCM Department, ERP Division, BDO Consulting, Moscow
+●
+Development and implementation of the PW module - piecework pay (Z);
+●
+Settings of PY changes.
+Achievements:
+• Developed the concept of the Z-module ""Calculation of piecework wages."";
+• Successfully integrated the module into the SAP HCM.
+Consultant,
+04.2010 – 03.2011
+IT Develop Department, IT Division, Adidas, Moscow
+●
+Development and support of the SAP HCM (PA, OM, PT, PY).
+Consultant,
+04.2009 – 03.2011
+IT Support Department, IT Division, Kopeyka, Moscow
+●
+Support for business processes based on SAP ERP, SD / MM modules.
+Achievements:
+•
+Successful implementation of a parallelization project for inventory accounting and sales
+analysis on servers.
+Education
+Bachelor of Engineering – Electronic Systems Engineering, 2012
+BMSTU Bauman Moscow State Technical University
+Bachelor of Economy – Electronic Systems Engineering, 2016
+Financial University under the Government of the Russian Federation (Diploma with Honor)
+SAP CIS, SAP Certified Application Associate - SAP HCM ERP 6.0 EHP7, 2018
+"
+9,source/DANIIL BULYGA.pdf,"Igor Korniltsev 
+Data Scientist Team Leader 
+Saint Petersburg, Russian Federation 
++79226039000 
+kornilaaaa@yandex.ru 
+ 
+ 
+SUMMARY 
+ 
+Data Scientist with 5+ years of experience in using predictive modeling, data processing and data mining algorithms to 
+solve challenging business problems. Involved in Python open source community and passionate about deep learning. 
+Competencies include leading teams and large portfolios of data science projects, representing the company at 
+conferences through public speaking, working with diverse ML-technologies: NLP, NN, Recommender Systems, ensuring 
+good communication between the parties to optimize strategies. 
+ 
+WORK EXPERIENCE 
+ 
+Sberbank. Data Scientist Team Leader 
+Jul 2017 – Present 
+/ Led 2 teams of 5 data scientists working on 10 different projects in the banking sphere 
+/ Built a scalable PySpark pipeline for data processing from scratch which increased the overall productivity by 40% 
+/ Built a model based on a payments graph, using embedding outputs from several models such as collaborative 
+filtering, content-based factorisation, word2vec, LDA, to identify the company’s business industry. It earned the bank 
+$100M 
+/ Used 2B+ documents to train spark word2vec embeddings to improve 20+ bank’s models 
+/ Collaborated with DevOps and Data Engineers that increased team’s productivity and speeded up the time to market 
+/ Deployed into production 8 models in one year using Python, Spark, Jenkins. The result was marked as the highest 
+across 15 DS teams 
+/ Created a model capable of predicting the annual revenue of 4 million companies. The model was widely covered in 
+mass media and presented at the main national conference 
+/ Ensured good communication between CEOs and engineers to optimize strategies 
+/ Represented the company in AI/ML research at conferences through public speaking 
+ 
+Mobile Telesystem (MBT). Data Scientist 
+Jul 2015 – Jun 2017 
+/ Designed and created an anomaly detection system from start to finish (from data mining and modelling to creating the 
+report in Tableau for data analysts) which saved the company more than $2M per year 
+/ Implemented a technique based on sARIMA and time series classification to identify suspicious patterns in network 
+traffic 
+/ Established Tableau BI report for highlighting risk zone, e.g. fraude events, equipment breaks, which decreased 
+the time-to-insights by 148% and saved more than 30% of data analysis time 
+/ Used 10000M+ transactions in an ETL-process via SAS EG and Teradata 
+/ Built strong communication across parties to successfully launch the project 
+ 
+SKILLS 
+ 
+Languages 
+Python 
+SQL 
+Scala 
+ML 
+Classification 
+Regression 
+RecSys 
+Time 
+Series 
+Databases 
+Hadoop/Spark 
+Oracle 
+PL/SQL 
+Teradata 
+BI 
+Tableau 
+Power 
+BI Excel 
+ 
+EDUCATION 
+ 
+/ Ural Federal University. Bachelor’s degree of Program engineering, 6/2021 
+/ Ural Federal University. Master’s degree of Financial markets and investments, 6/2014 
+/ Ural State Mining University. Master’s degree of Underground construction, 5/2012 
+"
+10,source/ZAKHAR LOPTEV.docx,"ZAKHAR LOPTEV
+
+EDUCATION
+Higher  School  of  Economics	Sep 2019 – Expected Jun 2023 Bachelor in Applied Mathematics and Information Science
+GPA: 9.11/10.0 SKILLS
+Programming  Languages	C/C++, Python, Bash, Assembler
+Technologies	Linux, Windows, Cygwin, WSL, Git, GitHub/GitLab, vim, gdb/pdb, tmux,
+LaTeX, Markdown, Tcl/Tk, Make, numpy, matplotlib, pandas
+
+WORK EXPERIENCE
+Software Engineering Intern	Jul 2020 – Sep 2020
+Huawei	Moscow, Russia
+Made an OS performance analysis system available for over 400 Windows-using colleagues by porting it from Linux to Windows using Cygwin, Bash and Python.
+Taught myself Tcl/Tk in a few days and reduced time for visualizing OS performance analysis by 80% by implementing a GUI using Python and Tkinter library.
+Python Developer	Jun 2018 – Aug 2018
+SamExpress	Samara, Russia
+Reduced time for searching applications on a website by 2 man-hours a day by implementing a script using Python with Selenium and SMTP libraries.
+Created a program making a raw Excel document readable using Python and xlrd, xlwt, xlutils libraries. TEACHING EXPERIENCE
+Linear  Algebra  Teaching  Assistant	Sep 2020 – Jun 2021
+Higher School of Economics	Moscow, Russia
+Checked homeworks, conducted weekly consultations, took exams and colloquiums.
+Generated homework variants using Python with numpy, sympy, latex and other libraries.
+Algorithms  Teaching  Assistant	Aug 2019
+Summer Informatics School	Laagna, Estonia
+Developed front-end for a sports website using HTML5, CSS3 and JavaScript. PROJECTS
+External Sorting.  Implemented external sorting (the algorithms splits all input into blocks, sorts them sepa-
+rately, and then ends up with a sorted array by recursively merging K array’s segments) using C++.
+Time Series Forecast.  Taught myself a one-year course of  Probability  Theory  and  Mathematical  Statis- tics in one semester, currently developing a tool that, given a series of share prices, calculates a probability of the price moving in a certain range. Using Python with numpy, plotly, pandas and other libraries.
+Hash Map. Implemented hash map with full functionality (including iterators) using separate chaining with linked list in C++ for my homework project.
+VS projects cleaner. Created a Python tool that clears a code repo from memory-intense Visual Studio projects using os library and dfs-like algorithm.
+
+ACADEMIC ACHIEVEMENTS
+Awardee of All-Russian Informatics Olympiad (also known as ROI).
+Master at Codeforces."
+11,source/Timofey Makarov.docx,"
+
+
+
+Experience
+Timofey Makarov
+makarov67@gmail.com | linkedin.com/in/makarov567 | github.com/makarov567
+
+Senior  Frontend  Engineer	Mar 2019 – Present
+Joom	Moscow, Russia
+Improved scalability of the component libraries by combining multiple storybooks from different frontend projects into one application and publishing it on a private network.
+Collaborated with backend engineer to develop an admin panel for a new project.
+Successfully migrated a codebase with over 100 pages to React and TypeScript with co-workers.
+Built a full stack web application from scratch using React, NodeJS, MongoDB, Docker, which represented the office map which most of the company employees currently use.
+Reduced initial application size by 35% by splitting the monolith bundle into separate chunks.
+Improved the accuracy of understanding the user experience by introducing a new analytical tool.
+Implemented several complex libraries and UI components like CSV parser, storage manager, image cropping component, drag and drop functionality, dynamic form creation to name a few.
+Created text formatting guidelines for 5 languages, which reduced the number of incorrect translations for complex templates.
+Frontend  Engineer	Sep 2018 – Mar 2019
+Kvint	Yekaterinburg, Russia
+Developed a client-side engine for building interactive dialogues for voice robot, which reduced the time required to create a dialogue by 80%.
+Implemented modification of the dialogue in real time by implementing Web Socket communication between the client and the server. This process successfully allowed several people to work concurrently without losing any data.
+
+Frontend  Engineer	Jun 2018 – Sep 2018
+Umka	Yekaterinburg, Russia
+Implemented loading various resources into S3 bucket.
+Collaborated with designer to develop complex web user interface using React, Styled Components and GraphQL.
+Frontend Engineer	Oct 2017 – Apr 2018
+Naumen	Yekaterinburg,  Russia
+Taught myself Angular in a few days and built an adaptive application for searching through documents from scratch.
+Redesigned the web application using HTML5 and CSS3.
+Technical Skills
+
+Languages:  TypeScript, JavaScript, HTML/CSS.
+Technologies: React, Redux, Mobx, GraphQL, NodeJS, Express, Webpack, Yarn, Jenkins, Docker, Git, Jest.
+
+Projects
+Travel startup | React, Mobx, Styled Components, Webpack, Flow	2017 – 2019
+Developed a web application for a travel startup from scratch, designed data structures and API endpoints.
+Developed real-time data flow with Web Socket.
+Education
+
+Bachelor’s degree, Mathematics and Computer Science	Yekaterinburg
+Ural State University named after A.M.Gorky	2014 – 2018"
+12,source/Kirill Piaternev.pdf,"Kirill Piaternev
+DATA SCiENTiST · MACHiNE LEARNiNG ENGiNEER
++7 915-000-2003 |
+aaaternev@gmail.com |
+pyataaaev
+Education
+Higher School of Economics
+Moscow, Russia
+BACHELOR OF MATHEMATiCS
+September 2015 ‑ June 2020
+• studied deep learning and reinforcement learning courses from Computer Science department
+Skills
+Programming Python, SQL, C++
+ML/DL frameworks sklearn, nltk, pytorch
+Databases PostgreSQL, Spark, Greenplum, Teradata, MongoDB, MySQL
+DevOps Docker, Kubernetes, Jenkins, GitlabCI
+Back‑end Flask, fastapi
+Languages English, Russian
+Experience
+Sberbank
+Moscow, Russia
+DATA SCiENTiST
+May 2020 ‑ present
+• improved the quality of promotions, conversion was increased from from 3% to 9% via recommendation model
+based on 17 prediction models for 9 bank partners
+• reduced time of creation prototype of binary classification model from 8 to 4 hours via adding dask support in
+model creation pipeline
+CROC
+Moscow, Russia
+DATA SCiENTiST
+June 2018 ‑ April 2020
+• created prototype of recommendation model that can reduce the percentage of rejects from 1% to 0.2% via
+cascade of models based on time series factory data
+• created an MVP to automate a verification of documents in insurance claim process that can shorten it to a few
+minutes with using computer vision recognition and named entity recognition models
+• designed ML management system that can operate dozens of models in production based on Kubeflow
+• automation process of making optimal daily routes for more than 100 train conductors with graph‑based model
+• developed tool for managing resources for rzd cargo train stations with prediction models and special UI
+Tracktrack
+Moscow, Russia
+MACHiNE LEARNiNG ENGiNEER
+March 2018 ‑ June 2018
+• upgrade postitive feedback on MVP of interactive digest for Russian Railway managers to 85% with creation and
+embedding text classification models
+Asteros
+Moscow, Russia
+JUNiOR DATA SCiENTiST
+October 2017 ‑ March 2018
+• reduced year integral downtime time of isobutane reactor from weeks to days with predictive model
+• shorten call‑center client waiting time to seconds with MVP of QA recommendation model
+Research
+Higher School of Economics
+Moscow, Russia
+RESEARCH ENGiNEER
+September 2020 ‑ present
+• speed up the process of data markup by 10 times with implemented a special web app written with Flask
+• created a baseline for code classification task (43 classes) with mean accuracy 0.45 with regex‑based models
+
+1
+"
+13,source/ALMAZ ManSUrOV.docx,"ALMAZ ManSUrOV
+mr.behraaaansurov@gmail.com |	link:mrbaaauzmansurov |	github:aaasurovB-source
+
+Education
+ITMO University	Saint Petersburg, Russian Federation
+Bachelor of Software Engineering	Sep 2018 – Sep 2022
+GPA - 4.2/5.0
+
+Experience
+Software engineer intern	Remote, full-time
+Nethermind - provides the world’s fastest .NET Ethereum Client	Jun – Oct 2021
+Contributed to the implementation of the eth call module to send a transaction immediately, without creating a transaction in the blockchain. The module can be used to query the state of an internal contract, to execute validations coded into a contract, or even to test what the effect of a transaction will be without running it in real-time.
+The calculation of transaction costs implemented in the eth call module helps to calculate exactly how many resources are needed to complete the transaction
+Implemented automatic detection of the transaction type in the eth call namespace, which simplifies the process of sending a transaction
+
+Highlighted projects
+File-Exchange C, Bash
+Develop a client-server application. To organize interaction over the network, support multiple connections, use the software interfaces (APIs) of the operating system. The server and clients communicate using a socket-based protocol. The server must support a conditionally unlimited number of clients. At all stages of interaction between the client and the server, data processing should be provided, regardless of their size. Simultaneous downloading of different fragments of the same file from several sources is implemented.
+Gangster-NTFS C, Bash
+Is basic application for serving NTFS file system. Gangster-NTFS is a user-space driver for working with the NTFS file system. Gangster-NTFS can read and copy files and directories from the NTFS file system to the outside and can output all connected devices to the computer.
+Kabiri Java 8, PostgreSQL, Spring Framework, VueJs
+A REST web application based on VueJs with user authorization to order sausage products. The Spring backend is responsible for verifying and storing data. Triggers and functions were created for the designed database to ensure data integrity. And added indexes to some tables to achieve high query performance.
+BmpTools C, Bash
+A simple C-based app for rotating, blurring, and mirroring, as well as a sepia filter for BMP image format.
+Notebook Java 8, PostgreSQL, Spring Framework, VueJs
+A REST web application based on VueJS. The Spring server part is responsible for checking and storing data.
+Balloc C, Bash
+Implementation of own version of malloc and free based on the memory mapping system call mmap and a linked list of chunks of arbitrary sizes. It can be viewed as a simplified version of a memory manager typical for the standard C library and shares most of its weaknesses.
+MathX  Java 8
+Created several utilities that can find solutions to systems of linear and nonlinear algebraic equations, Cauchy problems; integrate, approximate and interpolate functions.
+TCP - Exchanger   Java 8, PostgreSQL
+Client-server application with registration, authorization in ”pure” Java, the transmission of data about user objects via TCP in JSON format, and data storage in a database. Users can view all the objects which stored on the DB, but can change only their own ones.
+
+Achievements
+Google Hash Code 2021, top 12% in Online Qualification
+Finalist, International Zhautykov Olympiad in Math, Physics and Programming 2018
+1st place in HackNU 2021 from Facebook, International Online Hackathon
+
+Skills
+Languages: Java, C, C++, C#, JavaScript, HTML/CSS
+Frameworks: Spring Frameworks, VueJs
+Developer Tools: Git, SVN, JUnit, Selenium, ANT, Maven
+DBMS: PostgreSQL, MySQL
+Experience with:Python, Shell"
+14,source/Viktor Gavrilov.docx,"Viktor Gavrilov
+Montreal, Canada	Email :  gavrilov_vikkk@gmail.com
+Mobile : +1-438-000-7854	
+
+Experience
+
+Ubisoft	Montreal, Canada
+Online Developer	Sep 2019 - Present
+Development and operations (DevOps) of Cloud-Native backend RESTful web services on AWS that scale in the cloud and that are hit by millions of users every day (hundreds of thousands of concurrent users per service). From API Design, Implementation, Continuous Delivery and Maintenance to Support.
+Working with multiple distant teams to achieve a common goal.
+Reduced legacy codebase by 20% by migrating old monolithic core service to run in the cloud.
+Built an internal tool about shadow-testing that reduced the number of production issues. (C#, Python ) Experienced with resource provisioning on AWS using different techniques, including Cloud Formation Template and Troposphere/Sceptre.
+Developed tooling that handles accounts data migration from MSSQL to AWS Aurora, which lead to saving at least 30 minutes/day per team member. (Python, Bash, AWS)
+Contractor	Munich, Germany
+Lead Software Engineer	2018 - 2019
+Development backend RESTful web service of a fitness class booking system in Go. Took ownership of a project shortly before the release and managed to meet all the deadlines. Experienced with Docker, and multiple databases, including MongoDB (On Prem  and  DigitalOcean),  PostgreSQL,  from  the  development and performance optimization to operations. Experienced with payment workflows using Stripe as well as client passport implementation. (Go, PostgresSQL, JavaScript)
+Experienced with ethereum blockchain network, developing smart contracts using Solidity for insurance policy contracts.
+Singly developed from scratch a full working Go based a low latency/high throughput web-chat on top of gorilla-WebSockets decorated with a distributed cache layer for read heavy parts. (Go, PostgreSQL, Redis)
+AutoScout24	Munich, Germany
+Senior Software Engineer	Oct 2018 - Sep 2019
+Development of backend event-driven microservices on top of Scala, Akka and Kafka and that are hit by millions of users every day across Europe (hundreds of thousands of concurrent users per service). Created CI/CD workflow utilizing Python, Shell, on top of Jenkins. (Scala, Bash, AWS, Kafka)
+Reduced legacy codebase by 30% by migrating old monolithic web service to event-driven microservice architecture on top of Scala, Akka, and Kafka. Improved availability by introducing monitoring  and alerting solutions with DataDog and OpsGenie.
+Reduced amortization cost of AWS infrastructure by implementing a separate Kafka processor that is responsible for soft-cleanup of the orphan images. (Scala, Kafka, S3, DynamoDb)
+Implemented tooling that handles AWS scenarios (SSM parameters, assuming roles, etc.) which lead to saving at least an hour/week per team member. (Bash, Go, AWS)
+Carl Zeiss Microscopy GmbH	Munich, Germany
+Software Engineer B	Apr 2017 - Sep 2018
+Helped and onboarded new hires, created short-term, and long-term goals and supported them along the way
+Improved fail-safe by fixing memory leaks causing the crash of the software while trying to import
+high-resolution snaps.  Reduced time needed to finalize an experiment by introducing a digital signature
+lead to saving time for inter-department communication.(Python, C#)
+Fixed more than 25 bugs over a year timeframe while analyzing the Carl Zeiss image segmentation and reporting engine. Migrated legacy grain segmentation algorithm into the new modern technologies. (C++)
+Congree Language Technologies GmbH	Karlsbad, Germany
+Software Developer	Apr 2014 - Mar 2017
+Achieved at least 30% code quality improvement by integrating a static-code analyzer with SonarQube.
+
+Accomplished scalability and fail-safe improvement by implementing a thin REST layer on top of
+language-check service. Improved performance by at least 40% by adding a cache  layer  for  read-heavy  parts of the system.(Java, C#)
+Speed up document check by 15 % by implementing a new Congree API and migrating all the existing editor-plugins to it. (Java, C#, C++)
+Developed robust tooling that handles many test scenarios & enables automated deployment in test env,
+reducing time-to-test from weeks to days (JavaScript, Java, Vmware vSphere).
+Reduced deployment time by almost 80% by implementing a distributed deployment system, leading to saving 30% of time spent by solution specialists on the customer side. (JavaScript, C#)
+Andera, Inc.	Providence, RI, USA
+Software Developer - remotely from Russia	Jun 2011 - May 2013
+Bulk rates processing and import tool from CSV to Oracle and provides command interface on top for scheduling data processing. Also created a strategy for saving rates history to FTP and SFTP servers. (C#)
+Web application used by online account opening system for financial institutions.Involved in features such as delivery time optimization, tracking, queuing, and testing. Designed and implemented an overview dashboard for the multi-branch financial institutions. (JavaScript)
+
+Education
+
+Tomsk Polytechnic University
+Master of Science in Computer Science
+Tomsk Polytechnic University
+Bachelor of Science in Computer Science
+SIDE PROJECTS
+
+gochat (in progress)	Golang based web-chat on top of gorilla-websockets decorated with a cache layer (Go, Redis, PostgresSQL, gRPC)"
+15,source/Mark Ten.docx,"Mark Ten, Software Engineer
++998900016537, vlad029594@gmail.com
+
+LINKS	LinkedIn, GitHub, YouTube, Twitter
+
+EMPLOYMENT HISTORY
+
+Jun 2020 — Sep 2021	Software Engineer (Go), Mobalytics	Remote Product: Gaming assistant
+Worked on the new part of our product online-shooter Valorant
+Improved and developed internal services for reducing infrastructure costs by 20% and response time by 30%, including global cache manager, gateways
+Refactored old code base and move it to new microservice architecture
+
+May 2020 — Jun 2020	Software Engineer (Go), Express24 (Contractor)	Tashkent Product: Food ordering application
+Designed and developed from scratch cashback service which helped increase repeat purchases up to 10% based on user research
+
+Feb 2020 — May 2020	Software Engineer (Go), Paul Camper	Remote Product: Private camper rental platform
+Worked with cross-functional team on developing new features: Booking prolongation, Booking deactivation from idea to actual implementation. Almost 20% of our users needed those features, which also helped the company to save costs on the technical support side
+
+"
+16,source/Mark Orlov.docx,"Mark Orlov
+Back End Developer
+
+orlaaan.job@gmail.com | LinkedIn
+
+
+10+ years of extensive experience as a back end web developer with a focus on creating websites and different customer services. During this time I've been creating more than 200 websites. I've been working with PHP since 2008. Also have experience with Python, Java, and Android mobile development. Absolutely comfortable working remotely and know how to stay organized and how to work in a remote team. I love to learn new things, and I pick up on new concepts fast, especially in a hands-on environment. My goal is to find a full-time remote position in an international company and to grow up as a professional.
+
+
+Technical Skills
+PHP (OOP, SOLID, Patterns) | Symfony | WordPress | Python | Django | Flask | Java | VueJS | Slim | WebPack | Git | HTML | CSS | jQuery | PHPUnit | MySQL | PostgreSQL | MongoDB | Redis | AWS | Rest API | SOAP | Composer | Docker | Scrum | Linux | RabbitMQ | Sphinx | JavaScript
+
+
+Work Experience
+
+Senior Back End Developer
+RT Labs	Aug 2020 - Present
+Participated in development of SAAS platform for creating ~200-250k government websites. Developed a REST API module for communication between the base platform and websites. Developed service for creating patches and central updating websites.
+working in a team with remote coworkers: developers, analytics, and designers
+elements and pages of base websites
+logging system
+
+
+
+Senior Back End Developer
+WebWay	May 2017 - Aug 2020
+Created a website for one of the biggest insurance companies.
+25+ calculators and forms to buy a new policy, to send a report, or to ask some questions
+analytical system with reports, graphics, and filters
+connections with different services (SOAP and REST)
+connection with payment systems and receipt printing system
+automatic testing of all forms
+Website for one of the famous business coaches in Russia.
+website with a possibility to choose and order physical or digital content (books, CD, DVD, MP3, etc)
+a personal cabinet for the customers
+a ticket system for the event when you can choose the cost of your ticket, buy this ticket, and print it
+Back End Developer
+Individ	Aug 2016 - May 2017
+My main focus was on the Bitrix framework. I was responsible for development of new projects and technical support of current projects.
+created a website for a chain of federal medicine clinics
+e-store for a big tech company with many pages, services, and connections
+technical support of current projects
+
+
+
+Back End Developer
+NetCat	Mar 2013 - Aug 2016
+For this company I worked as a tech writer and as a developer. For this company I:
+rewrote all official documentation for developers and users
+created module «Bills» for the main product of company
+tested components of the system
+communicated with other remote developers
+performed technical support of other developers
+
+
+
+
+Full Stack Developer
+The South Urals Chamber Of Commerce And Industry	Feb 2010 - Mar 2013
+My main role is the development and support of the company's main website and support services. Communicated with the company's customers and created websites for them.
+finished courses as a specialist with creating security tokens.
+worked as a coach and taught people how to work in a auction platforms
+
+
+
+Full Stack Developer
+Web Group «W»	Nov 2008 - Feb 2010
+Created a social-network for the builder's community, a portal for a regional city with different services. At this company I was responsible for:
+development of new projects
+technical support of current projects
+review code to increase the code quality and working with other developers
+
+Education
+Master in Computer Science (2002 — 2006)"
+17,source/Danila Doroshenko.pdf," 
+ 
+ 
+ 
+Professional Summary 
+Software Engineer who is familiar with helping to create detailed 
+application codes and design. Extensive collaboration with 
+developers to draft and test programs for in-field rollout. Experience 
+with Python and Git development environments to standardize and 
+customize CI/CD. The ability for generating automation frameworks 
+and procedures like parsing, web scraping, and HTTP requests. 
+ 
+Work Experience 
+ 
+Make it in Ukraine 
+• Developed an asynchronous telegram chatbot 
+ 
+ 
+03/2020 - Current 
+Danila 
+Doroshenko 
+ 
+Contact 
+ 
+(@MakeItInUkrainebot) for IT talents using parsing with Beautiful 
+Soup, telegram API, aiogram and SQLite database which led to 
+automatization of Vacancies and Articles notifications depending on 
+each user subscription and interests, that stores in the database. 
+• Implemented the quick apply feature by saving user’s data into 
+the database, shortening generated mailto link by web scrape my 
+link shortener (a pet project that shortens links using NodeJS, 
+MongoDB and Express) and attaching the link to every vacancy 
+which led to better UX and makes the application process available 
+in one click. 
+ 
++380964647000 
+ 
+Rothem 
+10/2019 - 03/2020 
+ 
+ 
+ddddanchik@gmail.com 
+Researched a computer vision real-time semantic segmentation 
+model in deeplab (mobilenetv2) trained on Cityscape dataset, 
+quantized it for coralTPU, and transformed it to TFlite to run in AWS 
+via SSH connection to Raspberry pi 3. 
+ 
+ 
+Additional Skills 
+ 
+• Experience in Python 
+development 
+Education 
+ 
+KNU, CSC 
+ 
+ 
+09/2020 - 11/2020 
+• Parsing with BS 
+• Web scraping with selenium 
+• HTTP requests 
+• SQLite and PostgreSQL 
+database management 
+• Teamwork & collaboration 
+• API design knowledge 
+• Experience building client- 
+server architecture 
+• Research models using 
+Tensorflow, Sklearn, Keras 
+• Front-end: HTML/CSS/JS, 
+jQuery, Bootstrap 
+• Back-end: Django 
+A freshman pursuing a Bachelor's degree in Software engineering 
+and intelligent software systems. 
+ 
+01/2013 - 06/2020 
+Lyceum 142 
+Technical high school diploma 
+ 
+ 
+Certificates and articles 
+- Google Code-in 2019 competition 
+- FCE B2 English level 
+- Tutorial on Polynomial regression: https://colab.research.google.co 
+m/drive/1-sY2pAgx1rYEuRXn6Tr_ojfXq7PDGotR 
+"
+18,source/Albina Roshchupkina.docx,"Albina Roshchupkina, Software Engineer in Test
++380000617225, albina.roshchupkina@gmail.com
+
+LINKS	Linkedin
+
+PROFILE	• Certified Test Engineer/Test Analyst with 10 years’ experience in software testing
+Certified Scrum Master
+Experience in Test Automation using Java, Serenity, RestAssured, Cucumber JVM
+Experience in different types and techniques of software testing
+Experience in Leading QA teams
+Working experience in Waterfall and Agile software development methodologies.
+
+EMPLOYMENT HISTORY
+
+May 2021 — Present	Software Engineer in Test, 6-Systems/SIXT	Riga
+IT branch of SIXT, which is one of the biggest international mobility service provider. Project is payment service that facilitates payment transactions and settlement for the SIXT exposing only relevant payment logic to the clients
+Implementing and reviewing automation tests using Java, RestAssured, Serenity BDD.
+Improving quality of the product by reviewing every functionality from business and technical point of view.
+Improving processes in test automation, to achieve better coverage, simplify code and fix outdated failed tests in order to elevate monitoring results.
+
+May 2018 — May 2021	Software Engineer in Test, SIXT	Riga
+Connected car/Telematics platform. Data retrieval and communication via IoT, virtual handling of customer interaction via smartphone app, condition monitoring of the vehicles.
+Created API test automation framework from scratch using Java, RestAssured, Serenity BDD
+Implemented Java Spring Boot service to have possibility control Vehicle Simulator via HTTP and to create automation tests using Vehicle Simulator
+Implemented Java mock service based on the Wiremock to be able to test project services independent from other architecture
+Tested smartphone application with real vehicles and simulator
+
+Mar 2015 — Mar 2017	Quality Assurance Engineer/ QA Lead, Luxury Fashion Trade
+GmbH
+Online store based on open source e-commerce platform.
+
+Introduced web automation testing to the team using Java, Cucumber JVM and Serenity BDD which allowed to perform regression tests everyday
+Trained manual QA team to work with the framework and create automation tests
+Tested and supported Magento platform based online store
+Leading manual and Automation QA teams, implemented, improved and reviewed QA processes
+
+
+Nov 2013 — Jan 2015	Quality Assurance Engineer, Aginity LLC	Kharkiv Enterprise Business Process Improvement software solution that allows process large volumes of information
+Tested data processing
+Created SQL scripts as automation tests to run them everyday and check data is correctly stored
+Tested stored procedure, templates and reports to improve quality of the product
+
+Nov 2010 — Nov 2013	Quality Assurance Engineer, Nix Solutions Ltd.	Riga
+Web-based ""business to business"" search system that provides access and search facilities through scientific publications database for universities, laboratories, etc.
+As it was my first company I gained experience in web testing, requirement analysis, test documentation development
+Was responsible for manual testing and test documentation development in the project and later for training new team members
+EDUCATION
+
+Sep 2006 — May 2012	Master, National Technical University (Kharkiv Polytechnical
+Institute)
+Electronics engineer researcher (honor diploma)
+
+
+Kharkiv
+
+
+
+SKILLS	SQL
+Git Selenium Java Jenkins
+Cucumber Docker API Testing
+Automated Testing Manual Testing
+
+
+
+CERTIFICATES
+
+ISTQB Certified tester Advanced Level - Test Analyst ISTQB Certified Tester, Foundation Level Professional Scrum Master I Assessment
+M101J: MongoDB for Java Developers"
+19,source/Vladislav Zakharchenko.docx,"Vladislav Zakharchenko
+Vancouver, BC, Canada
++1-672-000-2033 | aaaaey.zakharchenko@gmail.com | linkedin.com/in/caass
+Summary
+
+Seasoned professional with two decades of experience, driven by unwavering passion for software development
+Experience
+Staff Engineer, Senior Software Engineer	Jun 2022 – Present
+Bitso SAPI de CV – The first crypto unicorn in Latin America	Remote
+Led development of Clearing Service resulting in 31% increase of trading engine overall throughput
+Developed a reliable queue library on top of Redis Streams which is used in other trading engine services resulting in significant development time decrease for other services. Blog post pending
+Identified a bottleneck and implemented the solution to get rid of distributed locking in balance updates resulting in 70% throughput increase
+Mentored team members in pilot mentoring program resulting in several tangible improvements in mentee’s next cycle 360 review
+Principal Engineer, Software Architect	Apr 2016 – Jun 2022
+Crossover for Work – Top 1% of global remote talent	Remote
+Led WorkSmart NextGen project leveraging AWS data processing and analysis stack that provided regular insights of employees performance and fraud risk, resulting in a several dozens proven cases of fraud identified
+Identified and fixed a bug in a legacy telecom codebase of fearful quality, saving 0.2M$ of customers annual revenue
+Enhanced code delivery pipeline for AntiPatterns project resulting in several months of zero-failure weekly production deliveries
+Senior Software Engineer	May 2021 – Aug 2021
+GoodIt.Works – We launch startups	Remote, part-time
+Developed a triangular arbitrage bot MVP and potential profitability chain analysis for intra-Binance trading. https://github.com/ululam/patron-arby/blob/main/notebooks/arbydol.ipynb
+Senior QA Automation Engineer	Feb 2015 – Jan 2016
+Incryptex – Digital currency marketplace	Remote
+Created automated testing harness for integration and performance testing based on production data, leading to two times faster feature deliveries
+Senior Software Engineer	Jan 2013 – Feb 2015
+AlphaOpen – Digital Ecosystems	Moscow, RU
+Conducted a comprehensive back-end redesign, resulting in a 10x increase in write throughput
+Developed a novel approach to event processing, increasing the system’s overall performance to a peak of 1 million events per second
+Established an automated testing pipeline, reducing the overall QA cycle time by approximately 30%.
+Software Engineer, Architect, Lead Engineer, CTO, Self-Employed	1999 – 2013
+Wygee, Reaxion, Luxoft, INCOM, RPC Overseas, CyberVision
+Education
+Moscow Institute of Physics and Technology	Moscow, RU
+Master of Science in Computer Science	Sep 1996 – June 2001
+MIRBIS Moscow International Business School	Moscow, RU
+MBA	Sep 2005 – Feb 2008
+Technical Skills
+Languages: Java, Python, SQL, JavaScript, TypeScript, PHP
+Cloud: AWS S3, EC2, SNS/SQS, ECR/ECS/Fargate, Kinesis Firehose/Streams, RDS/Aurora, DynamoDB, CloudWatch, Glue ETL, Step Functions/Lambdas, SageMaker, Comprehend, Rekognition, RedShift, QuickSight, ELB Other Tools: Git, Docker, k8s, Spock/JUnit, Spring/Micronaut, PostgreSQL, mysql, k6, Splunk, Datadog, Jupyter Certifications: AWS Certified Solutions Architect, AWS Certified Machine Learning - Speciality"
+20,source/Dasha Yavorska.pdf,"Dasha Yavorska
+Project Manager / Analyst
+San Francisco Bay Area, CA,
+USA
+yavaaakaya670@gmail.com | (341) 000 3449 |
+SUMMARY:
+Project manager with 15+ years of experience, a passion for analysis, and expertise in
+process design and systems analysis. Goal-oriented leader and collaborative team player with
+diverse domain knowledge. Versatile asset to any team committed to achieving goals.
+EXPERIENCE:
+ZeroAvia
+Hollister, CA, USA | 2022 - 2023 (1yrs 5mos)
+Project Manager
+Achievements:
+❖ Led the development and internal launch of a groundbreaking Energy supply monitoring and
+control system, based on a smart algorithm using AI, for a hydrogen production system.
+❖ Contributed to the building and led a high-performing team of engineers and scientists,
+fostering a culture of innovation and continuous improvement.
+❖ Collaborated effectively with cross-functional teams to gather requirements, deﬁne scope, and
+develop project plans, ensuring that the project aligned with overall business goals.
+❖ Successfully tracked progress, identiﬁed and mitigated risks, and oversaw the testing of the
+system, ensuring its timely and successful delivery.
+Enel X (eMotorWerks)
+USA, Remote | 2019 - 2022 (3yrs 4mos)
+Project Manager
+Achievements:
+❖ Successfully delivered 5+ projects on time and within scope, including creating detailed project
+workﬂows, templates for PMO documentation, and ensuring resource availability and
+allocation.
+❖ Facilitated collaborative estimation and planning processes, bringing together stakeholders
+from different teams to ensure alignment on goals and expectations.
+❖ Ensured cross-team cooperation by coordinating communication and activities across multiple
+teams, leading to successful project outcomes.
+Change And Release Manager
+Achievements:
+❖ Improved release eﬃciency by streamlining release processes and implementing a binary
+delivery approach and shortened release cycle time by 65%, from 40-35 days to 14 days.
+
+Tickets Travel Network (Tickets.ua)
+| 2014 - 2017 (3yrs)
+Project Manager, Analyst
+Achievements:
+❖ Implemented and integrated Jira/Conﬂuence tools and corporate portal for 800+ employees,
+streamlining workﬂows and improving eﬃciency.
+❖ Led the successful delivery of 13+ corporate and 3 external projects, meeting all deadlines and
+requirements, including an employee 360-degree Feedback system.
+Training and Development Team Lead
+Achievements:
+❖ Improved team performance and efficiency by developing and implementing training programs,
+automating business processes, and running team-building events.
+JSC ""Teleradiocompany Lux""
+| 2010 - 2013 (3yrs 2mos)
+Product/Project Manager, Chief Editor
+Achievements:
+❖ Launched web portal: from developing a concept, and managing the development team up to
+content creation and 3 years of support for the project as a Chief editor.
+International Humanitarian Pedagogical Institute
+| 2008 - 2010 (2yrs)
+Head of IT Media library
+Achievements:
+❖ Launched university website and taught IT classes to students
+CERTIFICATES:
+❖ 2023 - Advanced Project Management Course | Online Ukrainian School of Project
+Management by Denys Prylutskyi
+❖ 2021 - PMI Agile Certiﬁed Practitioner (PMI-ACP) preparation course | Tenstep Academy
+❖ 2017 - Arts and Crafts of Business Analysis | SoftServe University & Business Analysis Oﬃce
+❖ 2017 - Emotional intelligence course | Alena Sysoeva
+❖ 2016 - Fundamentals of Business Analysis | Lviv BDA School
+❖ 2016 - Financial management | Lviv Business School
+❖ 2016 - Development of leadership potential. Management functions | Lviv Business School
+and Women's leadership program “Leadership. Success. Inspiration” | Lviv Business School
+❖ 2016 - MS Excel Pro, MS Project courses
+❖ 2014 - 13 steps to a successful SCRUM | Kseniya Kobryn and Kanban System Design,
+KANBAN Management Professional | Kirill Klimov
+EDUCATION:
+❖ Master's degree | Social pedagogue, a practicing psychologist | Crimean
+Humanitarian University, Ukraine | 2007 - 2012, Graduated with honors
+❖ Bachelor degree | Elementary School Teacher, Hebrew teacher | Dnipropetrovsk
+International Humanitarian Pedagogical Institute, Ukraine | 2005 - 2010, Graduated with
+honors
+LANGUAGES:
+❖ English - Professional working proﬁciency | Ukraine/Russian - Native | Hebrew/Polish - Basic
+"
+21,source/Mark Iarish.docx,"Mark Iarish
+Front End Developer
+mark78.yarish@gmail.com • LinkedIn
+Three years of extensive experience as front end developer. Skilled in striking balance between functional and user experience. Excel at building reusable code for future use, as well as optimizing web pages for maximum speed and scalability. Tech-savvy professional with progressive experience decomposing and distributing complex tasks to team members. Articulate communicator with credible history of cultivating and maintaining positive collaborations with clients, key stakeholders.
+
+
+Technical Skills
+JavaScript | CSS | React.js | HTML | Git | Redux.js | SASS | Webpack | Node.js
+
+Work Experience
+
+Lead Front End Developer
+OptiSystems, Russia	Feb 2018 – Present
+Provide first-class services as leading front-end developer of main project, which is the leader in the CIS among peers. Leverage proven expertise for development of web interfaces with ReactJS, Redux. Facilitate workflows by refactoring legacy code as well as develop application architecture to better code maintainability. Estimate time and distribute tasks in team of 5 front-end developers. Optimize performance and user experience.
+Implemented best practices for testing, performance improvement, and documentation.
+Adviced to 4 other developers to ensure process and performance improvement.
+Successfully initiated development of next project that is gaining popularity among clients.
+
+Python Developer
+Clinical Oncology Center No. 1, Russia	Oct 2017 – Feb 2018
+Participated in development of medical information system. Responsible for module for integration with Electronic Medical Record.
+Proactively improved module for uploading data to third-party service that resulted in over 1000 of new medical cases to be uploaded per day.
+
+System Administrator
+Regional Association of Builders of Kuban, Russia	Sept 2013 – Sept 2017
+Provide user support and online safety. Configure access policies. Maintain 2 servers, manage data backups. Modify official site with new modules. Provide process automation.
+Automated loading of up-to-date information about 400 partner organizations to official website.
+Organized infrastructure covering branches of organization in 4 cities.
+A system for registering changes on the site has been developed, which has been working smoothly for over 5 years.
+
+Engineer, Teacher
+Krasnodar Information Technology College, Russia	Jan 2012 – Aug 2013 Taught group of 20 students a course of lectures on basics of programming and system administration.
+Developed exam questions that were also used in work by other teachers
+
+Education
+Master in Computer Science (2005 – 2008) Russian State Social University, Moscow, Russia"
+22,source/Lysikov Nikita.docx,"Lysikov Nikita
+Data SciEncE IntErn · MachinE LEarninG IntErn
+Kharkiv, Ukraine | ready for relocation
+
+Education  	
+V.N.KARAZiN KhARKiv NATioNAl UNivERSiTY	Sep. 2018 ‑ May 2022
+Bachelor of Math of School of Math and Computer Science
+
+Projects  	
+2D‑BasED stratEGY With procEDurallY GEnEratED WorlD | C++	Jun. 2017 ‑ May. 2018
+Implemented basic behavior mechanics by programming randomised movement and resource consuming algorithms
+Developed random world generation algorithm, which used multiple random seeds to build realistic world.
+Programmed UI and savefile structure by implementing game configuration menus and save‑load system
+Natural lanGuaGE EMulatinG Bot | C++	Sep. 2017 ‑ Jul. 2018
+Implemented dictionary expanding algorithm by adding ”Ask meaning of word” and ”Add Word to dictionary” functions
+Developed sentence building simulation by programming basic language grammar rules
+Built mood simulation system by adding randomly generated mood coefficients and altering used dictionary according to them
+OnlinE Shop WEBsitE | Python	Jan. 2020 ‑ May 2020
+Implemented UI and user database using Django
+Developed Order and Delivery Interface by implementing user and provider order interface using Django
+Built online cart using Django
+
+Honors & Awards  	
+IntErnational
+2019	Honorable Mention, Ukraine ACM‑ICPC (Top 75 of 883 participants)	Kharkiv, Ukraine
+Aug. 2020 C1 Level Certificate, Cambridge Assessment English test	Kharkiv, Ukraine
+Aug. 2019 C1 Level Certificate, ÖSD test	Vienna, Austria
+
+Certificates  	
+Packt Publishing	Online
+Data SciEncE WorKshop
+Completed Data Science Workshop created by Packt Publishing
+Coursera	Online
+MachinE LEarninG WorKshop
+Completed Machine Learning Workshop created by Coursera
+Coursera	Online
+Natural LanGuaGE CoursEs
+Completed Natural Language Courses created by Coursera
+
+Additional & Volunteer Activities  	
+IEEE V. N. Karazin Kharkiv National University Student Branch	Kharkiv, Ukraine
+
+WEBMastEr 2020‑prEsEnt tiME
+Programmed official website of V. N. Karazin Kharkiv National University Student Branch
+Proposed various marketing and network activities to raise awareness
+Organized educational events and Karazin University Programming Cup
+Aug. 2020 ‑ present time
+
+
+
+
+
+
+
+
+
+
+
+	1"
+23,source/Egor Pianykh.pdf,"Egor Pianykh
+206-482-7070
+egor.pianykh@gmail.com
+A decent software engineer is looking to build expertise in distributed software at scale.
+GlobalLogic Inc
+2013 - present
+Backend Engineer, a hospitality company
+Feb 2021 - Present
+● Developing card payment services for a hospitality company
+Primary technologies: Azure, C#, Java
+Software Engineer, medical ECG monitoring
+May 2020 - Nov 2020
+●
+Created an infrastructure as a code for on-prem Cassandra cluster deployments. This
+is a part of a system that will enable my client to deploy solutions to military hospitals
+and hospitals that prefer to manage their infrastructure.
+●
+Implemented a metrics agent to monitor the health of the Cassandra cluster. The
+agent, along with the Kibana dashboard, will allow the ops team to monitor the cluster's
+health and provide appropriate SLA.
+Primary technologies: Linux, Docker, Docker swarm mode, Cassandra, Elastic, Kibana
+Project Coordinator, legacy ECG devices
+Oct 2019 - May 2020
+●
+Provided technical leadership and direction to 35 software engineers, quality engineers,
+and
+business
+analysts.
+Facilitated
+collaboration
+between
+stakeholders
+and
+development
+teams
+and
+saved
+hundreds
+of
+work
+hours
+by
+minimizing
+the
+communication time gap.
+●
+Represented a team on organization meetings, enabled quick issue resolution.
+●
+Conducted cost-benefit analysis for remote customer support tooling. Presented
+the findings to a team of executives. The decision that was made saved a company
+hundreds of thousands of dollars per year.
+●
+Led an effort to adjust APIs with a third-party vendor. Fast problem solving led to
+the timely release and avoided reputation losses to my client.
+Primary technologies: communication, PowerPoint, Excel
+Senior Software Engineer, medical ultrasound machines
+Jun 2017 - Oct 2019
+●
+Designed and implemented a set of tools to reprogram faulty ultrasonic transducers in
+the field. This toolset saved over 20M dollars, avoiding the replacement of probes.
+And most importantly prevented ultrasonographers from cancer misdiagnosis.
+●
+Implemented a workaround for a bug in the NVIDIA display driver that appears only
+with custom display and in out-of-support cards. This workaround could save thousands
+of hours of field engineers' work and millions of company losses.
+●
+Fixed numerous hard to reproduce issues in legacy systems with over 2M lines of
+code and heavily dependent on global variables.
+Primary technologies: C++, C#, .NET Framework, WPF
+
+Tech Lead, semiconductor burn-in oven automation
+Jan 2017 - Mar 2017
+●
+Established the agile process, sprints and enabled my team on every demo.
+●
+Designed a portal for configuring a semiconductor burn-in oven. Improved
+production floor operators' speed of work and reduced the number of defective
+batches by 5%.
+●
+Led a team to the successful implementation of the project on time. Prevented the
+downtime for already installed equipment and enabling the next round of million
+dollars budgeting for a greater team.
+● Facilitated collaboration between developers and business analysts.
+Primary technologies: ASP.NET WebApi, Angular, Bootstrap, SQL Server
+Software Engineer, CRM system
+Jun 2016 - Jan 2017
+●
+Tracked a rare critical bug that was missed by dozens of eyes. Nobody knew how it
+was introduced to the system. Spent hundreds of hours researching codebase and
+experimenting with the CI/CD system. Successfully unblocked a team on their goal to
+unbind CRM from SQL Server.
+●
+Merged an enormous amount of branches in git in a system with around 1500 active
+developers. Enabled my teammates to move faster and saved hundreds of
+development time by using my git expertise.
+Fullstack Engineer, Private Equity Fund
+Nov 2012 - May 2016
+●
+Implemented an Excel macro merge tool that could save a team over 96
+person-days yearly.
+●
+Optimized a data ingestion endpoint by using a low-level reading API. This enabled
+accountants to load ten times bigger documents and decreased processing times by four
+times on average.
+Primary technologies: ASP.NET WebApi, ExtJS SQL Server
+EPAM Systems
+June 2012 - Nov 2013
+Software Engineer, market risk calculation platform
+●
+Developed software to migrate config files used across the bank.
+●
+Effectively communicated to pull people from the different teams together and migrated
+configs in one release. This enabled the retirement of old services earlier and saved
+hundreds of man-hours of developers' work.
+Other projects that I have done while studying or off work
+2008 - 2012
+●
+Architecture and implementation of automated dispatch GIS system for a trucking
+company
+●
+Driving the insurance company payroll platform from 0 to completion.
+Education and certificates
+●
+Bachelor degree in Applied Mathematics in East Ukrainian State University
+●
+Deep Learning School by Moscow Institute of Physics and Technology (completed
+the first-semester study, to be completed in 2021)
+●
+Deeplearning.ai specialization on coursera.org
+●
+Machine Learning Scientist with Python on DataCamp.com
+"
+24,source/Vadim Traigel.docx,"Vadim Traigel
+Moscow, RU ⧫ gtc.12356@gmail.com ⧫ +79773330008 
+
+Software Developer
+High-Performance Applications ⧫ Optimizing and Integration ⧫ Full-Stack Developer
+Web developer valued for driving quality and consistency throughout all phases of software development projects. Team with developers, analysts, QA and support engineers throughout the product lifecycle to produce high-quality, user-friendly, scalable and bug-free web platforms.
+Technical proficiencies:
+Python, Django, PHP, Node.JS, Vue.JS, VueX, REST, Sockets, Multithreading, Unit Testing MySQL, Postgres, MongoDB, Memcached, Redis, Celery
+
+Software Engineering Skills
+
+
+
+−	Solutions Engineering, Testing & Optimization
+−	Planning and implementing data storage solutions
+−	Implementing security and data protection
+−	Optimizing applications for maximum performance and scalability
+−	Creating new and innovative solutions to meet business needs
+−	Object-Oriented Methodologies
+
+
+
+Professional Experience
+TEAM LEADER, FULLSTACK DEVELOPER, 06/2019 to Present ⧫ Least.sale – Moscow, RU
+Frontend: Vue.js + VueX, Stylus, Bootstrap
+Backend: PHP, Node.js, MySQL, MongoDB (3 hosts, replica set). Bull and Redis. PM2 (8 process cluster). MochaJS for testing, CI/CD with GitLab CI.
+−	Start to work in this company when it was 3 men and rise it to over 20 people.
+−	Writing new version on Node.JS and make it work with legacy PHP version
+−	Integrate foreign services to the project to make experience and usage better
+−	Develop close-knit team that make all the busyness wishes come true.
+
+FULLSTACK DEVELOPER, 10/2018 to 06/2019 ⧫ Phenom Team – Moscow, RU
+Frontend: Vue.js + VueX, Pug, SASS, Bootstrap
+Backend: Python, Django. Postgres + MongoDB. Celery and Redis. Pipenv virtual environment. CI/CD with Ansible
+−	Highly involved in the crypto exchange project.
+−	Architect backend application for Binance Hackathon in Singapore 19-20 Jan 2019. (Finalists)
+−	Engineered software release for speed and improved the user experience.
+−	Mastering exchange logic for deposit and withdrawal crypto.
+
+TEAM LEADER, FULLSTACK DEVELOPER, 8/2017 to 10/2018 ⧫ WhenSpeak – Moscow, RU
+Frontend: Angular 2, Vue.JS + VueX, SASS, Gulp
+Backend: PHP Yii2, Node.JS, WebSocket, Socket.io, WebRTC, HLS, MySQL
+
+−	Start to collaborate with such companies as Sberbank, Teva, Abbott
+−	Integrate WhenSpeak platform with Abbott Education System to provide cutting edge technologies in education
+−	Develop and support streaming server with WebRTC and HLS to deliver low time latency video
+−	Creating new testing system with advanced results providing
+−	Adhered to high-quality development standards while delivering solutions on-time
+FULLSTACK DEVELOPER, 8/2016 to 8/2017 ⧫ Reikartz – Moscow, RU
+Python, Django CMS, SASS, Twig, Bootstrap, MySQL, Git
+−	Rebuild websites from Joomla to Django
+−	Integrate rent API to the new sites
+−	Optimizing server performance
+−	Integrate caching for maximum performance
+
+FULLSTACK DEVELOPER, 3/2015 to 8/2016 ⧫ MitLabs – Voronezh, RU
+Joomla, Wordpress, Magento, Twig, Bootstrap, MySQL, Git
+−	Developing websites using Joomla and Wordpress
+−	2 huge projects of e-commerce, based on Magento CMS
+−	SVN and Git as version controls system
+−	Integration outer services through REST and SOAP
+
+2ND LINE SQL SUPPORT, TEAM LEADER, JUNIOR DEVELOPER, 9/2013 to 3/2015
+AtConsulting – Voronezh, RU
+−	Oracle SQL and Linux 2nd line support
+−	PL/SQL scripts
+−	Develop, test and deploy updates for high loaded service
+−	4 month experience of team leading
+
+
+
+Education & Certifications
+
+Master's degree, Computers, complexes, systems, networks ⧫ International Institute of Computer Technology (IICT), Voronezh, RU
+Certifications:
+Go: The Complete Developer's Guide (Udemy)
+Nuxt.js - Vue.js on steroids (Udemy)"
+25,source/Danil Kikvadze.pdf,"Danil Kikvadze
+Python Developer
+Enthusiastic 3th grade student eager to contribute to team success
+through hard work, attention to detail and excellent organization
+skills. Clear understanding of Python zen and REST concept and
+training in web frameworks.
+I've been learning stack of technologies for web development since
+2019. Motivated to learn, grow and excel in Web Industry.
+CONTACT
+Address
+Moscow
+Phone number
++79140989765
+E-mail kikvadze673@lll.kpi.ua
+LinkedIn
+https://www.linkedin.com/in/yar-gty/
+GitHub
+https://github.com/yar-rfk
+SKILLS
+Frontend
+HTML, CSS, JS, jQuery, React.js
+Backend
+Python,
+Flask/Django,
+SQL,
+noSQL,
+REST API, Celery
+Other
+Docker, Linux, Git, Unit testing, CI/CD
+EDUCATION
+National Technical University of Ukraine
+«Kyiv Polytechnic Institute»
+Bachelor's degree, Biomedical engineering
+2018 – 2022
+LANGUAGES
+Russian
+English
+EXPERIENCE
+Flask Bookshop, 2021-04 – 2021-06
+● Created a RESTful API application
+using Flask. JWT token was used for
+authentication and role-based access.
+● PostgreSQL was used as a database,
+Redis was used for caching and task
+queue.
+● Celery was used for asynchronous tasks
+such as sending email. Elasticsearch
+was used for searching query.
+● Development
+also
+required
+Docker,
+writing unit-tests and Travis CI.
+● Production version of application uses
+Gunicorn and NGINX.
+Django Blog, 2020-07 – 2020-12
+● PostgreSQL was used as a database.
+● Django-template was used for SSR,
+jQuery was used for AJAX calls.
+● Added Docker, Travis, logging and
+unit- tests.
+● Added role-based access.
+● Production
+version
+of
+application
+uses Gunicorn
+and
+NGINX
+INTERESTS
+Computer
+Games Movies
+Programming
+"
+26,source/Aldar Ulubayev.pdf,"Aldar Ulubayev
+aldar.ulubayev@gmail.com |
+aldarulubayev |
+askar3280 |
++7 708 000 38 12
+Education
+Suleyman Demirel University
+Almaty, Kaskelen district
+Faculty of Engineering and Natural Sciences
+Aug. 2016 – May 2020
+Projects
+Alfa-Bank (App store) | ATFBank (App store) | Altyn-i (App store)|
+Experience
+iOS developer
+Feb 2020 – Ongoing
+Alfa-Bank Kazakhstan
+• Decreased build time by comparing carthages and pods
+• Explored new technologies and shared findings with the team
+iOS developer
+Sep – Jan 2020
+DAR
+• Worked on network layer which can be reused in every project
+• Configured push notifications of the project
+iOS developer
+Jul 2019 – Sep 2020
+ATFBank
+• Head of the development iOS team
+• Developed and launched the application from scratch in over 60 k people (Rating: 4.7)
+• Worked closely with product managers and designers to define a rich iOS experience for
+the user
+• Configured architecture and security of the application
+• Improved product quality through code reviews
+• Performed technical designs and implementation of the application
+Internship
+Jan 2019 – May 2019
+Infin-IT Solution
+• Worked on mobile-banking applications
+• Fixed bugs
+• Refactored codes
+• Added new functionalities like filter for dates and custom reusable views
+Skills
+Swift, Java, Multi-threading, CI/CD, Fastlane, Dependency Injection, Reactive programming
+patterns (RX), SOLID, Clean Swift architecture (VIP), VIPER, MVVM
+"
+27,source/Алифанова  Алина.docx,"
+
+
+
+"
+28,source/Vsevolod Vinogradov.pdf,"Vsevolod Vinogradov
+Preferred role: Machine Learning Engineer
+Tel: +4571000077 (DK)
+E-mail: seva.vin@gmail.com
+Education: M.Sc. in Communications Engineering (2012)
+Citizenship: Russia
+Residence: Copenhagen, DK, ready to relocate
+Linked IN Blog
+Background
+I have 11 years of experience in computer hardware engineering. The key focus were DSP algorithms
+implementation win an FPGA and ASIC chips.
+DSP (Digital Signal Processing) is a wide area that uses techniques from the applied math, analyses,
+statistics and statistical learning to proceed signals, like radio, voice, images, in a digital form. DSP gives
+theoretical and practical recipes to develop digital circuits for signal processing. ASIC is small pieces of silicon
+with integrated circuits of digital logic, that we often refer as microchip. Your dishwasher controller, GPU and CPU
+are ASICs. ASIC manufacturing process requires millions of $ of investment, so there’s an option to assemble
+custom digital circuit from predefined building blocks “in-filed”. FPGA (Filed Programmable Gate Array) is kind of
+a LEGO blocks set, from which an engineer may assemble digital circuits “in the field” by reconfiguring the
+firmware of the FPGA chip. FPGA and ASIC are consist of IP(Intellectual Property) Cores, sort of the functional
+block.
+I switched to a Software Engineering Role to expand my area of the expertise and more widely utilize my
+theoretical skills
+Skill Set
+Machine Learning
+●
+Strong theoretical background in linear algebra, statistics and numerical methods
+●
+Matlab, SciPy, RandomForest, XGBoost
+●
+Deep Learning with TensorFlow, Keras
+●
+Extensive data exploration and visualization skills
+Software Engineering:
+●
+Modern C++14/17/20 with for Linux and Windows
+●
+DevOps: CI/CD, TDD, Jenkins, Gitlab, Doctest, GoogleTest, Bash, CMake
+Computer Hardware
+●
+Deep understanding of CPU and GPU architectures, DRAM/SRAM memory controllers, PCIe
+and network interfaces
+Work Experience
+Alipes A/S Denmark
+Quant Developer,
+●
+Accelerate decision trees and DNN models on the FPGAs for financial applications
+●
+Throughput accelerations Vitis Flow, Xilinx software oriented OpenCL-like system for
+Alveo cards series. For quantized model achieved ~30% performance in prediction/sec
+against GPU
+●
+Low latency application - full stack system design - HLS kernel development, low latency PCIe
+drivers and IP Core, project design in Vivado, Windows/Ubuntu cross-platform library, integration
+with existing computational framework. Reduced prediction latency on a 50% in comparison with
+GPU CUDA implementation
+Widex A/S, Denmark
+IC Specialist, Digital Design
+● Design and implementation of ultra-low-power DSP blocks for next-generation hearing aids for ASIC
+
+with a strong focus on space and power usage optimization. Maintain and documentation of the
+existing legacy IP cores. Functional, integrations and code coverage testing
+
+● I helped our team with the transition from SVN to Git and from hardware design language VHDL to
+System Verilog. Prepared training materials and held more than 10 workshops in a small groups for
+cross-border teams in Germany and Denmark.
+● Working under FDA and EMEA regulation regarding the safety and reliability requirements for
+medical devices.
+Cobham Satcom (ex. Thrane&Thrane), Denmark
+FPGA Development Engineer in Aviator S-team March 2018 — December 2018
+●
+Design, support and maintain IP Cores for Zynq SoC in Aviator S Smart Aircraft project
+●
+Safety and security requirements writing and implementing, design test cases and specification for
+commercial airlines' avionics certification
+Huawei Technologies, Russian Research Center, Moscow
+Algorithm researcher in Nonlinear IRF sector
+Key projects:
+●
+Develop in Matlab and implement in the FPGA complex-arithmetic multilayer non-linear adaptive
+filtering system (DPD) for radio frequency applications in 4G+ base stations
+●
+4x4 MIMO Platform. Developed embedded platform software and Matlab API for communication
+over 1G Ethernet
+Awards:
+Outstanding Contractor award 2016 of Russian R&D
+Center Member of Outstanding Team Award 2017
+Digital Solutions, SPE, LLC Moscow
+FPGA designer
+Full-stack electronic design from small IP cores to device production.
+Key Projects:
+●
+Member of FPGA team on the Deep packet inspection (DPI) project
+●
+Develop Error Correction Code for System-on-Chip ASIC
+Research Institute of Precision Instruments, Moscow
+FPGA designer
+-
+Research satellite radio channel and develop error correction codes for space applications
+-
+Develop FPGA based satellite hardware
+Awards: Concatenation codes research project took the prize “Youth and future of aviation and space
+exploration 2012” of Russian Aerospace Agency [ru link]
+Education
+-
+M.Sc. in Communications Engineering. National Research University ""MAI""(Aviation Institute)
+2006-2012, 5.5 years
+-
+Advanced specialization, 2 years, Information technology in electronic design - DSP, ARM,
+PCB design, FPGA, microcontrollers, amplifiers. Certificated, with honors
+-
+Specialization “Advanced Machine Learning”[link] by NRE Higher School of Economics, 2020
+○ Introduction to Machine learning 100%
+○ Introduction to deep learning. 98.2% With Honor
+○ Bayesian Methods for Machine Learning With Honor
+○ Practical Reinforcement Learning, With Honors
+○ Addressing Large Hadron Collider Challenges by Machine Learning
+○ How to Win a Data Science Competition
+○ Natural Language Processing
+○ Deep Learning in Computer vision
+-
+Online Courses:
+●
+EDX
+:Circuits & Electronics: MITx 6.002x MITx, 2012
+●
+Coursera: IBM: Databases and SQL for Data Science, 2020
+●
+Udemy Advanced C++Programming 2020
+"
+29,source/BURAKOV FEDOR.docx,"BURAKOV FEDOR
+Machine Learning Engineer, NaUKMA (2019-2023)
+buracov122@gmail.com	+7 907 506-81-00
+
+
+EXPERIENCE	
+Machine Learning Engineer
+Camai, Miniso (contract)
+ January 2021 – Present	Kyiv, Ukraine
+Developed visualization and evaluation tools that lead to bet- ter understanding of model’s error
+Engineered and implemented several features which lead to 15% increase in model’s performance
+
+Contributed to ML Lab
+Fido.ai, NaUKMA
+ November 2020 – Present	Kyiv, Ukraine
+Implemented LSTM model for ethnicity classification
+Translated SQuAD dataset for Ukrainian BERT training
+Made Linear Regression tutorial for newbees
+
+Math & Computer Science tutor
+Self-employed
+ July 2020 – August 2020	Mariupol, Ukraine
+Worked as a private teacher on summer holidays
+100% positive feedback rate
+SKILLS
+
+Programming languages: Python (confident), Java, C++ and Haskell (beginner)
+Frameworks: PyTorch (prefferred), Keras, Dask
+Libraries: scientific Python kit (numpy, pandas, matplotlib, etc.)
+Tools: Git, Linux, Jupyter&Colab, Streamlit, MLFlow
+Languages: English (Advanced), Russian and Ukrainian (native)
+COURSES	
+Deeplearning.ai
+Coursera
+ September 2020 – October 2020
+Neural Networks and Deep Learning
+Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
+Structuring Machine Learning Projects
+Natural Language Processing with Classification and Vector Spaces
+Atlassian
+Coursera
+ June 2020
+Version Control with Git
+EDUCATION	
+National University of ""Kyiv-Mohyla Academy""
+Computer Science, BSc
+ September 2019– July 2023
+Cumulative GPA 4.5/5
+GPA of 4.75/5 in math related disciplines
+PROJECTS	
+OpenCV demos
+ August 2020
+Several OpenCV based pet-projects, includ- ing telegram bet that detects faces on pic- ture and replaces them with a pre-made face mask
+
+Pac-Man inspired game
+444 studios
+ June 2020
+Was responsible for complete Ghost-AI part of the game, data structures and some of the game logic
+
+Siamese neural network
+ January 2019
+Word2Vec inspired project. The idea is to adapt NLP methods to music processing and to find piano chords that sound best suited together. Released a scientific paper on the topic
+EXTRA-CURRICULAR	
+Ukrainian Junior Science Academy
+ March 2019
+1st place in region
+
+Published scientific paper
+ October 2018
+“Machine learning of distributive semantics of musical chords in classical piano pieces”
+
+Participated in several conferences on computer science
+ November 2018 – January 2019"
+30,source/KRAVTSOVA ELENA.docx,"
+"
+31,source/Nikolas Evsiukov.pdf," 
+ 
+ 
+ 
+EDUCATION 
+Nikolas Evsiukov 
++7966321-11-22 | Evsiukkkov@phystech.edu | 
+ 
+ 
+Moscow Institute of Physics and Technology 
+Moscow, Russia 
+Bachelor of Applied Mathematics, Physics and Computer Science 
+Sept. 2019 – Aug. 2023 (Expected) 
+◦ GPA: 9.2 of 10 
+PROJECTS 
+• WildHack — strategy game 
+May 2020 
+◦ Taught myself Qt in a month and collaborated with a classmate to develop the cross-platform game. 
+◦ Implemented clear and flexible architecture by learning design patterns. 
+◦ Developed game core on C++ and GUI on Qt. 
+Built a continuous integration pipeline that automates the process of unit testing, GUI testing, documentation generation, and 
+game distribution. 
+• Time-management website 
+ 
+ 
+◦ Taught myself Django framework in 3 weeks and developed backend, launching with PostgreSQL database. 
+◦ Designed frontend using HTML/CSS and Bootstrap library. 
+◦ Learned Docker and built a continuous integration pipeline that automates the process of unit testing and deployment. 
+• Self-driving logistic system (Bootcamp) 
+Apr. 2020 
+ 
+ 
+ 
+ 
+July 2018 
+◦ Taught myself Robot Operation System in a week and developed microservices on C++ for robot navigation and communication. 
+◦ Exploring documentation, fixed an unexpected problem with microservice-sensor communication appeared just before the deadline. 
+• Universal Bluetooth Controller 
+May 2018 
+◦ Taught myself development for Android in 2 months and developed a mobile app for creating custom Bluetooth controllers. 
+◦ Implemented the GUI system for an easy controllers configuration. 
+◦ Adapted this app for using as a controlling interface for the robotic goat in local museum. 
+ACHIEVEMENTS 
+• 1st place in project competition (Analysis of the load structure of the consumer) 
+Aug. 2018 – Feb. 2019 
+Working with a team, this began as an education project that I drove to completion so our team take 1st place (of 384) in the 
+All-Russian project competition ”Energy breakthrough” and get a partnership with the biggest energy transfer company in Russia. 
+◦ Designed server’s architecture and implemented it using C++ and PostgreSQL. 
+Fixed the problem with a slow transferring a large amount of data for machine learning algorithm by learning WebSocket protocol 
+fastly and optimized communication with the server. 
+SKILLS 
+• Programming languages: C++, Python, C, basic knowledge of Java. 
+• Technologies: Git, GitHub Action, Django, Qt, Docker. 
+• Knowledge: Algorithms, Data Structures. 
+• Other:  Linux, LATEX. 
+OTHER 
+• Contributed to the faculty website project. 
+• Maintained the faculty git repository of LaTeX lecture notes. 
+• Took part in the All-Russian educational conference ”Digital lesson” for school students as a speaker. 
+ 
+ 
+ 
+ 
+• 
+◦ 
+◦ 
+◦ 
+"
+32,source/Резниченко Алексей.pdf,"Резниченко Алексей 
+Екатеринбург |   +7(912)03-000-00 |  
+ 
+Краткое описание 
+Data Scientist/ML Engineer Имею более года опыта коммерческой работы с глубоким обучением и 
+ML. Хочу развиваться в направлении timeseries или ML. 
+Технологический  стек 
+Python: pytorch, pandas, sklearn, xgboost, matplotlib, optuna, plotly, statsmodels, numpy, scipy, etc. 
+Вспомогательные инструменты: SQL, pyspark, bash. 
+Нейронные сети: CNN, LSTM, GRU, FC, Transformer, etc. 
+Математический стек: Теория вероятности, статистика, оптимизация, линейная алгебра и другое. 
+ 
+Опыт работы 
+Data Scientist/ML Engineer 
+Июнь 2022 - Июнь 2023 
+AXALIT 
+• Разработал пайплайн на sklearn/pytorch/optuna, классифицирующий химические составы в камне для 
+горнодобывающей промышленности. Модель обрабатывала трехмерный тензор спектральных отсчетов. 
+Имплементировал модель в AXALIT. Точность модели составила 0.89 по метрике kappa. Результаты 
+позволили привлечь инвестиции в проект. 
+• Разработка и развертывание SMP/XGBoost системы по обнаружению и классификации отходов оптического 
+сепаратора WingsBee. Обучил модель семантической сегментации с метрикой IoU=0.89. Индексы 
+соответствующих классов выхода модели SS поступали в модель Xgboost. Cohen Kappa=0.82. Cистема 
+получила звание: ""Лучшее распознавание и анализ отходов!""на выставке Иннопром (Главная 
+промышленная выставка страны). 
+• Разработал систему по object detection поврежденного тросса на базе YOLOv5. Внедрил квантизированный 
+пайплайн в процессор дрона, с последующим съемом данных с местного жесткого диска и максимизации 
+метрик до IoU=0,892. Это привело к снижению расходов заказчика на 12.8%. 
+• Классификация овальнообразных металлов с микроскопа. Организовал детектор контуров на OpenCV-java. 
+Из-за недостатка данных, синтезировал их самостоятельно на Opencv-python. Обучил 3-слойную CNN. 
+• Детекция и расчет псевдодиаметров овальнообразного пресса на базе Grabcut OpenCV. 
+Репетитор по теории связи 
+Октябрь 2020 - Апрель 2022 
+Profi 
+• 3 моих учеников сдали экзамен по цифровой обработке сигналов на отлично. 1 ученик сдал курсовую на тему 
+оптимальной линейной фильтрации. 2 Также 1 ученик сдал на отлично диплом на тему “Методы борьбы с 
+межсимвольной интерференцией на основе оптимального H-infinity управления.” 
+• 2 ученика сдали курсовые работы на тему линейных моделей в ML на 5. 
+В рамках потенциального стартапа 
+Февраль 2023 - Август 2023 
+ 
+• Разрабатывал модели по прогнозированию движения актива на базе скрытых моделей Маркова, 
+AR/аналогов AR, deep learning и classic ML. Но как Джим Саймонс пока не разбогател:) 
+• Исследовал методологию mean reversion trading на базе процессов Орнштейна-Уленбека, AR(1) процессов, 
+Калмановской фильтрации и OLS 
+Научная  деятельность 
+Malygin, A. Loginovskikh and G. Reznichenko, ""The Use of Spread Spectrum Signals to Increase the Noise 
+Immunity of Optical Communication Systems Based on the Effect of LED Reversibility"", 2019 International 
+Multi-Conference on Engineering, Computer and Information Sciences (SIBIRCON), Novosibirsk, Russia, 2019, 
+pp. 0069-0072, doi: 10.1109/SIBIRCON48586.2019.8958423 
+Образование 
+Уральский Федеральный Университет 
+ИРИТ - РТФ. Инфокоммуникационные технологии и системы связи 
+Сентябрь 2016 - Май 2020 
+"
+33,source/EGOR BALIUK.pdf,"EGOR BALIUK 
+  baliuk.eeee@gmail.com 
+  
+baliuuuuu 
+   
+7 977 111-06-39 
+ 
+EDUCATION 
+Higher School of Economics, Moscow, Russia 
+2019 – 2023 
+Bachelor of Computer Science, Applied Mathematics and Information Science 
+ 
+EXPERIENCE 
+Chatex (a peer-to-peer cryptocurrency marketplace) 
+Feb 2020 – Present 
+As a golang developer: 
+• Decreased number of questions and requests from the support team to the developers by 95% by developing 
+an administration tool. 
+• Created a RabbitMQ consumer that receives data from various parts of the product, enriches, groups 
+events in batches, and sends to several resources (Google Analytics, etc.) for further analysis. 
+• Introduced and developed a mechanism of A/B test integration. Thanks to this development, we have 
+tested new hypotheses and increased the conversion of successful registration by 8%. 
+• Wrote a specification for our public API. Added and implemented logic for new endpoints and maintained 
+the old ones. 
+• Reduced the 95 percentile response time of several API methods by 2.5 times by optimizing the code and 
+removing redundant remote procedure calls. 
+ 
+PERSONAL PROJECTS 
+BDayTracker [Go, Kotlin] 
+A Telegram bot that reminds you about your friends’ birthdays. Users can add new friends manually or ask 
+the bot to parse the information from VK — the largest CIS-oriented social network. At first, I implemented 
+it in Kotlin, but then rewrote it in Go. On average, the bot sends reminders to nearly 90 users every day. 
+DocumentConverter [Python] 
+It’s a simple web application that can convert documents from one format to another (e.g., DOCX to PDF). 
+I used Flask (Python framework) to develop it. My fellow students use it regularly for our studies. 
+ 
+SKILLS 
+Languages 
+Go (main language), C++, Python 
+Other 
+PostgreSQL, RabbitMQ, Prometheus, k8s, Docker, gRPC, SQL, Bash 
+ 
+AWARDS 
+Yandex Championship 
+Prizewinner 
+The competition for backend developers. 
+2019 
+Belarusian National Olympiad in Informatics 
+Silver medal 
+The largest and most the important competition for Belarusian high school students. 
+2018, 2019 
+Russian Open Olympiad in Informatics 
+Silver medal 
+Exciting and one of the most valuable olympiad for Russian high school students. 
+2019 
+International Zhautykov Olympiad 
+Bronze medal 
+One of the most prestigious educational events held in Kazakhstan. 
+2019 
+Hashcode, Google Code Jam, Kotlin Heroes 
+Participant 
+2018 - 2020 
+"
+34,source/Petr Aleksandrov.docx,"Petr Aleksandrov
+Email:	wadeeeec@gmail.com Mobile: +7-921-754-00-00
+Saint-Petersburg, Russia
+Visa sponsorship required
+
+
+An enthusiastic and dedicated software developer with over 7+ years experience. Extremely organized with the ability to work both independently of own initiative or as part of a successful team, demonstrating the motivation and multi-tasking abilities required to meet demanding deadlines while maintaining the highest of standards.
+
+Experience
+
+Combined Ratio Solutions	Hartford, United States
+Senior Software Developer	oil 2020 - Present
+Added functionality for sending mail from internal documents to the project and created an additional service for processing emails.
+Key achievements: C# ASPNET, MVC, WCF, REST, Html, CSS, JavaScript, React.
+
+SetlCity Company	saint-Petersburg, Russia
+Software Developer	June 2078 - Oct 2020
+Developed a service for processing incoming phone calls which determined whether the number belonged to the region.
+Developed Android applications, which eventually made it easier to control the construction site.
+Developed a web application that allows you to optimize and group access to internal documents.
+Key achievements: C# ASP.NET, .Net Core, Android.Xamarin, WPF, WCF, REST, Html, CSS, JavaScript, React, Redux
+
+
+BFT Company	saint-Petersburg, Russia
+Software Developer	Sept 2015 - June 2078
+	Developed more than 50 report templates using Eclipse BIRT, allowing, as a result, to make fast, informative reports for a large amount of information.
+Developed Helpers for the report generation module, which reduced the development time of each report by more than three times.
+Key achievements: Java, C# ASP.NET, .NET Core, MVC, PostgreSQL
+
+Innovation Systems Laboratory	saint-Petersburg, Russia
+Software Developer	Sept 20J4 - Sept 20 5
+Developed a logging system for the desktop application, which notified developers about the presence of errors.
+Developed a system for searching for items on targeted state-owned online auction sites, which reduced the development time of each site from 4 days to 1.
+Key achievements: C# WinForms and special crypto-keys, NUnit/TDD
+
+
+Education
+Herzen University, Saint-Petersburg
+Bachelor of Science in Economics
+
+
+Saint-Petersburg, Russia
+Jan 2012 - Jule 2019
+
+
+Personal projects
+
+Naeded	Demo service that allows you to find employers to solve everyday and business issues.
+WI/Vw.naeded.com	Requisites for testing: login: setter@set.set
+password: drakavlifte"
+35,source/Denis Rakitnykh.pdf,"Denis
+Rakitnykh
+Software Engineer
+LinkedIn
+iaaaitnykh@gmail.com
++7 960 000 364 64
+Moscow,
+Russia Visa sponsorship
+required
+A highly-skilled software engineer with 9+ years of experience in SDLC/ Programming, Software Architecture and
+Team Management. A result-oriented person with effective clean coding practices, including design, unit testing,
+and peer code-reviews. Strong ability to quickly learn and utilize new technologies.
+EXPERIENCE
+Project: Blockchain core. Smart contract programming language.
+●
+Developed a new parser and compiler of the smart contract language.
+●
+Created specification of the smart contract web IDE improvements, implemented a backend module that
+provides syntax and compiler data and led its integration.
+●
+Profiled and optimized the code. The improvement increased the speed of the blockchain
+importing process by 46% (from 72 to 39 hours).
+●
+Analyzed users' comments, made a requirement list and optimized the language code according to it. The
+improvement decreased the smart contract system usage cost and its maintenance by 30%.
+●
+Leading a process of release planning which includes creation and gathering ideas, analytics, specification
+development and task creation.
+●
+Initiated optimization of the release planning process and created a set of measures to avoid deadline
+problems.
+●
+Leading a team of 4 software engineers.
+Project: Online travel agency (tour and lodging search and reservations).
+●
+Designed a distributed system for search and aggregation of tours, which replaced the previous monolithic
+application. Implemented main modules of the system. It allowed the team to manage the app instance
+amount in a more flexible manner, according to load, and saved around 15% of the server rent budget.
+●
+Developed a subsystem for aggregation of peculiar errors and statistics of backend performance and their
+visualization.
+●
+Developed automated hotel names-mapping and photo-tagging modules using machine learning
+tools: CatBoost, TensorFlow. Reduced handwork for content managers.
+●
+Led a team of 3 software engineers.
+●
+Involved in all full stack development processes on 4 different projects.
+●
+Developed an error prediction system (Healthcare - insurance reports) which included: data preparation,
+cycles of prototyping and result analysis.
+●
+Taught myself Scala and rewrote two core modules of an outdated Java project. This revealed the
+advantages of the new language to the team and led to rewriting the whole project.
+TECHNICAL SKILLS
+●
+Java, Scala, Python, JavaScript, R
+●
+Spring, Hibernate, Kafka, Jenkins, AWS, Nginx, ElasticSearch, Docker, Kubernetes
+EDUCATION
+Tver State University (Tver, Russia)
+
+●
+Master's degree: Fundamental Informatics and Information Technologies in July 2013
+●
+Bachelor's degree: Information Technology in July 2011
+"
+36,source/SEMEN BOKUN.pdf,"• 
+Budniak Ivan 
+Software Engineer with significant competitive programming experience 
+ 
+Email: budniakkkk@yandex.by  
+Mobile: +375 (44) 543-11-11 
+ 
+ 
+EDUCATION 
+Belarusian State University in Informatics and Radioelectronics 
+Minsk, Belarus 
+Bachelor’s degree in Computer Science 
+September 2017 — Expected 2021 
+Yandex School of Data Analysis 
+Moscow, Russia 
+Master’s level program, Machine Learning development track 
+September 2019 — Expected 2021 
+Relevant courses: Probability and Statistics, Machine Learning, Computer Vision, Natural Language Processing, Deep 
+Learning, Reinforcement Learning, Python, C++, GoLang, Algorithms and Data Structures, BigData, Parallel and 
+Distributed Computations 
+ 
+WORK   EXPERIENCE 
+Deltix (Bought by EPAM Systems at january 2020) 
+Minsk, Belarus 
+Software Engineer 
+August 2018 – Present 
+Developed a system for integration with various top crypto-custodies for crypto-trading platform used by hundreds of 
+thousands. 
+• Created a service for secure interacting with any Ethereum tokens. 
+• Fixed major issues of crypto-trading platform high loaded module. 
+• Built a tool for crypto-trading platform stress-testing. 
+Mogilev State Regional Institute for Education Development 
+Mogilev, Belarus 
+Competitive Programming Mentor 
+Febrary, March 2018&2019 
+• Preparing students of Mogilev region for the National Olympiad in Informatics. Many of them were awarded. 
+PROJECTS 
+JPEG decoder: Baseline sequential mode of JPEG decoder, written in C++ using OOP and various algorithms such as 
+Huffman decoding. 
+Ukrainian-Russian translator: Written in Python with Sklearn library, using embedding space mapping with optimal 
+transformation derived from SVD decomposition. Used public dataset with 1M word pairs. 
+LightBulbChan: Student assistant in the form of a multifunctional telegram bot. Uses various APIs to help students 
+prepare for classes. 
+AWARDS 
+ACM ICPC, NEERC ICPC 
+Saint-Petersburg, Russia — December, 2017 
+• Competition in sports programming among teams of universities of the North Eastern Europe, Western Subregion 
+• III degree award (2017, 81/244 place) 
+ACM ICPC, Belarus and Baltics Regional Contest 
+Minsk, Belarus — October, 2017&2018 
+• Competition in sports programming among teams of universities of the North Eastern Europe, Western Subregion 
+• III degree award (2019, 18/57 place) 
+• II degree award (2017, 8/57 place) 
+Individual Olympiad in Informatics and Programming 
+Saint-Petersburg, Russia — March 2017 
+• Programming competition among schoolchildren of Belarus, Russia and Kazakhstan 
+• I degree award (10/180 place) 
+Belarusian National Olympiad in Informatics 
+Belarus — March 2015&2016&2017 
+• II degree award (2017, 12/123 place) 
+• II degree award (2016, 12/120 place) 
+• III degree award (2015, 39/118 place) 
+Top 3% on Codeforces — ednotdead 
+Top 2% on Hackerrank — Ed_Os 
+• 
+• 
+• 
+• 
+"
+37,source/Artur Yapparov.docx,"
+
+
+
+
+
+
+
+
+
+
+
+CONTACT
++61400037444
+araaaufa88@gmail.com https://au.linkedin.com/in/araaayapparov
+
+PROFILE
+Software engineer with master’s in information security and 10 years of experience specializing in front end. Seeking to leverage my technical and soft skills to become the next software engineer at ByteDance.
+
+EDUCATION
+2005-2010
+Information security, Master's degree,
+Ufa State Aviation Technical University
+
+SKILLS
+FRONT END DEVELOPMENT
+Javascript, Typescript, React,
+Angular
+
+BACK END DEVELOPMENT
+PHP, Java, Node.js
+
+MOBILE DEVELOPMENT
+React Native, Cordova
+
+DATABASES
+MySQL, Postgres, MongoDB,
+CouchDB, InfluxDB
+
+FEATURE LEADING
+EXPERIENCE
+SENIOR SOFTWARE ENGINEER
+Atlassian, Australia | jun 2017 - present
+Writing tons of javascript code. Refactoring legacy, adding new features.
+Monitoring our team’s SLAs
+Feature Leading. Led multiple projects from planning to delivery. Drove key decisions, such as choosing tech stack and building an API. Facilitated deployment and managed expectations of customers and stakeholders.
+Mitigated potential negative impact on customers by adding metrics and SLAs.
+Mentoring junior developers.
+Gave several public talks. Topics: JS fundamentals
+- event loop/call stack; Accessibility; How to handle very long recursions.
+
+SOFTWARE ENGINEER
+Philips, Netherlands|nov 2016 - may 2017
+As part of PPF (proto-pilot factory) team, I was developing prototype mobile apps using React Native.
+
+TEACHER
+Belarusian State University of Informatics and Radioelectronics, Belarus|sep 2015 - jun 2016
+Initially started as a lab assistant, I had to replace the teacher and led one subject for two semesters. I conducted lectures, lab sessions and exam in the end of second semester.
+
+FULL STACK DEVELOPER
+HQSoftware, Belarus|nov 2014 - oct 2016
+Developed all sort of apps (web/mobile/desktop) using various languages (Javascript, PHP), libraries and frameworks (React, React Native, Angular, Ember, Symphony, Laravel, Electron) and databases (MySQL, Postgres, MongoDB, CouchDB, InfluxDB)
+Communicated with customers and together with them planned our work
+Managed the team work and collaboration
+
+PHP  DEVELOPER
+B2B-Center, Belarus|feb 2014 - oct 2014
+As a PHP developer during my time at B2B-Center I was developing trade platform used by large businesses in Russia.
+
+WEB DEVELOPER
+Prestigia.com, Morocco|sep 2011 - nov 2013
+Prestigia is a small online travel agency, where I worked on both back end (PHP, MySQL) and front end (Javascript, jQuery)."
+38,source/Alan Iusupov .pdf,"Alan Iusupov  
+iOS Developer 
++996 (505) 21-11-11 |iusupov.aaaaai@gmail.com  
+ 
+WORK EXPERIENCE 
+OAO Optima Bank iOS Developer Nov 2022 – Present ● Successfully produced 5 releases under my guidance.. 
+● Developed over 8 complex functionalities that facilitated the use of repetitive screens and brought over 1 million 
+KGS to the company, and partnered with over 35 companies. 
+● Optimization: Improvement of Git and TestFlight workflows. Experienced in implementing new targeting 
+strategies for developers and optimizing app build times. Successfully improved collaboration, distribution, and 
+testing processes, significantly reducing app build time from 5-10 minutes to 1-3 minutes 
+Geeks Bishkek, Kyrgyzstan iOS Trainer Dec 2022 – Aug 2023 ● Trained over 100 students in iOS development ● 
+In the middle of a full course of study, 5% got a job/internship. 
+ 
+Mustard Inc. Bishkek, Kyrgyzstan iOS Developer May 2021 – Nov 2022 ● Developed error handling solutions for 
+server applications, providing efficient and consistent error and exception handling using ""Strategy"" design pattern. 
+● GIF optimization has reduced memory consumption by 40% for smooth playback and minimal resource usage. 
+● Refactored the profile page, which increased its use by 10% more often, made it smoother and more pleasant to 
+use. 
+ 
+EDUCATION 
+International Alatoo University Bishkek, Kyrgyzstan Bachelor of Computer Science June 2023 Relevant 
+Coursework: Software Engineering; Operating Systems; Algorithms; 
+ 
+ 
+SKILLS 
+Technologies: Swift, UIKit, SwiftUI, Swift Concurrency, Combine, SPM, Cocoapods, KMM 
+Architectures: MVx, VIPER 
+"
+39,source/Владимир Никонов.docx,"Владимир Никонов
+nikono67833@gmail.com | linkedin.com/in/aaaanii-nikonov | telegram: taaaaab33 | github: taaaaab33
+
+
+Я опытный разработчик Python с двухлетним стажем и более года коммерческого опыта с Django, специализирующийся на образовательных технологиях. Используя технологии, такие как Django, Redis, Postgres и Docker, я создаю надежные серверные приложения.
+Опыт
+Django Разработчик	Авг 2022 – Сейчас
+ТРАЕКТО, ООО	Удалённо
+Разрабатываю архитектуру системы управления обучением (Learning Management System) с нуля
+Реализовал интеграцию API с платформой видеоконференций BigBlueButton, что помогло сэкономить около 13,3% инвестиций
+Реализую понятную и ясную документацию API с помощью drf-spectacular, что уменьшило время написания документации на 70%
+Сократил время устранения ошибок на 35%, добавив инструмент отслеживания ошибок и багов Sentry
+Пишу CI/CD скрипты c помощью GitHub Actions для развертывания, автоматизации тестирования и настройки уведомлений, что помогает автоматизировать развертывание проекта на демонстрационном сервере и сэкономить около 10-15 минут ручной работы после каждого обновления
+Проекты
+Система Управления Обучением | Python, Django, PostgreSQL, Docker, Celery, Redis	Авг 2022 – Сейчас
+Создал систему сессий образовательного контента, способную хранить данные о действиях пользователей для более чем 10 000 сотрудников в системе управления обучением (LMS).
+Внедрил стандарт SCORM (Content Sharing Object Reference Model) для отслеживания прогресса пользователейs
+Добавил автоматический импорт данных пользователей из Active Directory и других систем управления обучением, таких как iSpring, что сократило время ручной работы для администрации LMS на 2 часа
+Образование
+Авиационный техникум	Пермь, Россия
+Программист	Сен 2019 – Июль 2023
+Языки
+Английский, B2
+Русский, Родной
+
+Технические навыки
+Языки: Python, SQL (Postgres)
+Фреймворки: Django, Django Rest Franework, Django Channels
+Инструменты для разработки: Docker, GitHub, PyCharm, Postman, Linux, Poetry, Nginx
+Библиотеки: PyTest, bs4, drf-spectacular, requests, ldap3, Sentry, celery, redis"
+40,source/Mitya Brezovsky.pdf," 
+ 
+Mitya Brezovsky 
+ 
+Java Software Developer 
+ 
+ 
+Summary 
+ 
+• 
+Experience in commercial software development - 1 year as Java developer. 
+• 
+Have 4 months of remote work experience. 
+• 
+Practical work with Python, Bash and SQL. 
+• 
+Good work in team. Easy to learn. Admirable analytical skills. 
+ 
+Skills 
+ 
+• 
+Java: Spring Framework (Boot, MVC, Data), Gradle, Maven, Hibernate, JUnit. 
+• 
+JavaScript: React, npm. 
+• 
+Databases: SQL (SQLite, PostgreSQL, MS SQL Server). 
+• 
+Other skills: Linux (primary OS), Git, AWS, HTML, CSS, Bootstrap, Jenkins, Bash, 
+Python. 
+ 
+Employment 
+ 
+• 
+STiM (Nov 2019 - Present) 
+◦ Wialon Analytics – analytical system for cars sensors monitoring: 
+▪ Designed and implemented the system (both front and backend) from scratch. 
+Technologies: Java, JavaScript, React, SQLite, MS SQL Server. 
+ 
+Awards and Initiatives 
+ 
+• 
+Hackathon""#BRESTHACK2018""- 3rd place as a team member of 2 people: 
+◦ Developed product from scratch to MVP in a limited time (only 48h). 
+◦ Prepared and presented our product (experience with public speaking). 
+• 
+Brest Python Meetup (Feb 29, 2019) - co-organizer and speaker. 
+ 
+Languages 
+ 
+• 
+English – B1 (Intermediate). 
+• 
+Russian – Native. 
+ 
+Education 
+ 
+• 
+Brest State Polytechnic College - Mechanical Technical (2016 – 2020). 
+"
+41,source/Kirill Radezky.docx,"Kirill Radezky
+Software Engineer
+daniaaaadezky@gmail.com
++370003501501
+Visa sponsorship required Minsk, Belarus
+GitHub LinkedIn
+
+Technical skills
+
+JS, TS, node.js, mongo, graphql, react.js, docker, gatsby, redux saga, OAuth 2.0, GitLab CI, GitHub actions, agile, various git workflows, design patterns
+
+Work experience
+
+Oveo (January 2021 - present) | start-up
+
+BeatHead (October 2019 - November 2020) | product company | Back-end engineer
+Saved dozens of hours of fellow workers' time by implementing an application to create new accounts in many tools like AppsFlyer, Firebase, etc.
+Implemented generation of http clients from swagger schema automatically connecting 4 microservices together
+Implemented a music analyzing tool showing BPM and onsets in audio
+
+Expert Soft (September 2017-January 2021) | outsource company Projects
+Credit rating website (August 2020-January 2021) | Leading front-end engineer
+Implemented the micro frontend project 2 months faster than it was expected by leading and teaching a team of two back-end developers
+
+Health and beauty websites group (March 2019-August 2020) | full-stack engineer
+Implemented a user tracking and personalization module for all websites of the group and reduced by 8 times the time of subsequent changes
+
+Life science e-commerce website (September 2018-March 2019) | front-end engineer
+Redesigned the whole web-site
+Set up an optimizing front-end resources build system, thereby accelerated the page loading time by 20%
+
+E-commerce drugstore website (September 2017-September 2018) | full-stack engineer
+Taught myself React.js in 1 month and eliminated the need for a dedicated front-end developer
+Connected the website to a payment system
+Brought the project to production release
+
+Education
+
+B.S. in Software Engineering at Belarusian State University of Informatics and Radioelectronics"
