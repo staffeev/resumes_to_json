@@ -1,0 +1,138 @@
+  
+Alexey Melnichnikov 
+Software Engineer 
+ 
+Address Moscow, Moscow, 125310 
+Phone 77777777777777 
+E-mail example@gmail.com 
+LinkedIn https://linkedin.com/in/ 
+ 
+ 
+ 
+An experienced software engineer with expertise in back-end development of large-scale and projects 
+from the ground-up to runtime. Skilled in directing development with creative and performance-oriented 
+approach. A team player with leadership and mentorship experience, close collaboration with businesses 
+to meet the needs of end users. 
+ 
+Skills 
+Languages: Java, Kotlin, Groovy 
+RDBMS: PostgreSQL, Oracle 
+NoSQL: MongoDB, Cassandra, Clickhouse, Elasticsearch, Hazelcast, Infinispan 
+ 
+Techs: Spring (Core, Cloud, Boot), ORMS (Hibernate, MyBatis), Java specs ( JMS, JAX-RS, JAX-WS), 
+JUnit, Spock, Testcontainers, GraphQL, Vert.X, Kafka, RabbitMQ, Docker (Swarm, Compose), 
+Proxmox VE, SOA/REST/Web Services, WebSockets 
+Tools: Jira, GitHub, BitBucket, GitLab, TeamCity, Ansible 
+VCS: Git, Svn, Mercurial (HG) 
+Methodology : Agile, Scrum, Kanban, TDD 
+Web Servers: Nginx, Tomcat, Netty, Jetty 
+Work History 
+ 
+Mar 2019 - 
+Current 
+Software Engineer 
+Mail.ru Group, Moscow 
+Project: Financial marketplace for entrepreneurs развивай.рф (razvivai.rf) 
+Accomplishments: 
+Implemented MWP and shipped it to production for 4 months. 
+Developed system architecture. 
+Profiled and tuned up all JVM apps. As a result, decreased the price of 
+infrastructure by two. 
+Techs: Java, Kotlin, Groovy, PostgreSQL(debezium), Docker Swarm (migration process 
+
+ 
+ 
+May 2017 - 
+Apr 2020 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Apr 2016 - 
+Mar 2019 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Jul 2014 - 
+Apr 2016 
+to Kubernetes), Kafka. 
+Lead Software Engineer 
+Divico LLC, Moscow 
+Project: Internal bloggers search platform. Team lead, a distributed team of 5. 
+Accomplishments: 
+Created infrastructure from scratch using Proxmox virtualization and Docker. 
+Organized code review process. 
+Official Beta version was shipped on time. 
+Created analytics dataflow of YouTube, Instagram, VK bloggers, which helped to 
+analyze trends in social networks. That highly increased marketing revenue. 
+Created report management which automated major part of manual labour of 
+some departments. 
+Techs: Java, Scala, PostgreSQL, Clickhouse, Cassandra, Docker Swarm, RabbitMQ, 
+Spring Dataflow, Elasticsearch. 
+Software Engineer 
+Nexign, Moscow 
+Projects: 
+MegaFon( tier 1 telecom operator ) customer portal API, Billing API, Push 
+notifications API, support chat service. 
+Opensource template engine development https://github.com/MegafonWebLab 
+/histone-java2 
+Billing Platform, API Gateway service 
+Accomplishments: 
+Orchestrated efficient large-scale software deployments, including testing 
+features, correcting code and code reviewing. 
+I designed and developed a support chat that facilitated communication with 
+end users. 
+Contributed to Histone2 template engine. 
+Main developer of API Gateway service, which served as main API composition 
+layer in new Billing platform. Assisted with the interviewing and hiring of software 
+engineers. 
+Techs: Java, Vert.x, MongonDB, PostgreSQL, RabbitMQ, Zookeeper, Docker Swarm. 
+Software Engineer 
+Eldorado LLC, Moscow 
+Projects: Online store eldorado.ru and mobile application for employees. 
+Accomplishments: 
+Took a significant part in the development of online platform on SAP Hybris 
+platform. 
+Rewrote PL/SQL business logic to Java API. 
+Created a mobile application using Apache Cordova. 
+Techs: Java, JS(Apache Cordova), Oracle. 
+
+ 
+Education 
+ 
+Sep 2007 - 
+Jun 2013 
+Master of Science: Electrical And Electronics Engineering 
+Moscow Aviation Institute - Moscow 
+ 
+Certifications 
+Sep 2016 
+Coursera Course Certificates: Functional Programming Principles in Scala 
+ 
+Mar 2017 
+Coursera Course Certificates: Functional Program Design in Scala 
+ 
+Apr 2017 
+Coursera Course Certificates: Parallel programming 

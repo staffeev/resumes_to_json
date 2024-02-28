@@ -1,0 +1,64 @@
+SUMMARY
+Eshi Juraev
+Email: baaahayotoff@gmail.com
+LinkedIn: aaakhayot
+GitHub: aaakhayot
+Software engineer with 3+ years of experience in back-end development with designing and implementing scalable, cloud appli-
+cations and microservice-based distributed systems using various technologies.
+EXPERIENCE
+Neulpum Maru — e-commerce platform in South Korea
+Remote, Seoul - South Korea
+•
+Software Developer at Development Team
+Mar 2023 — Present
+◦ Developed data scraping mechanisms using Python and web scraping tools for data collecting and analysing
+◦ Built a secure back-end API integration for custom order service, enabling real-time data fetching and processing
+◦ Implemented CRM system by distributing multiple services and integrating background workers using Celery and Redis
+Digital Entertainment
+Remote, Daegu - South Korea
+•
+Backend Developer at Development Team
+Mar 2023 — Jul 2023
+◦ Developed an AI chat bot application using the OpenAI Chat GPT API
+◦ Customized the GPT model to respond as various famous characters, providing engaging and immersive interactions
+◦ Integrated the application as part of a metaverse app, enhancing user experience within the virtual world
+Dirilis Group INC — Innovative IT Solutions Provider
+Remote, Chicago - USA
+•
+Backend Developer at Development Team
+Jan 2023 — Mar 2023
+◦ Implemented API integration using Python AWS Lambda functions (Serverless) by storing Data to DynamoDB on AWS
+◦ Serviced Cron based jobs by scheduling tasks form AWS lambda functions
+◦ Worked with Frontend Team to connect API callbacks from AWS API-Gateways from integrated data
+Papamarket — e-commerce platform in South Korea
+Seoul, South Korea
+•
+Software Engineer at IT Development Team
+Jun 2022 — Mar 2023
+◦ Implemented a scalable Demand Forecasting system using forecasting models and order datasets by enhancing accuracy
+◦ Developed Warehouse System with real-time product quantity tracking service that reduced Fresh Team workload by 30%
+◦ Built internal services for automation, data fetching, web scraping and data parsing using Python and JavaScript
+◦ Implemented CI/CD pipeline for auto deployment using Jenkins and Github actions
+Keimyung University, Daegu — Outsourcing for Tech Companies
+Daegu, South Korea
+•
+Backend Developer at Development Team
+Mar 2021 — May 2022
+◦ Developed (HelpMeUp) Social Platform by bringing several services to solve problems of students during their semesters
+◦ Implemented and maintained 10+ web applications by using Python and Go programming languages
+◦ Created CRUD based RESTful APIs with JWT authentication methods by using Gin Framework of Golang
+SKILLS
+Languages:
+Python, JavaScript, Go, C#, SQL
+Frameworks: Django, FastAPI, Flask, NodeJS, EspressJS, ES6, JQuery, SpringBoot, Gin, PostgreSQL, MySQL, SQLite3
+Others:
+Docker, Kafka, Celery, Redis, Jenkins, Linux, AWS, Unity Game Engine
+EDUCATION
+◦ Bachelor of Engineering in Game Mobile Engineering, Keimyung University
+Mar 2020 — Jul 2023
+Relevant courses: Operating Systems, AI in Game Development, Distributed Systems, Databases, Web Development,
+Algorithms, Data Structures, Data Communication, Object Oriented Programming, Networks
+ADDITIONAL
+◦ Languages: English, Russian, Korean, Uzbek
+◦ Volunteering: Mentored and reviewed homework assignments at Coding School (KMU) programming for beginners
+◦ Awards: Best English Translator and Guide of IT Development Team (Papamarket)

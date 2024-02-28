@@ -1,0 +1,89 @@
+Marat Dolya
+aaaam.dolya@gmail.com
++14000075075
+linkedin.com/in/aaaaolya
+Summary
+• 19+ years of experience in building various software solutions (.NET/.NET Core as a main Stack)
+• In my previous company I went from team lead to .NET Software Architect managing team 16
+•
+Currently I’m a solutions architect helping teams to adopt services at AWS, and improving SaaS
+platform sales attractiveness and standardization
+Experience
+Software Architect
+Itera
+Jul 2023 - Aug 2023 (2 months)
+• Requirements gathering
+• Presales
+Cloud Solutions Architect
+Itera
+Nov 2021 - Jun 2023 (1 year 8 months)
+• Supported teams in migrating and adapting services from on-premise to the cloud.
+• Consulted teams for developing cloud-native applications.
+• Introduced an open-source API management tool after conducting market research.
+• Provided Requirements Analysis in communication with UX and Frontend team for proof of concept.
+•
+Presented other scenarios of API management tool used to improve the software
+development process.
+• Designed architecture solutions and contributed to overall strategic planning.
+• Actively participated in knowledge-sharing activities within the team.
+Software Architect
+Namecheap, Inc
+Apr 2018 - Oct 2021 (3 years 7 months)
+• Provided interviews and code reviews.
+• Led the integration of a child product with the main one.
+• Led migration of company products from on-premises to AWS cloud.
+Technical Lead
+Namecheap, Inc
+
+Mar 2016 - Mar 2018 (2 years 1 month)
+
+• Led the development of a multifunctional team of developers, QA, and product owners.
+• Managed team of 16
+Introduced Software Development Life Cycle for existing WCF application and introduced database
+migrations for Microsoft SQL Server to Windows servers.
+• Designed solution architecture for key systems.
+•
+Decoupled a monolithic product to a service-oriented, Linux-friendly, cloud-agnostic
+system, and migrated
+the database from on-premise to AWS Postgres.
+• Designed highly-available web services.
+• Improved customer support effectiveness by providing training and demos.
+• Implemented IdentityServer4 as the main security tool at the company-wide level.
+Technical Lead
+Dev.Pro
+Jul 2015 - Mar 2016 (9 months)
+• Improved communication and collaboration between the development team and QA.
+• Introduced best practices from Agile Methodologies to the team.
+• Conducted interviews and code reviews for efficient resource allocation.
+• Developed integrations with Microsoft Exchange to enhance functionality.
+• Automated deployment processes and initiated the migration from Bugzilla and SVN to TFS.
+• Provided support to other teams for backend integration.
+• Actively involved in software development and gathering requirements.
+Team Lead
+TEAM International
+Sep 2014 - Jun 2015 (10 months)
+• Gathered requirements and facilitated effective communication with stakeholders.
+• Conducted code reviews and interviews to ensure code quality and team productivity.
+• Developed software for CMS systems.
+• Designed services based on best practices from Agile methodologies.
+• Introduced and implemented Agile practices within the team
+Senior .NET Developer
+Antarasoft Ltd
+Jan 2009 - Oct 2009 (10 months)
+•
+Actively participated in the development of desktop and web applications, ensuring the
+delivery of high-quality solutions.
+• Conducted code reviews to maintain code quality and adherence to best practices.
+• Led the design and development of applications from scratch, meeting client requirements.
+• Gathered requirements and maintained effective communication with customers
+Developer
+Terrapoint Canada (Ambercore)
+
+Sep 2004 - Dec 2008 (4 years 4 months)
+• Developed software solutions for desktop applications, meeting client requirements.
+• Conducted code reviews to ensure adherence to coding standards and maintain code quality.
+• Gathered requirements and actively participated in communication with customers.
+Education
+National Technical University "Kharkiv Polytechnic Institute"
+Engineer – System Analyst, Information Management Systems and Technologies
+Sep 1998 - Feb 2004

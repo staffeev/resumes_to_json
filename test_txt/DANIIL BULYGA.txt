@@ -1,0 +1,71 @@
+Igor Korniltsev 
+Data Scientist Team Leader 
+Saint Petersburg, Russian Federation 
++79226039000 
+kornilaaaa@yandex.ru 
+ 
+ 
+SUMMARY 
+ 
+Data Scientist with 5+ years of experience in using predictive modeling, data processing and data mining algorithms to 
+solve challenging business problems. Involved in Python open source community and passionate about deep learning. 
+Competencies include leading teams and large portfolios of data science projects, representing the company at 
+conferences through public speaking, working with diverse ML-technologies: NLP, NN, Recommender Systems, ensuring 
+good communication between the parties to optimize strategies. 
+ 
+WORK EXPERIENCE 
+ 
+Sberbank. Data Scientist Team Leader 
+Jul 2017 – Present 
+/ Led 2 teams of 5 data scientists working on 10 different projects in the banking sphere 
+/ Built a scalable PySpark pipeline for data processing from scratch which increased the overall productivity by 40% 
+/ Built a model based on a payments graph, using embedding outputs from several models such as collaborative 
+filtering, content-based factorisation, word2vec, LDA, to identify the company’s business industry. It earned the bank 
+$100M 
+/ Used 2B+ documents to train spark word2vec embeddings to improve 20+ bank’s models 
+/ Collaborated with DevOps and Data Engineers that increased team’s productivity and speeded up the time to market 
+/ Deployed into production 8 models in one year using Python, Spark, Jenkins. The result was marked as the highest 
+across 15 DS teams 
+/ Created a model capable of predicting the annual revenue of 4 million companies. The model was widely covered in 
+mass media and presented at the main national conference 
+/ Ensured good communication between CEOs and engineers to optimize strategies 
+/ Represented the company in AI/ML research at conferences through public speaking 
+ 
+Mobile Telesystem (MBT). Data Scientist 
+Jul 2015 – Jun 2017 
+/ Designed and created an anomaly detection system from start to finish (from data mining and modelling to creating the 
+report in Tableau for data analysts) which saved the company more than $2M per year 
+/ Implemented a technique based on sARIMA and time series classification to identify suspicious patterns in network 
+traffic 
+/ Established Tableau BI report for highlighting risk zone, e.g. fraude events, equipment breaks, which decreased 
+the time-to-insights by 148% and saved more than 30% of data analysis time 
+/ Used 10000M+ transactions in an ETL-process via SAS EG and Teradata 
+/ Built strong communication across parties to successfully launch the project 
+ 
+SKILLS 
+ 
+Languages 
+Python 
+SQL 
+Scala 
+ML 
+Classification 
+Regression 
+RecSys 
+Time 
+Series 
+Databases 
+Hadoop/Spark 
+Oracle 
+PL/SQL 
+Teradata 
+BI 
+Tableau 
+Power 
+BI Excel 
+ 
+EDUCATION 
+ 
+/ Ural Federal University. Bachelor’s degree of Program engineering, 6/2021 
+/ Ural Federal University. Master’s degree of Financial markets and investments, 6/2014 
+/ Ural State Mining University. Master’s degree of Underground construction, 5/2012 
