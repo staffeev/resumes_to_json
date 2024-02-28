@@ -1,7 +1,7 @@
 from nltk import ne_chunk, pos_tag, word_tokenize, download 
 from nltk.tree import Tree
 
-def exstract(text):
+def exstract_name(text):
     nltk_results = ne_chunk(pos_tag(word_tokenize(text)))
     name_surname = []
     for nltk_result in nltk_results:
