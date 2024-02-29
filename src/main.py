@@ -2,12 +2,9 @@
 
 # p = Pipeline()
 # p.run_all()
-import os
-print(os.curdir)
-import aspose.words as aw
-doc = aw.Document("isolator/Нурутдинов Александр.doc")
-doc.save("random/Нурутдинов Александр.pdf")
 
-from docx2pdf import convert
- 
-convert("/isolator/Alina Borovik.docx", "/random/Alina Borovik.pdf")
+
+import os
+
+s = os.listdir("source")
+print(len([i for i in s if i.endswith(".doc") or i.endswith(".docx")]), len(s))
