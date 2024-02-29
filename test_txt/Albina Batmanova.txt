@@ -1,0 +1,71 @@
+Albina Batmanova
+
+Software Engineer, Moscow
+
+lb.batmanova@gmail.com
+IrinaBatmanova
++7 (985) 000 47-62
+
+SKILLS
+
+Python, Bash, JavaScript, C++, SQL, Flask, Django, Asyncio, Pytest, React, Qt, Pandas, Matplotlib, Linux,
+Docker, Swarm, Git, Jira, Gitlab CI, PostgreSQL, Redis, ArangoDB, Neo4j, Keycloak, Postman
+
+EDUCATION
+
+Moscow Institute of Physics and Technology
+Moscow, Russia
+
+Bachelor of Applied Mathematics and Informatics
+July 2019
+
+EXPERIENCE
+
+MyOﬃce
+
+Lead Software Engineer, Software Engineer
+March 2019 - Present
+
+Develop, enhance and support several microservices for storing metadata and files of Private Cloud prod- ucts
+Participate in code reviews
+Improve Gitlab CI pipelines for services
+Use Python, Flask, Falcon, Postman, ArangoDB (graph database), Keycloak (OIDC service), Gitlab, JIRA in my work
+
+Moscow Institute of Physics and Technologies
+
+Lecturer of workshops
+October 2019 - December 2019
+
+Gave practical classes for a group of third year students about web development
+
+Used Django framework
+
+Cadence Design Systems
+
+Software Engineer Intern
+June 2018 - March 2019
+
+Took part in developing a new 3d viewer of microschemes architecture
+
+Used C++, Qt, Perforce, Reviewboard in my work
+
+PROJECTS
+
+MLDev - version control for ml-experiments
+
+Developed yaml parser with parameters substitution (environment variables)
+Set up gitlab-ci for pre-release testing of the system (deploy on different operation systems, run unit-tests)
+
+Snakify - interactive python lessons for kids
+
+Developed new frontend features on React
+
+Hackathons
+
+Personalized a landing page for brokerage service based on demographical information about anonymous
+user gained from Yandex Direct (used React for landing page and YandexDirect for analytics)
+Created a tool for analyzing system security logs, helping to see and prevent potential attacks (Used React for web
+interface)
+Developed a network for connecting potential startupers with mentors, investors and other useful and in- terested
+people (used data analysis models from sklearn)
+

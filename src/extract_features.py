@@ -1,9 +1,28 @@
 from nltk import ne_chunk, pos_tag, word_tokenize, download 
 from nltk.tree import Tree
 import pandas as pd
-# import locationtagger
+import locationtagger
+import fitz
 import re
 from read import read
+
+
+
+def find_tg(x):
+    found = re.findall(r"\s*@\S+", x)
+    for i in found:
+        if '.' not in i:
+            return i.strip()
+    return None
+
+
+
+def find_tg(x):
+    found = re.findall(r"\s*@\S+", x)
+    for i in found:
+        if '.' not in i:
+            return i.strip()
+    return None
 
 
 def find_email(text):
@@ -27,6 +46,61 @@ def find_phone(text, lb=11):
     return None
 
 
+def reg_find_url(string):
+    regex = r"(?i)\b((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'\".,<>?«»“”‘’]))"
+    url = re.findall(regex, string)
+    return [x[0] for x in url]
+
+
+def find_substring_in_string(sub, text, save="postf"):
+    ix_pref = text.find(sub)
+    if ix_pref == -1:
+        return None
+    if save == "postf":
+        return text[ix_pref + len(sub):]
+    elif save == "pref":
+        return text[:ix_pref]
+
+
+def process_url(link_pref, text, keywords):
+    f = find_substring_in_string
+    keyword, mode = keywords[0]
+    res = f(keyword, text, mode)
+    if res is None:
+        return None
+    for keyword, mode in keywords[1:]:
+        value = f(keyword, res, mode)
+        if value is None:
+            break
+        res = value
+    return link_pref + res
+
+
+def filter_nans_in_urls(df):
+    return df.apply(lambda row: ([x for x in row if x is not None] + [None])[0])
+
+
+def get_links_from_pdf(filename):
+    links = []
+    for page in fitz.open(filename):
+        links.extend([obj["uri"] for obj in page.get_links()])
+    return links
+
+
+def find_links_for_resumes(df):
+    urls = df.apply(lambda x: reg_find_url(x["Text"]) + get_links_from_pdf(x["UsedFilename"]), axis=1)
+    github_urls = urls.apply(
+        lambda row: [process_url("https://github.com/", x, \
+        [("github", "postf"), ("/", "postf"), ("/", "pref")]) for x in row])\
+        .apply(lambda row: ([x for x in row if x is not None] + [None])[0])
+    linkedin_urls = urls.apply(
+        lambda row: [process_url("https://www.linkedin.com/", x, \
+        [("linkedin", "postf"), ("/", "postf"), ("/", "postf")]) for x in row])\
+        .apply(lambda row: ([x for x in row if x is not None] + [None])[0])
+    # linkedin.com/in/renat
+    return github_urls, linkedin_urls
+
+
 # text - all text from a block of resume
 # name_surname - list [name, surname] (most of the times :) )
 def extract_name_and_surname(text):
@@ -47,33 +121,25 @@ def extract_name_and_surname(text):
     return name_surname if name_surname else None
 
 
-# def extract_location(x):
-#     return locationtagger.find_locations(text=" ".join(x) if x else " ")
+def extract_location(x):
+    return locationtagger.find_locations(text=" ".join(x) if x else " ")
 
 
-# def extract_country(location_obj):
-#     return location_obj.countries[0] if location_obj.countries else None
+def extract_country(location_obj):
+    return location_obj.countries[0] if location_obj.countries else None
 
 
-# def extract_city(location_obj):
-#     return location_obj.cities[0] if location_obj.cities else ""
+def extract_city(location_obj):
+    return location_obj.cities[0] if location_obj.cities else ""
 
 
-# def extract_geo_information(df):
-#     loc = df["Stemmed"].apply(extract_location)
-#     countries = loc.apply(extract_country)
-#     print("Field `Country` extracted")
-#     cities = loc.apply(extract_city)
-#     print("Field `City` extracted")
-#     return countries, cities
-
-
-# def extract_geo(df):
-#     df["Location"] = df["Stemmed"].apply(lambda x: locationtagger.find_locations(text=" ".join(x) if x else "a"))
-#     df["Country"] = df["Location"].apply(lambda x: x.countries[0] if x.countries else "")
-#     df["City"] = df["Location"].apply(lambda x: x.cities[0] if x.cities else "")
-#     df = df.drop(columns=["Location"])
-#     return df
+def extract_geo_information(df):
+    loc = df["Stemmed"].apply(extract_location)
+    countries = loc.apply(extract_country)
+    print("Field `Country` extracted")
+    cities = loc.apply(extract_city)
+    print("Field `City` extracted")
+    return countries, cities
 
 
 def extract_features(df):
@@ -81,7 +147,11 @@ def extract_features(df):
     print("Field `Email` extracted")
     df["Phone"] = df["Text"].apply(find_phone)
     print("Field `Phone` extracted")
+    df["Telegram"] = df["Text"].apply(find_tg)
+    print("Field `Telegram` extracted")
+    df["GitHub"], df["LinkedIn"] = find_links_for_resumes(df)
+    print("Fields `GitHub` and `LinkedIn` extracted")
     df["NameSurname"] = df["Text"].apply(extract_name_and_surname)
     print("Field `NameSurname` extracted")
-    # df["Country"], df["City"] = extract_geo_information(df)
+    df["Country"], df["City"] = extract_geo_information(df)
     return df

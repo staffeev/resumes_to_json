@@ -1,7 +1,6 @@
 import pandas as pd
 import os
 import fitz 
-# import docx
 import aspose.words as aw
 
 
@@ -27,11 +26,8 @@ def read(path="source", ignore_docx=True):
             convert_docx_to_pdf(name, extension)
             tmp_files.append(name + ".pdf")
         blocks, all_text = process_pdf_file(name + ".pdf")
-        texts.append((filename, blocks, all_text))
-        # for block in blocks:
-        #     texts.append((filename, block[0], block[1], all_text))
-    remove_tmp_files(tmp_files)
-    return pd.DataFrame(texts, columns=["Filename", "Blocks", "Text"])
+        texts.append((filename, name + ".pdf", blocks, all_text))
+    return tmp_files, pd.DataFrame(texts, columns=["Filename", "UsedFilename", "Blocks", "Text"])
 
 
 def process_pdf_file(filename):
@@ -48,12 +44,6 @@ def process_pdf_file(filename):
     return blocks, all_text
 
 
-# def process_docx_file(filename):
-#     """Получает весь текст из docx"""
-#     doc = docx.Document(filename)
-#     return "\n".join([i.text for i in doc.paragraphs])
-
-
 if __name__ == "__main__":
-    df = read()
+    _, df = read()
     df.to_csv("csv/text.csv", escapechar="\\")
