@@ -1,14 +1,25 @@
-import locationtagger
+from geotext import GeoText
+import pandas as pd
+
+
+def anal_geo(text):
+    places = GeoText(text=text)
+    cities = places.cities + [None]
+    countries = places.countries
+    if not countries:
+        code = places.country_mentions[1]
+    return cities[0], countries[0]
 
 
 def extract_geo(df):
-    df["Location"] = df["Stemmed"].apply(lambda x: locationtagger.find_locations(text=" ".join(x) if x else "a"))
-    df["Country"] = df["Location"].apply(lambda x: x.countries[0] if x.countries else "")
-    df["City"] = df["Location"].apply(lambda x: x.cities[0] if x.cities else "")
-    df = df.drop(columns=["Location"])
+    df["City"], df["Country"] = zip(*df["Text"].apply(anal_geo))
     return df
 
-# text = "Pushkin Pavlovsk aaaaaaaaaaaaapoiaefpishfpihsri gggg "
+# f = open("/home/dima/Downloads/Albina Batmanova.txt")
+# f = f.read()
+# g = {"Text": [f, ""]}
+# df = pd.DataFrame.from_dict(g)
+# df = extract_geo(df)
 
-# entities = locationtagger.find_locations(text = text)
-# print(entities.cities)
+# # print(anal_geo(f))
+# print(df) 

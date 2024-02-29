@@ -141,25 +141,11 @@ def extract_name_and_surname(text):
     return name_surname if name_surname else None
 
 
-def extract_location(x):
-    return locationtagger.find_locations(text=" ".join(x) if x else " ")
-
-
-def extract_country(location_obj):
-    return location_obj.countries[0] if location_obj.countries else None
-
-
-def extract_city(location_obj):
-    return location_obj.cities[0] if location_obj.cities else ""
-
-
-def extract_geo_information(df):
-    loc = df["Stemmed"].apply(extract_location)
-    countries = loc.apply(extract_country)
-    print("Field `Country` extracted")
-    cities = loc.apply(extract_city)
-    print("Field `City` extracted")
-    return countries, cities
+def extract_geo_information(text):
+    places = locationtagger.find_locations(text=text + " ")
+    cities = places.cities + [None]
+    countries = places.countries + places.other_countries + [None]
+    return cities[0], countries[0]
 
 
 def extract_features(df):
@@ -173,8 +159,8 @@ def extract_features(df):
     print("Fields `GitHub` and `LinkedIn` extracted")
     df["NameSurname"] = df["Text"].apply(extract_name_and_surname)
     print("Field `NameSurname` extracted")
+    df["City"], df["Country"] = zip(*df["Text"].apply(extract_geo_information))
+    print("Fields `Country` and `City` extracted")
     d = detector.Detector()
     df['Gender'] = df['NameSurname'].apply(lambda x: extract_gender_from_name_surname(d, x))
-    print("Field `Gender` extracted")
-    df["Country"], df["City"] = extract_geo_information(df)
     return df
