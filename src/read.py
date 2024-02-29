@@ -13,7 +13,7 @@ def remove_tmp_files(filanames):
     [os.remove(name) for name in filanames]
 
 
-def read(path="source", ignore_docx=True):
+def read(path="source", ignore_docx=False):
     texts = []
     tmp_files = []
     for filename in map(lambda x: path + "/" + x, os.listdir(path)):
@@ -37,7 +37,7 @@ def process_pdf_file(filename):
     all_text = ""
     for page in doc:
         for block in page.get_text_blocks():
-            if block[4].startswith("<image:") or "Aspose.Words" in block[4]:
+            if block[4].startswith("<image:") or "Aspose" in block[4]:
                 continue
             blocks.append(block[4])
             all_text += block[4] + "\n"

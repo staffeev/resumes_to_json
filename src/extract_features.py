@@ -2,19 +2,10 @@ from nltk import ne_chunk, pos_tag, word_tokenize, download
 from nltk.tree import Tree
 import pandas as pd
 import locationtagger
+from gender_guesser import detector
 import fitz
 import re
 from read import read
-
-
-
-def find_tg(x):
-    found = re.findall(r"\s*@\S+", x)
-    for i in found:
-        if '.' not in i:
-            return i.strip()
-    return None
-
 
 
 def find_tg(x):
@@ -44,6 +35,34 @@ def find_phone(text, lb=11):
         if lb <= len(re.findall(r"\d", i)) <= rb and not check_if_duration(i):
             return i
     return None
+
+
+def extract_gender_from_name_surname(detector, lst):
+    if not lst:
+        return None
+    res1 = detector.get_gender(lst[0])
+    if res1 != 'unknown':
+        if res1 == 'mostly_male':
+            return 'male'
+        elif res1 == 'mostly_female':
+            return 'female'
+        elif res1 == 'andy':
+            return 'male'
+        else:
+            return res1
+    if len(lst) == 1:
+        return None
+    res2 = detector.get_gender(lst[1])
+    if res2 == 'unknown':
+        return None
+    elif res2 == 'mostly_male':
+        return 'male'
+    elif res2 == 'mostly_female':
+        return 'female'
+    elif res2 == 'andy':
+        return 'male'
+    else:
+        return res2
 
 
 def reg_find_url(string):
@@ -83,7 +102,10 @@ def filter_nans_in_urls(df):
 def get_links_from_pdf(filename):
     links = []
     for page in fitz.open(filename):
-        links.extend([obj["uri"] for obj in page.get_links()])
+        try:
+            links.extend([obj["uri"] for obj in page.get_links() if "uri" in obj])
+        except:
+            print(filename)
     return links
 
 
@@ -97,7 +119,6 @@ def find_links_for_resumes(df):
         lambda row: [process_url("https://www.linkedin.com/", x, \
         [("linkedin", "postf"), ("/", "postf"), ("/", "postf")]) for x in row])\
         .apply(lambda row: ([x for x in row if x is not None] + [None])[0])
-    # linkedin.com/in/renat
     return github_urls, linkedin_urls
 
 
@@ -114,7 +135,6 @@ def extract_name_and_surname(text):
                     name += nltk_result_leaf[0] + ' '
                 if nltk_result.label()=="PERSON":
                     for word in name.split():
-                        # print(word)
                         name_surname.append(word)
         else:
             break
@@ -153,5 +173,8 @@ def extract_features(df):
     print("Fields `GitHub` and `LinkedIn` extracted")
     df["NameSurname"] = df["Text"].apply(extract_name_and_surname)
     print("Field `NameSurname` extracted")
+    d = detector.Detector()
+    df['Gender'] = df['NameSurname'].apply(lambda x: extract_gender_from_name_surname(d, x))
+    print("Field `Gender` extracted")
     df["Country"], df["City"] = extract_geo_information(df)
     return df
