@@ -1,8 +1,7 @@
 from nltk import ne_chunk, pos_tag, word_tokenize, download 
 from nltk.tree import Tree
 
-# text - all text from a resume
-# name_surname - list [name, surname] (most of the times :) )
+
 def extract(text):
     nltk_results = ne_chunk(pos_tag(word_tokenize(text)))
     name_surname = []
