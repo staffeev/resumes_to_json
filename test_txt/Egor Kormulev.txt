@@ -1,0 +1,60 @@
+Egor Kormulev
+Skype: eee.kormulev LinkedIn: eee.kormulev
+LeetCode: eeeKormulev Github: eee.kormulev
+EXPERIENCE & PROJECTS
+Polymatica Russia
+Server Side Software Developer
+
+
+
+
+Moscow Feb 2019 - Present
+
+
+
+Implemented Geospatial search module (C++11, boost,PostgreSQL(Postgis),Redis, ODBC,JSON,Docker).
+Geospatial search module (C++11,ODBC,JSON,Redis(hiredis)).
+Geo-coord server (PostgreSQL(Postgis),PL/pgSQl, Docker).
+Postal address to RESP translation script (python 3).
+Infrastructure deployment-script. (Modular architecture design. python 3).
+unit-tests (gtests).
+Page Scroller (Python/OpenCV).
+Application testing and maintaining (Integration and Unit tests).
+
+JSC FinTech
+System Software Developer
+Moscow April 2017 – Feb 2019
+
+
+
+Designed and implemented operation system self-test script (Modular architecture design. Python 3, SELinux, PAM).
+Designed and implemented SELinux policy provider (Python, SELinux, PAM).
+Designed and implemented Linux daemon SELinux policy applier (C/SELinux API/POSIX API).
+Designed and implemented cross-platform BXML parser (Qt).
+Worked on patching AIDE (C).
+Worked on patching SPICE (C).
+
+
+Ltd. Medicom
+Software Developer
+Testing and maintaining Linux applications.
+Developing software applications using C++ (Qt library).
+EDUCATION
+Bauman Moscow State Technical University
+Engineer’s degree (Specialist): “Aerospace, Aeronautical and Astronautical/Space Engineering”
+Certification:
+IELTS Academic (C1).
+ACTIVITIES KUDO SKILLS
+Moscow  November 2015 – April 2017
+
+
+
+
+Moscow
+2009
+
+Moscow
+2016
+
+Programming: C/C++ stl 11/14/17, boost, Multithreading Python 3, PostgreSQL(pl/pgsql), Redis(hiredis), SQLite, Docker, Git, SELinux, Cmake, rpm, spec
+Languages: Russian, English(C1)

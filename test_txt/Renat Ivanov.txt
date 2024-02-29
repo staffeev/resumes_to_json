@@ -1,0 +1,81 @@
+Renat IVANOV
+Senior Software Engineer
+Moscow
++7-999-000-4786
+renat@gmail.com
+linkedin.com/in/renat
+Experience
+Sberbank PJSC
+June 2018 – present
+Senior Software Engineer
+Moscow, Russia
+• Addressed a number of legal issues by developing from scratch and launching a service to control actions with various types of
+user consents. Designed the service to be usable from other company’s microservices and front-end widgets.
+• Increased the speed of the sensitive mortgage cases by 50% by implementing, shipping and supporting the services that
+automate the process. Utilised message-driven architecture to provide high availability and reliability.
+• Prototyped, organized, and led the development of an ETL-based advisory system to track skills of engineers in the company,
+bus factor of their teams, and other metrics. The system improved involvement of engineers, dev leads and CTO in the
+development process.
+• Created a performance testing process from scratch. It is used to simulate the expected load and thus to keep our services 99.99%
+available during peak load. Successfully combined jMeter, APM, cloud and monitoring tools to reach the goal.
+• Curated development of the corporate portal Java team, applied microservices approach to deliver new features faster and
+safer. Mentored 2 back-end developers.
+• Collaborated with back-end & front-end developers of other teams to design REST API contracts. Communicated directly with
+CTO and Team Leaders, worked with feedback. Applied clean code/architecture best practices on work.
+Sberbank-Technologies JSC
+October 2015 – June 2018
+Leading Software Engineer
+Moscow, Russia
+• Eliminated possibilities of fraud and saved company millions of rubles by introducing blockage of working from two
+windows. Fixed security issues by updating the encryption library.
+• Implemented individual currency conversion and interest rates features, that attracted hundreds of new customers and
+increased loyalty of existing ones. Gained experience with Enterprise Serial Bus architecture for integration with other systems.
+• Boosted overall development productivity by extracting a service from the monolithic application with support of a
+dedicated DB and distributed transactions support.
+• Successfully migrated functionality of the Deposit subsystem of the Bank Offices and Online Banking systems to
+microservices achieving 30% faster feature delivery. Analyzed, and fixed bugs and incidents on both front-end and
+back-end.
+• Sped up the development lifecycle by at least 20% and decreased the number of bugs by introducing git-flow with
+mandatory code review and Kotlin into the project. Co-authored, supported, and advocated the team agreement of
+architecture, API designing, and code style.
+• Interviewed over 30 candidates for Java developer position. Onboarded, and mentored 3 new hires.
+AVP-Technology LLC
+October 2014 – June 2015
+Software Engineer
+Moscow, Russia
+• Added new features, found and fixed bugs, refactored more than 200000 lines of unstructured and difficult-to-maintain legacy
+code. Updated and structured the project documentation.
+Open-Retail LLC
+June 2013 – March 2014
+Web Developer
+Moscow, Russia
+• Developed and launched 3 Internet shopping websites.
+• Created a package solution for a CMS e-commerce websites consisted of cross-platform mobile app and its back-end.
+Education
+Peoples’ Friendship University Of Russia
+September 2011 – July 2013
+Master’s Degree in Control in Technical Systems
+Moscow, Russia
+• A 3rd-degree diploma was received for winning the contest with a paper called ”Cloud computing for solving control
+problems with the help of network operator method”
+Peoples’ Friendship University Of Russia
+September 2007 – July 2011
+Bachelor’s Degree in Automation and Control
+Moscow, Russia
+Technical Skills
+
+Languages, frameworks: Java, Kotlin, Spring, Micronaut, MERN
+Monitoring:
+Grafana,
+InfluxDB,
+Prometheus
+Persistence: PostgreSQL, MySQL, MongoDB, JOOQ, JPA, JDBC
+Build,
+tools:
+Maven,
+Gradle;
+Git,
+IntelliJ
+IDEA
+Integration: Feign, RestTemplate, RabbitMQ, IBM MQ
+CI/CD, Testing: Jenkins, Docker, K8S; JUnit, Mockito
