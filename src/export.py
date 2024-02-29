@@ -3,7 +3,7 @@ from read import read
 import json
 
 def get_contact_Items(df_row, data: dict, index):
-    contact_items = ["Phone","Email","Skype","Telegram","Github"]
+    contact_items = ["Phone","Email","LinkedIn","Telegram","GitHub"]
     for id, contact_item in enumerate(contact_items):
         if contact_item in df_row:
             contact_dict = {
