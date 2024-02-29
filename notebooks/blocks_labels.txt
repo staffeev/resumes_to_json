@@ -1,0 +1,370 @@
+Egor Pianykh
+206-482-7070
+egor.pianykh@gmail.com
+
+LABEL: Personal--------------------------------------------------
+
+
+
+A decent software engineer is looking to build expertise in distributed software at scale.
+
+LABEL: Skills--------------------------------------------------
+
+
+
+GlobalLogic Inc
+2013 - present
+
+LABEL: Experience--------------------------------------------------
+
+
+
+Backend Engineer, a hospitality company
+Feb 2021 - Present
+
+LABEL: Experience--------------------------------------------------
+
+
+
+● Developing card payment services for a hospitality company
+
+LABEL: Experience--------------------------------------------------
+
+
+
+Primary technologies: Azure, C#, Java
+
+LABEL: Skills--------------------------------------------------
+
+
+
+Software Engineer, medical ECG monitoring
+May 2020 - Nov 2020
+
+LABEL: Experience--------------------------------------------------
+
+
+
+●
+Created an infrastructure as a code for on-prem Cassandra cluster deployments. This
+is a part of a system that will enable my client to deploy solutions to military hospitals
+and hospitals that prefer to manage their infrastructure.
+
+LABEL: Skills--------------------------------------------------
+
+
+
+●
+Implemented a metrics agent to monitor the health of the Cassandra cluster. The
+agent, along with the Kibana dashboard, will allow the ops team to monitor the cluster's
+health and provide appropriate SLA.
+
+LABEL: Skills--------------------------------------------------
+
+
+
+Primary technologies: Linux, Docker, Docker swarm mode, Cassandra, Elastic, Kibana
+
+LABEL: Skills--------------------------------------------------
+
+
+
+Project Coordinator, legacy ECG devices
+Oct 2019 - May 2020
+
+LABEL: Experience--------------------------------------------------
+
+
+
+●
+Provided technical leadership and direction to 35 software engineers, quality engineers,
+and
+business
+analysts.
+Facilitated
+collaboration
+between
+stakeholders
+and
+
+LABEL: Skills--------------------------------------------------
+
+
+
+development
+teams
+and
+saved
+hundreds
+of
+work
+hours
+by
+minimizing
+the
+
+LABEL: Skills--------------------------------------------------
+
+
+
+communication time gap.
+
+LABEL: Experience--------------------------------------------------
+
+
+
+●
+Represented a team on organization meetings, enabled quick issue resolution.
+
+LABEL: Experience--------------------------------------------------
+
+
+
+●
+Conducted cost-benefit analysis for remote customer support tooling. Presented
+the findings to a team of executives. The decision that was made saved a company
+hundreds of thousands of dollars per year.
+
+LABEL: Experience--------------------------------------------------
+
+
+
+●
+Led an effort to adjust APIs with a third-party vendor. Fast problem solving led to
+the timely release and avoided reputation losses to my client.
+
+LABEL: Good day--------------------------------------------------
+
+
+
+Primary technologies: communication, PowerPoint, Excel
+
+LABEL: Skills--------------------------------------------------
+
+
+
+Senior Software Engineer, medical ultrasound machines
+Jun 2017 - Oct 2019
+
+LABEL: Experience--------------------------------------------------
+
+
+
+●
+Designed and implemented a set of tools to reprogram faulty ultrasonic transducers in
+the field. This toolset saved over 20M dollars, avoiding the replacement of probes.
+And most importantly prevented ultrasonographers from cancer misdiagnosis.
+
+LABEL: Skills--------------------------------------------------
+
+
+
+●
+Implemented a workaround for a bug in the NVIDIA display driver that appears only
+with custom display and in out-of-support cards. This workaround could save thousands
+of hours of field engineers' work and millions of company losses.
+
+LABEL: Skills--------------------------------------------------
+
+
+
+●
+Fixed numerous hard to reproduce issues in legacy systems with over 2M lines of
+code and heavily dependent on global variables.
+
+LABEL: Experience--------------------------------------------------
+
+
+
+Primary technologies: C++, C#, .NET Framework, WPF
+
+LABEL: Skills--------------------------------------------------
+
+
+
+Tech Lead, semiconductor burn-in oven automation
+Jan 2017 - Mar 2017
+
+LABEL: Skills--------------------------------------------------
+
+
+
+●
+Established the agile process, sprints and enabled my team on every demo.
+
+LABEL: Experience--------------------------------------------------
+
+
+
+●
+Designed a portal for configuring a semiconductor burn-in oven. Improved
+production floor operators' speed of work and reduced the number of defective
+batches by 5%.
+
+LABEL: Skills--------------------------------------------------
+
+
+
+●
+Led a team to the successful implementation of the project on time. Prevented the
+downtime for already installed equipment and enabling the next round of million
+dollars budgeting for a greater team.
+
+LABEL: Experience--------------------------------------------------
+
+
+
+● Facilitated collaboration between developers and business analysts.
+
+LABEL: Skills--------------------------------------------------
+
+
+
+Primary technologies: ASP.NET WebApi, Angular, Bootstrap, SQL Server
+
+LABEL: Skills--------------------------------------------------
+
+
+
+Software Engineer, CRM system
+Jun 2016 - Jan 2017
+
+LABEL: Experience--------------------------------------------------
+
+
+
+●
+Tracked a rare critical bug that was missed by dozens of eyes. Nobody knew how it
+was introduced to the system. Spent hundreds of hours researching codebase and
+experimenting with the CI/CD system. Successfully unblocked a team on their goal to
+unbind CRM from SQL Server.
+
+LABEL: Experience--------------------------------------------------
+
+
+
+●
+Merged an enormous amount of branches in git in a system with around 1500 active
+developers. Enabled my teammates to move faster and saved hundreds of
+development time by using my git expertise.
+
+LABEL: Skills--------------------------------------------------
+
+
+
+Fullstack Engineer, Private Equity Fund
+Nov 2012 - May 2016
+
+LABEL: Experience--------------------------------------------------
+
+
+
+●
+Implemented an Excel macro merge tool that could save a team over 96
+person-days yearly.
+
+LABEL: Skills--------------------------------------------------
+
+
+
+●
+Optimized a data ingestion endpoint by using a low-level reading API. This enabled
+accountants to load ten times bigger documents and decreased processing times by four
+times on average.
+
+LABEL: Experience--------------------------------------------------
+
+
+
+Primary technologies: ASP.NET WebApi, ExtJS SQL Server
+
+LABEL: Skills--------------------------------------------------
+
+
+
+EPAM Systems
+June 2012 - Nov 2013
+
+LABEL: Experience--------------------------------------------------
+
+
+
+Software Engineer, market risk calculation platform
+
+LABEL: Experience--------------------------------------------------
+
+
+
+●
+Developed software to migrate config files used across the bank.
+
+LABEL: Skills--------------------------------------------------
+
+
+
+●
+Effectively communicated to pull people from the different teams together and migrated
+configs in one release. This enabled the retirement of old services earlier and saved
+hundreds of man-hours of developers' work.
+
+LABEL: Skills--------------------------------------------------
+
+
+
+Other projects that I have done while studying or off work
+2008 - 2012
+
+LABEL: Personal--------------------------------------------------
+
+
+
+●
+Architecture and implementation of automated dispatch GIS system for a trucking
+company
+
+LABEL: Skills--------------------------------------------------
+
+
+
+●
+Driving the insurance company payroll platform from 0 to completion.
+
+LABEL: Skills--------------------------------------------------
+
+
+
+Education and certificates
+
+LABEL: Education--------------------------------------------------
+
+
+
+●
+Bachelor degree in Applied Mathematics in East Ukrainian State University
+
+LABEL: Education--------------------------------------------------
+
+
+
+●
+Deep Learning School by Moscow Institute of Physics and Technology (completed
+the first-semester study, to be completed in 2021)
+
+LABEL: Education--------------------------------------------------
+
+
+
+●
+Deeplearning.ai specialization on coursera.org
+
+LABEL: Skills--------------------------------------------------
+
+
+
+●
+Machine Learning Scientist with Python on DataCamp.com
+
+LABEL: Skills--------------------------------------------------
+
+
+

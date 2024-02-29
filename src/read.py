@@ -13,7 +13,7 @@ def remove_tmp_files(filanames):
     [os.remove(name) for name in filanames]
 
 
-def read(path="source", ignore_docx=False):
+def read(path="source", ignore_docx=True):
     texts = []
     tmp_files = []
     for filename in map(lambda x: path + "/" + x, os.listdir(path)):
@@ -27,7 +27,9 @@ def read(path="source", ignore_docx=False):
             tmp_files.append(name + ".pdf")
         blocks, all_text = process_pdf_file(name + ".pdf")
         texts.append((filename, name + ".pdf", blocks, all_text))
-    return tmp_files, pd.DataFrame(texts, columns=["Filename", "UsedFilename", "Blocks", "Text"])
+    df = pd.DataFrame(texts, columns=["Filename", "UsedFilename", "Blocks", "Text"])
+    df.to_csv("csv/text.csv", escapechar="\\")
+    return tmp_files, df
 
 
 def process_pdf_file(filename):
