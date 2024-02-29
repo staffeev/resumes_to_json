@@ -1,7 +1,7 @@
 from nltk import ne_chunk, pos_tag, word_tokenize, download 
 from nltk.tree import Tree
 import pandas as pd
-import locationtagger
+# import locationtagger
 import fitz
 import re
 from read import read
@@ -10,150 +10,150 @@ from read import read
 def extract_languages(text):
     levels_of_knowledge = ['native', 'intermediate', 'basic', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2', 'proficient']
     languages = ['English', 'German', 'Russian', 'French', 'Ukrainian', 'Japanese', 'Polish', 'Belarusian']
-    found = re.findall(f'{languages}\s?(?:-:)?\s?(?{levels_of_knowledge})?',text)
+    found = re.findall(f'{languages}\s?(?:-:)?\s?{levels_of_knowledge}',text)
     return found
 
 
-def find_tg(x):
-    found = re.findall(r"\s*@\S+", x)
-    for i in found:
-        if '.' not in i:
-            return i.strip()
-    return None
+# def find_tg(x):
+#     found = re.findall(r"\s*@\S+", x)
+#     for i in found:
+#         if '.' not in i:
+#             return i.strip()
+#     return None
 
 
-def find_email(text):
-    als = "[a-zA-Z0-9.-_]"
-    found = re.findall(rf"{als}+@{als}+\.{als}+", text)
-    if not found:
-        return None
-    return found[0]
+# def find_email(text):
+#     als = "[a-zA-Z0-9.-_]"
+#     found = re.findall(rf"{als}+@{als}+\.{als}+", text)
+#     if not found:
+#         return None
+#     return found[0]
 
 
-def check_if_duration(text):
-    return re.fullmatch(r"\s*\d{4}\s*-\s*\d{4}\s*", text) is not None
+# def check_if_duration(text):
+#     return re.fullmatch(r"\s*\d{4}\s*-\s*\d{4}\s*", text) is not None
 
 
-def find_phone(text, lb=11):
-    found = re.findall(r"[ 0-9-_\+\(\)]+", text)
-    rb = 15
-    for i in sorted(found, key=len, reverse=True):
-        if lb <= len(re.findall(r"\d", i)) <= rb and not check_if_duration(i):
-            return i
-    return None
+# def find_phone(text, lb=11):
+#     found = re.findall(r"[ 0-9-_\+\(\)]+", text)
+#     rb = 15
+#     for i in sorted(found, key=len, reverse=True):
+#         if lb <= len(re.findall(r"\d", i)) <= rb and not check_if_duration(i):
+#             return i
+#     return None
 
 
-def reg_find_url(string):
-    regex = r"(?i)\b((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'\".,<>?«»“”‘’]))"
-    url = re.findall(regex, string)
-    return [x[0] for x in url]
+# def reg_find_url(string):
+#     regex = r"(?i)\b((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'\".,<>?«»“”‘’]))"
+#     url = re.findall(regex, string)
+#     return [x[0] for x in url]
 
 
-def find_substring_in_string(sub, text, save="postf"):
-    ix_pref = text.find(sub)
-    if ix_pref == -1:
-        return None
-    if save == "postf":
-        return text[ix_pref + len(sub):]
-    elif save == "pref":
-        return text[:ix_pref]
+# def find_substring_in_string(sub, text, save="postf"):
+#     ix_pref = text.find(sub)
+#     if ix_pref == -1:
+#         return None
+#     if save == "postf":
+#         return text[ix_pref + len(sub):]
+#     elif save == "pref":
+#         return text[:ix_pref]
 
 
-def process_url(link_pref, text, keywords):
-    f = find_substring_in_string
-    keyword, mode = keywords[0]
-    res = f(keyword, text, mode)
-    if res is None:
-        return None
-    for keyword, mode in keywords[1:]:
-        value = f(keyword, res, mode)
-        if value is None:
-            break
-        res = value
-    return link_pref + res
+# def process_url(link_pref, text, keywords):
+#     f = find_substring_in_string
+#     keyword, mode = keywords[0]
+#     res = f(keyword, text, mode)
+#     if res is None:
+#         return None
+#     for keyword, mode in keywords[1:]:
+#         value = f(keyword, res, mode)
+#         if value is None:
+#             break
+#         res = value
+#     return link_pref + res
 
 
-def filter_nans_in_urls(df):
-    return df.apply(lambda row: ([x for x in row if x is not None] + [None])[0])
+# def filter_nans_in_urls(df):
+#     return df.apply(lambda row: ([x for x in row if x is not None] + [None])[0])
 
 
-def get_links_from_pdf(filename):
-    links = []
-    for page in fitz.open(filename):
-        links.extend([obj["uri"] for obj in page.get_links()])
-    return links
+# def get_links_from_pdf(filename):
+#     links = []
+#     for page in fitz.open(filename):
+#         links.extend([obj["uri"] for obj in page.get_links()])
+#     return links
 
 
-def find_links_for_resumes(df):
-    urls = df.apply(lambda x: reg_find_url(x["Text"]) + get_links_from_pdf(x["UsedFilename"]), axis=1)
-    github_urls = urls.apply(
-        lambda row: [process_url("https://github.com/", x, \
-        [("github", "postf"), ("/", "postf"), ("/", "pref")]) for x in row])\
-        .apply(lambda row: ([x for x in row if x is not None] + [None])[0])
-    linkedin_urls = urls.apply(
-        lambda row: [process_url("https://www.linkedin.com/", x, \
-        [("linkedin", "postf"), ("/", "postf"), ("/", "postf")]) for x in row])\
-        .apply(lambda row: ([x for x in row if x is not None] + [None])[0])
-    # linkedin.com/in/renat
-    return github_urls, linkedin_urls
+# def find_links_for_resumes(df):
+#     urls = df.apply(lambda x: reg_find_url(x["Text"]) + get_links_from_pdf(x["UsedFilename"]), axis=1)
+#     github_urls = urls.apply(
+#         lambda row: [process_url("https://github.com/", x, \
+#         [("github", "postf"), ("/", "postf"), ("/", "pref")]) for x in row])\
+#         .apply(lambda row: ([x for x in row if x is not None] + [None])[0])
+#     linkedin_urls = urls.apply(
+#         lambda row: [process_url("https://www.linkedin.com/", x, \
+#         [("linkedin", "postf"), ("/", "postf"), ("/", "postf")]) for x in row])\
+#         .apply(lambda row: ([x for x in row if x is not None] + [None])[0])
+#     # linkedin.com/in/renat
+#     return github_urls, linkedin_urls
 
 
-# text - all text from a block of resume
-# name_surname - list [name, surname] (most of the times :) )
-def extract_name_and_surname(text):
-    nltk_results = ne_chunk(pos_tag(word_tokenize(text[:1500])))
-    name_surname = []
-    for nltk_result in nltk_results:
-        if len(name_surname) < 2:
-            if type(nltk_result) == Tree:
-                name = ''
-                for nltk_result_leaf in nltk_result.leaves():
-                    name += nltk_result_leaf[0] + ' '
-                if nltk_result.label()=="PERSON":
-                    for word in name.split():
-                        # print(word)
-                        name_surname.append(word)
-        else:
-            break
-    return name_surname if name_surname else None
+# # text - all text from a block of resume
+# # name_surname - list [name, surname] (most of the times :) )
+# def extract_name_and_surname(text):
+#     nltk_results = ne_chunk(pos_tag(word_tokenize(text[:1500])))
+#     name_surname = []
+#     for nltk_result in nltk_results:
+#         if len(name_surname) < 2:
+#             if type(nltk_result) == Tree:
+#                 name = ''
+#                 for nltk_result_leaf in nltk_result.leaves():
+#                     name += nltk_result_leaf[0] + ' '
+#                 if nltk_result.label()=="PERSON":
+#                     for word in name.split():
+#                         # print(word)
+#                         name_surname.append(word)
+#         else:
+#             break
+#     return name_surname if name_surname else None
 
 
-def extract_location(x):
-    return locationtagger.find_locations(text=" ".join(x) if x else " ")
+# def extract_location(x):
+#     return locationtagger.find_locations(text=" ".join(x) if x else " ")
 
 
-def extract_country(location_obj):
-    return location_obj.countries[0] if location_obj.countries else None
+# def extract_country(location_obj):
+#     return location_obj.countries[0] if location_obj.countries else None
 
 
-def extract_city(location_obj):
-    return location_obj.cities[0] if location_obj.cities else ""
+# def extract_city(location_obj):
+#     return location_obj.cities[0] if location_obj.cities else ""
 
 
-def extract_geo_information(df):
-    loc = df["Stemmed"].apply(extract_location)
-    countries = loc.apply(extract_country)
-    print("Field `Country` extracted")
-    cities = loc.apply(extract_city)
-    print("Field `City` extracted")
-    return countries, cities
+# def extract_geo_information(df):
+#     loc = df["Stemmed"].apply(extract_location)
+#     countries = loc.apply(extract_country)
+#     print("Field `Country` extracted")
+#     cities = loc.apply(extract_city)
+#     print("Field `City` extracted")
+#     return countries, cities
 
 
-def extract_features(df):
-    df["Email"] = df["Text"].apply(find_email)
-    print("Field `Email` extracted")
-    df["Phone"] = df["Text"].apply(find_phone)
-    print("Field `Phone` extracted")
-    df["Telegram"] = df["Text"].apply(find_tg)
-    print("Field `Telegram` extracted")
-    df["GitHub"], df["LinkedIn"] = find_links_for_resumes(df)
-    print("Fields `GitHub` and `LinkedIn` extracted")
-    df["NameSurname"] = df["Text"].apply(extract_name_and_surname)
-    print("Field `NameSurname` extracted")
-    df["Country"], df["City"] = extract_geo_information(df)
-    return df
+# def extract_features(df):
+#     df["Email"] = df["Text"].apply(find_email)
+#     print("Field `Email` extracted")
+#     df["Phone"] = df["Text"].apply(find_phone)
+#     print("Field `Phone` extracted")
+#     df["Telegram"] = df["Text"].apply(find_tg)
+#     print("Field `Telegram` extracted")
+#     df["GitHub"], df["LinkedIn"] = find_links_for_resumes(df)
+#     print("Fields `GitHub` and `LinkedIn` extracted")
+#     df["NameSurname"] = df["Text"].apply(extract_name_and_surname)
+#     print("Field `NameSurname` extracted")
+#     df["Country"], df["City"] = extract_geo_information(df)
+#     return df
 
 if __name__=="__main__":
     df = read()
-    print(df[1])
-    print(extract_languages(df["Text"]))
+    df = df['Text'].apply(extract_languages)
+    print(df)

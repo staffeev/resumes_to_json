@@ -27,7 +27,7 @@ def read(path="source", ignore_docx=True):
             tmp_files.append(name + ".pdf")
         blocks, all_text = process_pdf_file(name + ".pdf")
         texts.append((filename, name + ".pdf", blocks, all_text))
-    return tmp_files, pd.DataFrame(texts, columns=["Filename", "UsedFilename", "Blocks", "Text"])
+    return pd.DataFrame(texts, columns=["Filename", "UsedFilename", "Blocks", "Text"])
 
 
 def process_pdf_file(filename):
