@@ -3,8 +3,7 @@ from nltk.tree import Tree
 import nltk
 import pandas as pd
 
-# text - all text from a resume
-# name_surname - list [name, surname] (most of the times :) )
+
 def extract(text):
     nltk_results = ne_chunk(pos_tag(word_tokenize(text)))
     name_surname = []
