@@ -3,8 +3,6 @@ import os
 import fitz 
 import docx
 import aspose.words as aw
-doc = aw.Document("isolator/Нурутдинов Александр.doc")
-doc.save("random/Нурутдинов Александр.pdf")
 
 
 def convert_docx_to_pdf(name, extension):
