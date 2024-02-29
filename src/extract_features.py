@@ -7,14 +7,11 @@ import re
 from read import read
 
 
-
-def find_tg(x):
-    found = re.findall(r"\s*@\S+", x)
-    for i in found:
-        if '.' not in i:
-            return i.strip()
-    return None
-
+def extract_languages(text):
+    levels_of_knowledge = ['native', 'intermediate', 'basic', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2', 'proficient']
+    languages = ['English', 'German', 'Russian', 'French', 'Ukrainian', 'Japanese', 'Polish', 'Belarusian']
+    found = re.findall(f'{languages}\s?(?:-:)?\s?(?{levels_of_knowledge})?',text)
+    return found
 
 
 def find_tg(x):
@@ -155,3 +152,8 @@ def extract_features(df):
     print("Field `NameSurname` extracted")
     df["Country"], df["City"] = extract_geo_information(df)
     return df
+
+if __name__=="__main__":
+    df = read()
+    print(df[1])
+    print(extract_languages(df["Text"]))

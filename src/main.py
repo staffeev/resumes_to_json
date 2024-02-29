@@ -1,4 +1,3 @@
-from pipeline import Pipeline
+import re
 
-p = Pipeline()
-p.run_all()
+print(re.findall(r'\w',"\\"))
