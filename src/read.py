@@ -4,21 +4,33 @@ import fitz
 import docx
 
 
+def convert_docx_to_pdf(filename):
+    os.system(f"unoconv -f pdf filename")
+
+
 def read(path="source"):
     texts = []
     for filename in map(lambda x: path + "/" + x, os.listdir(path)):
-        file_extension = filename[filename.rindex(".") + 1:]
-        if file_extension == "pdf":
-            texts.append((filename, process_pdf_file(filename)))
-        elif file_extension in ("doc", "docx"):
-            texts.append((filename, process_docx_file(filename)))
+        dot_ix = filename.rindex(".")
+        name = filename[:dot_ix]
+        extension = filename[dot_ix + 1:]
+        if extension in ("doc", "docx"):
+            convert_docx_to_pdf(filename)
+        for block in process_docx_file(name + ".pdf"):
+            texts.append((filename, block))
     return pd.DataFrame(texts, columns=["Filename", "Text"])
 
 
 def process_pdf_file(filename):
     """Получает весь текст из pdf"""
     doc = fitz.open(filename)
-    return "\n".join(["".join(page.get_text()) for page in doc])
+    blocks = []
+    for page in doc:
+        for block in page.get_text_blocks():
+            if block[4].startswith("<image:"):
+                continue
+            blocks.append(block[4])
+    return blocks
 
 
 def process_docx_file(filename):
