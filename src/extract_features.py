@@ -6,6 +6,15 @@ import fitz
 import re
 
 
+
+def find_tg(x):
+    found = re.findall(r"\s*@\S+", x)
+    for i in found:
+        if '.' not in i:
+            return i.strip()
+    return None
+
+
 def find_email(text):
     als = "[a-zA-Z0-9.-_]"
     found = re.findall(rf"{als}+@{als}+\.{als}+", text)
@@ -68,8 +77,8 @@ def get_links_from_pdf(filename):
     return links
 
 
-def find_links_for_resume(df):
-    urls = df.apply(lambda x: reg_find_url(x["Text"]) + get_links_from_pdf("../" + x["UsedFilename"]), axis=1)
+def find_links_for_resumes(df):
+    urls = df.apply(lambda x: reg_find_url(x["Text"]) + get_links_from_pdf(x["UsedFilename"]), axis=1)
     github_urls = urls.apply(
         lambda row: [process_url("https://github.com/", x, \
         [("github", "postf"), ("/", "postf"), ("/", "pref")]) for x in row])\
@@ -79,7 +88,7 @@ def find_links_for_resume(df):
         [("linkedin", "postf"), ("/", "postf"), ("/", "postf")]) for x in row])\
         .apply(lambda row: ([x for x in row if x is not None] + [None])[0])
     # linkedin.com/in/renat
-    return urls, github_urls, linkedin_urls
+    return github_urls, linkedin_urls
 
 
 # text - all text from a block of resume
@@ -128,6 +137,10 @@ def extract_features(df):
     print("Field `Email` extracted")
     df["Phone"] = df["Text"].apply(find_phone)
     print("Field `Phone` extracted")
+    df["Telegram"] = df["Text"].apply(find_tg)
+    print("Field `Telegram` extracted")
+    df["GitHub"], df["LinkedIn"] = find_links_for_resumes(df)
+    print("Fields `GitHub` and `LinkedIn` extracted")
     df["NameSurname"] = df["Text"].apply(extract_name_an_surname)
     print("Field `NameSurname` extracted")
     df["Country"], df["City"] = extract_geo_information(df)
