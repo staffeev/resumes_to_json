@@ -5,7 +5,7 @@ import pandas as pd
 
 
 def extract(text):
-    nltk_results = ne_chunk(pos_tag(word_tokenize(text)))
+    nltk_results = ne_chunk(pos_tag(word_tokenize(text[:50])))
     name_surname = []
     for nltk_result in nltk_results:
         if len(name_surname) < 2:

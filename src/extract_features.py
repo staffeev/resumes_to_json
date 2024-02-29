@@ -1,8 +1,9 @@
 from nltk import ne_chunk, pos_tag, word_tokenize, download 
 from nltk.tree import Tree
 import pandas as pd
-import locationtagger
+# import locationtagger
 import re
+from read import read
 
 
 def find_email(text):
@@ -28,8 +29,8 @@ def find_phone(text, lb=11):
 
 # text - all text from a block of resume
 # name_surname - list [name, surname] (most of the times :) )
-def extract_name_an_surname(text):
-    nltk_results = ne_chunk(pos_tag(word_tokenize(text)))
+def extract_name_and_surname(text):
+    nltk_results = ne_chunk(pos_tag(word_tokenize(text[:1500])))
     name_surname = []
     for nltk_result in nltk_results:
         if len(name_surname) < 2:
@@ -46,25 +47,25 @@ def extract_name_an_surname(text):
     return name_surname if name_surname else None
 
 
-def extract_location(x):
-    return locationtagger.find_locations(text=" ".join(x) if x else " ")
+# def extract_location(x):
+#     return locationtagger.find_locations(text=" ".join(x) if x else " ")
 
 
-def extract_country(location_obj):
-    return location_obj.countries[0] if location_obj.countries else None
+# def extract_country(location_obj):
+#     return location_obj.countries[0] if location_obj.countries else None
 
 
-def extract_city(location_obj):
-    return location_obj.cities[0] if location_obj.cities else ""
+# def extract_city(location_obj):
+#     return location_obj.cities[0] if location_obj.cities else ""
 
 
-def extract_geo_information(df):
-    loc = df["Stemmed"].apply(extract_location)
-    countries = loc.apply(extract_country)
-    print("Field `Country` extracted")
-    cities = loc.apply(extract_city)
-    print("Field `City` extracted")
-    return countries, cities
+# def extract_geo_information(df):
+#     loc = df["Stemmed"].apply(extract_location)
+#     countries = loc.apply(extract_country)
+#     print("Field `Country` extracted")
+#     cities = loc.apply(extract_city)
+#     print("Field `City` extracted")
+#     return countries, cities
 
 
 # def extract_geo(df):
@@ -80,7 +81,7 @@ def extract_features(df):
     print("Field `Email` extracted")
     df["Phone"] = df["Text"].apply(find_phone)
     print("Field `Phone` extracted")
-    df["NameSurname"] = df["Text"].apply(extract_name_an_surname)
+    df["NameSurname"] = df["Text"].apply(extract_name_and_surname)
     print("Field `NameSurname` extracted")
-    df["Country"], df["City"] = extract_geo_information(df)
+    # df["Country"], df["City"] = extract_geo_information(df)
     return df
