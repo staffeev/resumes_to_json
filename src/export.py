@@ -26,36 +26,36 @@ def get_language_Items():
     pass
 
 def export(df):
-    for index, row in df.iterrows():
-        try:
-            data = {
-                f"resume{index}":{
-                    "resume_id": index,
-                    "first_name": row["NameSurname"][0] if ("NameSurname" in row) and (not row["NameSurname"] is None) else None,
-                    "last_name": row["NameSurname"][1] if ("NameSurname" in row) and (not row["NameSurname"] is None) else None,
-                    "birth_date": None,
-                    "birth_date_year_only": None,
-                    "country": row["Country"],
-                    "city": row["City"],
-                    "about": None,
-                    "key_skills": None,
-                    "salary_expectation_amount": None,
-                    "salary_expectation_currency": None,
-                    "photo_path": None,
-                    "gender": None,
-                    "resume_name": row["Filename"],
-                    "source_link": None,
-                    "contactItems": [],
-                    "educationItems": [],
-                    "exxperienceItems": [],
-                    "languageItems": []
+    with open("src/json_test/test.json","w", encoding="utf-8") as f:
+        for index, row in df.iterrows():
+            try:
+                data = {
+                    f"resume{index}":{
+                        "resume_id": index,
+                        "first_name": row["NameSurname"][0] if ("NameSurname" in row) and (not row["NameSurname"] is None) else None,
+                        "last_name": row["NameSurname"][1] if ("NameSurname" in row) and (not row["NameSurname"] is None) else None,
+                        "birth_date": None,
+                        "birth_date_year_only": None,
+                        "country": row["Country"],
+                        "city": row["City"],
+                        "about": None,
+                        "key_skills": None,
+                        "salary_expectation_amount": None,
+                        "salary_expectation_currency": None,
+                        "photo_path": None,
+                        "gender": None,
+                        "resume_name": row["Filename"],
+                        "source_link": None,
+                        "contactItems": [],
+                        "educationItems": [],
+                        "exxperienceItems": [],
+                        "languageItems": []
+                    }
                 }
-            }
-            get_contact_Items(row, data, index)
-            get_education_Items()
-            get_expirience_Items()
-            get_language_Items()
-            with open("src/json_test/test.json","a") as f:
+                get_contact_Items(row, data, index)
+                get_education_Items()
+                get_expirience_Items()
+                get_language_Items()
                 f.write(json.dumps(data, indent=4)) 
-        except:
-            print(f"Failed to export resume {row['Filename']}")
+            except:
+                print(f"Failed to export resume {row['Filename']}")

@@ -3,6 +3,7 @@ from nltk.tree import Tree
 import pandas as pd
 import locationtagger
 from gender_guesser import detector
+from read import process_pdf_file
 import fitz
 import re
 from read import read
@@ -124,21 +125,31 @@ def find_links_for_resumes(df):
 
 # text - all text from a block of resume
 # name_surname - list [name, surname] (most of the times :) )
-def extract_name_and_surname(text):
-    nltk_results = ne_chunk(pos_tag(word_tokenize(text[:1500])))
-    name_surname = []
-    for nltk_result in nltk_results:
-        if len(name_surname) < 2:
-            if type(nltk_result) == Tree:
-                name = ''
-                for nltk_result_leaf in nltk_result.leaves():
-                    name += nltk_result_leaf[0] + ' '
-                if nltk_result.label()=="PERSON":
-                    for word in name.split():
-                        name_surname.append(word)
-        else:
-            break
-    return name_surname if name_surname else None
+# def extract_name_and_surname(text):
+#     nltk_results = ne_chunk(pos_tag(word_tokenize(text[:1500])))
+#     name_surname = []
+#     for nltk_result in nltk_results:
+#         if len(name_surname) < 2:
+#             if type(nltk_result) == Tree:
+#                 name = ''
+#                 for nltk_result_leaf in nltk_result.leaves():
+#                     name += nltk_result_leaf[0] + ' '
+#                 if nltk_result.label()=="PERSON":
+#                     for word in name.split():
+#                         name_surname.append(word)
+#         else:
+#             break
+#     return name_surname if name_surname else None
+
+
+def extract_name_and_surname_from_blocks(blocks):
+    for block in blocks:
+        txt = block.replace("\n", " ").strip().split()
+        if len(txt) < 2:
+            continue
+        if re.fullmatch(r"\s*[а-яА-Яa-zA-Z ]+\s*", txt[0] + " " + txt[1]):
+            return txt[0].lower().capitalize(), txt[1].lower().capitalize()
+    return None
 
 
 def extract_geo_information(text):
@@ -157,10 +168,14 @@ def extract_features(df):
     print("Field `Telegram` extracted")
     df["GitHub"], df["LinkedIn"] = find_links_for_resumes(df)
     print("Fields `GitHub` and `LinkedIn` extracted")
-    df["NameSurname"] = df["Text"].apply(extract_name_and_surname)
+    df["NameSurname"] = df["UsedFilename"].apply(
+        lambda x: extract_name_and_surname_from_blocks(process_pdf_file(x)[0]) 
+    )
+    # df["NameSurname"] = df["Text"].apply(extract_name_and_surname)
     print("Field `NameSurname` extracted")
     df["City"], df["Country"] = zip(*df["Text"].apply(extract_geo_information))
     print("Fields `Country` and `City` extracted")
     d = detector.Detector()
     df['Gender'] = df['NameSurname'].apply(lambda x: extract_gender_from_name_surname(d, x))
+    print("Field `Gender` extracted")
     return df
