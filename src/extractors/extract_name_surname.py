@@ -1,5 +1,7 @@
 from nltk import ne_chunk, pos_tag, word_tokenize, download 
 from nltk.tree import Tree
+import nltk
+import pandas as pd
 
 
 def extract(text):
@@ -13,9 +15,15 @@ def extract(text):
                     name += nltk_result_leaf[0] + ' '
                 if nltk_result.label()=="PERSON":
                     for word in name.split():
-                        print(word)
+                        # print(word)
                         name_surname.append(word)
         else:
             break
     return name_surname
+
+
+if __name__ == "__main__":
+    df = pd.read_csv("csv/text.csv").drop(columns=["Unnamed: 0"])
+    df["Name"] = df["Text"].apply(extract)
+    print(df)
 

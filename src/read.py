@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 import fitz 
-import docx
+# import docx
 import aspose.words as aw
 
 
@@ -14,7 +14,7 @@ def remove_tmp_files(filanames):
     [os.remove(name) for name in filanames]
 
 
-def read(path="source"):
+def read(path="source", ignore_docx=True):
     texts = []
     tmp_files = []
     for filename in map(lambda x: path + "/" + x, os.listdir(path)):
@@ -22,30 +22,36 @@ def read(path="source"):
         name = filename[:dot_ix]
         extension = filename[dot_ix + 1:]
         if extension in ("doc", "docx"):
+            if ignore_docx:
+                continue
             convert_docx_to_pdf(name, extension)
             tmp_files.append(name + ".pdf")
-        for block in process_pdf_file(name + ".pdf"):
-            texts.append((filename, block))
+        blocks, all_text = process_pdf_file(name + ".pdf")
+        texts.append((filename, blocks, all_text))
+        # for block in blocks:
+        #     texts.append((filename, block[0], block[1], all_text))
     remove_tmp_files(tmp_files)
-    return pd.DataFrame(texts, columns=["Filename", "Text"])
+    return pd.DataFrame(texts, columns=["Filename", "Blocks", "Text"])
 
 
 def process_pdf_file(filename):
     """Получает весь текст из pdf"""
     doc = fitz.open(filename)
     blocks = []
+    all_text = ""
     for page in doc:
         for block in page.get_text_blocks():
             if block[4].startswith("<image:") or "Aspose.Words" in block[4]:
                 continue
             blocks.append(block[4])
-    return blocks
+            all_text += block[4] + "\n"
+    return blocks, all_text
 
 
-def process_docx_file(filename):
-    """Получает весь текст из docx"""
-    doc = docx.Document(filename)
-    return "\n".join([i.text for i in doc.paragraphs])
+# def process_docx_file(filename):
+#     """Получает весь текст из docx"""
+#     doc = docx.Document(filename)
+#     return "\n".join([i.text for i in doc.paragraphs])
 
 
 if __name__ == "__main__":
